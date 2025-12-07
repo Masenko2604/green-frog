@@ -1,4 +1,4 @@
-/* --- Base / Mobile --- */
+--- Base / Mobile ---
 .hero-content {
   padding: 425px 14px 14px 20px;
   align-items: start;
@@ -47,14 +47,18 @@
 /* --- Text / Buttons / Small components (unchanged but fixed var) --- */
 .hero-text {
   font-family: inherit;
-  font-size: 38px;
+  font-size: 34px;
   line-height: 1.05;
   color: rgb(255, 255, 255);
   max-width: 295px;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.01), rgba(0, 0, 0, 0.04));
+    padding: 8px 12px;
 }
 
 .hero-english {
-  color: rgba(129, 167, 109, 1);
+  color:rgb(91, 173, 46);
+  
 }
 
 .button {
@@ -67,7 +71,24 @@
 }
 
 .button.hero-button {
-  color: rgb(231, 100, 7);
+  /* color: rgb(231, 100, 7); */
+  background: white;
+    color:rgb(91, 173, 46);
+    padding: 16px 32px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    border-color:rgb(231, 100, 7); 
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    transition: 0.3s;
+  
+}
+.button.hero-button:hover,
+.button.hero-button:focus {
+  background-color: rgb(91, 173, 46);
+  border-color: white;
+  color: white;
+  /* ← фикс цвета */
 }
 
 .hero-svg {
@@ -218,6 +239,7 @@
   max-width: 306px;
 
 }
+
 
 .hero-text {
   font-size: 60px;

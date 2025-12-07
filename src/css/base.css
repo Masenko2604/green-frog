@@ -128,7 +128,7 @@ a {
 .button:hover,
 .button:focus {
   background-color: rgba(129, 167, 109, 1);
-  border-color: rgb(98, 129, 82);
+  border-color:rgb(231, 100, 7);
   color: rgb(231, 100, 7);
   /* ← фикс цвета */
 }
