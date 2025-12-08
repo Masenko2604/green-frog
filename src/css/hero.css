@@ -53,7 +53,7 @@
 }
 
 .hero-english {
-  color:rgb(91, 173, 46);
+  color:rgb(239, 125, 43);
   
 }
 
@@ -68,7 +68,7 @@
 
 .button.hero-button {
   /* color: rgb(231, 100, 7); */
-  background: white;
+  background:rgb(255, 255, 255);
     color:rgb(91, 173, 46);
     padding: 16px 32px;
     border-radius: 12px;
@@ -82,8 +82,8 @@
 .button.hero-button:hover,
 .button.hero-button:focus {
   background-color: rgb(91, 173, 46);
-  border-color: white;
-  color: white;
+  border-color:rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
   /* ← фикс цвета */
 }
 
@@ -105,7 +105,7 @@
 }
 
 .hero-checkmark-container {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   width: 38px;
   height: 38px;
   border-radius: 50%;
@@ -123,7 +123,7 @@
 
 .hero-checkmark-container:hover .hero-use,
 .hero-checkmark-container:focus .hero-use {
-  fill: var(--white);
+  fill:rgb(255, 255, 255);
 }
 
 /* ----------------- Tablet ----------------- */
