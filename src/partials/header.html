@@ -1,14 +1,15 @@
 <header class="header">
   <div class="container">
     <nav class="header-nav">
+
+      <!-- ЛОГОТИП -->
       <div class="nav-logo">
         <a href="/green-frog">
           <span class="logo-green-span">GreenFrog</span><span class="logo-span">Office</span>
         </a>
-
-        </a>
       </div>
 
+      <!-- БУРГЕР  -->
       <button type="button" class="burger-btn js-open-menu" aria-expanded="false" aria-controls="header__mobile">
         <svg class="burger-icon" aria-label="toggles mobile menu" role="img">
           <use class="icon--mobile" href="/img/icons.svg#icon-nav"></use>
@@ -16,61 +17,28 @@
         </svg>
       </button>
 
+      <!-- Навигация -->
       <nav class="page-nav">
         <ul class="header-nav-list">
           <li class="nav-item">
-            <a href="#about" class="nav-link"><nav class="page-nav">
-              <ul class="header-nav-list">
-                <li class="nav-item">
-                  <a href="#about" class="nav-link">Services</a>
-                </li>
-            
-                <li class="nav-item">
-                  <a href="#application-form" class="nav-link">Contact us</a>
-                </li>
-              </ul></a>
+            <a href="#about" class="nav-link">Services</a>
           </li>
-
-          
-        </ul>
-
-        <button onclick="applyTranslations('en')">EN</button>
-        <button onclick="applyTranslations('ru')">RU</button>        
-        <button onclick="applyTranslations('ua')">UA</button>
-
-      </nav>
-
-      <!-- <div class="social">
-        <ul class="social-list">
-          <li class="header-nav-item">
-            <a class="social-link header-link" href="https://www.facebook.com/goITclub/" target="_blank"
-              rel="noopener noreferrer" aria-label="Facebook">
-              <svg class="social-icon" width="26" height="26" aria-hidden="true">
-                <use href="/img/icons.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="header-nav-item">
-            <a class="social-link header-link" href="https://www.instagram.com/goitclub/" target="_blank"
-              rel="noopener noreferrer" aria-label="Instagram">
-              <svg class="social-icon" width="26" height="26" aria-hidden="true">
-                <use href="/img/icons.svg#icon-insta"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="header-nav-item">
-            <a class="social-link header-link" href="https://www.youtube.com/c/GoIT" target="_blank"
-              rel="noopener noreferrer" aria-label="YouTube">
-              <svg class="social-icon" width="26" height="26" aria-hidden="true">
-                <use href="/img/icons.svg#icon-youtube"></use>
-              </svg>
-            </a>
+          <li class="nav-item">
+            <a href="#application-form" class="nav-link">Contact us</a>
           </li>
         </ul>
-      </div> -->
+
+        <!-- Языковые кнопки -->
+        <div class="lang-switch">
+          <button type="button" class="lang-btn" data-lang="en" onclick="setActiveLang('en')">EN</button>
+          <button type="button" class="lang-btn" data-lang="ru" onclick="setActiveLang('ru')">RU</button>
+          <button type="button" class="lang-btn" data-lang="ua" onclick="setActiveLang('ua')">UA</button>
+        </div>
+      </nav>      
+
     </nav>
 
-    <!-- header modal -->
+    <!-- Модальное меню бургера -->
     <div class="burger_modal js-menu-container" id="header__mobile" role="dialog" aria-modal="true">
       <div class="burger_container">
         <button type="button" class="close-btn js-close-menu" aria-label="close menu">
@@ -84,17 +52,14 @@
             <li class="modal-nav-item">
               <a href="#about" class="nav-link mobile-menu-list">Services</a>
             </li>
-
             <li class="modal-nav-item">
               <a href="#application-form" class="nav-link mobile-menu-list">Contact</a>
             </li>
           </ul>
         </nav>
-
-
-        </ul>
       </div>
     </div>
-  </div>
+
   </div>
 </header>
+
