@@ -360,8 +360,6 @@ input[type='radio']:checked::after {
 
 @media screen and (min-width: 1280px) {
   .form-img-container {
-    display: flex;
-    justify-content: center;
     width: 1024px;
   }
 }
