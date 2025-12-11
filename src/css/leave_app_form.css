@@ -17,8 +17,9 @@
   }
 
   .leave-form {
-    flex: 1 1 500px;
-    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
     min-width: 0;
     padding-left: 0;
     padding-right: 0;
