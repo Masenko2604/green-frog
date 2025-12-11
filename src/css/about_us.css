@@ -1,8 +1,9 @@
 .about-wrapper {
-margin-top: 76px;
-  color: var(--color-text);
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 
   @media screen and (min-width: 768px) {
     gap: 32px;
