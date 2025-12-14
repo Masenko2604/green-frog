@@ -1,0 +1,18 @@
+{
+  "nav.services": "Послуги",
+  "nav.reviews": "Відгуки",
+  "nav.contact": "Контакти",
+
+  "hero.title.before": "Послуги в",
+  "hero.title.highlight": "Чеській",
+  "hero.title.after": "Республіці",
+  "hero.button": "Залишити заявку",
+
+  "form.title": "Залишити заявку",
+  "form.subtitle": "Будь ласка, заповніть форму нижче, і ми зв’яжемося з вами найближчим часом.",
+  "form.name": "Ім’я",
+  "form.phone": "Телефон",
+  "form.email": "Електронна пошта",
+  "form.comment": "Коментар",
+  "form.send": "Надіслати"
+}
