@@ -7,7 +7,7 @@ async function loadLanguage(lang) {
 
   applyTranslations();
   localStorage.setItem('lang', lang);
-  setActiveLang(lang);
+  setActiveLangButton(lang);
 }
 
 function applyTranslations() {
@@ -26,19 +26,21 @@ function applyTranslations() {
   });
 }
 
-function setActiveLang(lang) {
+function setActiveLangButton(lang) {
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.lang === lang);
   });
 }
 
+// делаем функцию доступной из HTML
 window.setActiveLang = loadLanguage;
 
-// init
+// автозагрузка при старте
 document.addEventListener('DOMContentLoaded', () => {
   const savedLang = localStorage.getItem('lang') || DEFAULT_LANG;
   loadLanguage(savedLang);
 });
+
 
 
 
