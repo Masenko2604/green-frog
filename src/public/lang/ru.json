@@ -29,5 +29,14 @@
   "form.phone": "Телефон",
   "form.email": "Электронная почта",
   "form.comment": "Комментарий",
-  "form.send": "Отправить"
+  "form.send": "Отправить",
+
+  "footer.phone.label": "Телефон:",
+  "footer.address.label": "Адрес:",
+
+  "footer.rights.company": "GreenFrogOffice.",
+  "footer.rights.text": "Все права защищены.",
+
+  "footer.privacy": "Политика конфиденциальности",
+  "footer.terms": "Условия использования"
 }
