@@ -16,17 +16,14 @@
     flex: 0 0 492px;
   }
 
-  .leave-form {
-    flex: 1 1 500px;
-    max-width: 500px;
-    min-width: 0;
-    padding-left: 0;
-    padding-right: 0;
-    box-sizing: border-box;
-    margin-left: 0;
-    margin-right: 0;
-  }
+    .leave-form {
+      margin-left: auto;
+      margin-right: auto;
+      margin-left: auto;
+      margin-right: auto;
 }
+}
+  
 
 .form-input {
   display: block;
@@ -370,4 +367,13 @@ input[type='radio']:checked::after {
 .leave-form .form-textarea:invalid:not(:placeholder-shown) {
   border-color: #e53935;
   box-shadow: 0 0 6px rgba(229, 57, 53, 0.35);
+}
+
+@media screen and (min-width: 1280px) {
+  .form-img-container {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+  }
 }
