@@ -29,7 +29,9 @@
 
 }
 
-
+.nav-link {
+  font-size: 24px;
+}
 
 .nav-link::after {
   content: '';
@@ -97,6 +99,19 @@
   gap: 8px;
   align-items: center;
   margin-left: 12px;
+  
+  .lang-switch{
+      display: block;
+      width: 32px;
+      height: 32px;
+      stroke: currentColor;
+      fill: none;
+  
+      @media screen and (min-width: 768px) {
+        width: 40px;
+        height: 28px;
+      }
+    }
 }
 
 .lang-btn {
@@ -122,4 +137,42 @@
   border: 1px solid rgba(129, 167, 109, 1);
   color: rgb(98, 129, 82);
   box-shadow: 0 8px 20px rgba(129, 167, 109, 0.08);
+}
+
+
+/* ===== MOBILE HEADER ===== */
+@media screen and (max-width: 767px) {
+
+  .header {
+    padding: 12px 0;
+  }
+
+  .header-nav {
+    justify-content: space-between;
+  }
+
+  /* Скрываем навигацию */
+  .page-nav {
+    display: none;
+  }
+
+  /* Логотип меньше */
+  .nav-logo {
+    font-size: 22px;
+    line-height: 1.2;
+  }
+
+  /* Языковые кнопки компактнее */
+  .lang-switch {
+    gap: 6px;
+    margin-left: 0;
+  }
+
+  .lang-btn {
+    min-width: 36px;
+    height: 32px;
+    font-size: 12px;
+    border-radius: 8px;
+    padding: 0;
+  }
 }
