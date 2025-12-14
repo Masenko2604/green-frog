@@ -1,7 +1,7 @@
 import('./js/mobile-menu');
 import './js/carousel-settings.js';
 import('./js/animation');
-// import { translations } from "./lang.js";
+import { translations } from "./lang";
 
 function applyTranslations(lang) {
   for (const key in translations[lang]) {
