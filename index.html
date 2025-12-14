@@ -18,7 +18,7 @@ Company formation, accounting, certified translations, bank account opening, lic
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400..700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
-  <script type="module" crossorigin src="/green-frog/index.js"></script>
+  <script type="module" crossorigin src="/green-frog/assets/index-beGEuNQO.js"></script>
   <link rel="stylesheet" crossorigin href="/green-frog/assets/index-B25UvtoY.css">
 </head>
 
@@ -26,50 +26,43 @@ Company formation, accounting, certified translations, bank account opening, lic
   <header class="header">
   <div class="container">
     <nav class="header-nav">
+
       <!-- ЛОГОТИП -->
       <div class="nav-logo">
         <a href="/green-frog">
-          <span class="logo-green-span">GreenFrog</span
-          ><span class="logo-span">Office</span>
+          <span class="logo-green-span">GreenFrog</span><span class="logo-span">Office</span>
         </a>
-      </div>
+      </div>          
 
-      <div class="page-nav">
-        <ul class="header-nav-list">
-          <li class="nav-item">
-            <a href="#about" class="nav-link" data-i18n="nav.services"
-              >Services</a
-            >
-          </li>
-          <li class="nav-item">
-            <!-- <a href="#reviews" class="nav-link">Reviews</a> -->
-            <a href="#reviews" class="nav-link" data-i18n="nav.reviews"
-              >Reviews</a
-            >
-          </li>
-          <li class="nav-item">
-            <a href="#application-form" class="nav-link" data-i18n="nav.contact"
-              >Contact us</a
-            >
-          </li>
-        </ul>
-      </div>
+        
 
-      <!-- Языковые кнопки -->
-      <div class="lang-switch">
-        <button class="lang-btn" data-lang="en" onclick="setActiveLang('en')">
-          EN
-        </button>
-        <button class="lang-btn" data-lang="ru" onclick="setActiveLang('ru')">
-          RU
-        </button>
-        <button class="lang-btn" data-lang="ua" onclick="setActiveLang('ua')">
-          UA
-        </button>
-      </div>
-    </nav>
+         <div class="page-nav"> 
+          <ul class="header-nav-list">
+            <li class="nav-item">
+              <a href="#about" class="nav-link">Services</a>
+            </li>            
+            <li class="nav-item">
+              <a href="#reviews" class="nav-link">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a href="#application-form" class="nav-link">Contact us</a>
+            </li>
+          </ul>
+         </div>
+        
+          <!-- Языковые кнопки -->
+          <div class="lang-switch">
+            <button type="button" class="lang-btn" data-lang="en" onclick="setActiveLang('en')">EN</button>
+            <button type="button" class="lang-btn" data-lang="ru" onclick="setActiveLang('ru')">RU</button>
+            <button type="button" class="lang-btn" data-lang="ua" onclick="setActiveLang('ua')">UA</button>
+          </div>
+        
+   
+      </nav>
+
   </div>
 </header>
+
 
   
 
@@ -80,36 +73,23 @@ Company formation, accounting, certified translations, bank account opening, lic
   
 
   <main>
-    <section id="hero" class="hero-section">
+    
+<section id="hero" class="hero-section">
   <div class="container hero-content">
     <h1 class="hero-text animated">
-      <span data-i18n="hero.title.before">Services in the</span>
-      <span class="hero-english" data-i18n="hero.title.highlight">Czech</span>
-      <span data-i18n="hero.title.after">Republic!</span>
+      Services in the
+      <span class="hero-english">Czech</span> Republic!
     </h1>
-    <a
-      href="#application-form"
-      class="button hero-button animated"
-      data-i18n="hero.button"
-    >
-      Leave an application
-    </a>
+    <a href="#application-form" class="button hero-button animated">Leave an application</a>
     <div class="hero-checkmark">
-      <a
-        href="#footer"
-        class="hero-checkmark-container animated"
-        aria-label="Footer button"
-      >
+      <a href="#footer" class="hero-checkmark-container animated" aria-label="Footer button">
         <svg class="hero-svg" aria-hidden="true">
-          <use
-            class="hero-use"
-            xlink:href="/green-frog/assets/icons-C7iuSI4g.svg#icon-checkmark"
-          ></use>
+          <use class="hero-use" xlink:href="/green-frog/assets/icons-C7iuSI4g.svg#icon-checkmark"></use>
         </svg>
       </a>
     </div>
-  </div>
-</section>
+    </div>
+    </section>
 
     <section id="about" class="section about">
   <div class="container">
@@ -287,12 +267,9 @@ Company formation, accounting, certified translations, bank account opening, lic
 
     <section id="application-form" class="section">
   <div class="container">
-    <h2 class="section-title" data-i18n="form.title">
-      Leave an application
-    </h2>
-
+    <h2 class="section-title">Leave an application</h2>
     <div class="form-img-container">
-      <p class="leave-item-text-up" data-i18n="form.subtitle">
+      <p class="leave-item-text-up">
         Please use the form below to contact us. Enter your name, email, and
         message and we'll get back to you shortly.
       </p>
@@ -300,140 +277,122 @@ Company formation, accounting, certified translations, bank account opening, lic
       <form class="leave-form" action="#">
         <div class="form-container">
           <label class="visually-hidden" for="user-name">Name</label>
-          <input class="form-input"
-           type="text"
-           id="user-name"
-           placeholder="Name"
-           data-i18n-placeholder="form.name"
-           pattern="^[A-Za-zА-Яа-яЁёІіЇїЄє\s]{2,}$" title="Мінімум 2 літери, тільки букви та пробіли" required />
+          <input class="form-input" type="text" name="user-name" id="user-name" placeholder="Name"
+            pattern="^[A-Za-zА-Яа-яЁёІіЇїЄє\s]{2,}$" title="Мінімум 2 літери, тільки букви та пробіли" required />
         </div>
-
         <div class="form-container">
           <label class="visually-hidden" for="phone">Phone</label>
-          <input class="form-input" type="tel" id="phone" placeholder="Phone" data-i18n-placeholder="form.phone"
+          <input class="form-input" type="tel" name="phone" id="phone" placeholder="Phone"
             pattern="^\+38\s?\(0\d{2}\)\s?\d{3}-\d{2}-\d{2}$" title="Формат: +38 (0XX) XXX-XX-XX" required />
         </div>
+        <div class="form-container">
+          <label class="visually-hidden" for="mail">Email</label>
+          <input class="form-input" type="email" name="mail" id="mail" placeholder="Email"
+            pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$" title="Введіть правильний email" required />
+        </div>
+        <div class="textarea-container">
+          <label class="visually-hidden" for="user-comment">Comment</label>
+          <textarea name="user-comment" class="form-textarea" id="user-comment" rows="10"
+            placeholder="Comment"></textarea>
+        </div>
+        <button type="submit" class="button -button">Send</button>
+        <p class="leave-item-text-down">
+          By clicking on “Send” button, you agree to our
+          <a class="text-link leave-item-link-text-down" href="/privacy-policy" target="_blank">Privacy
+            Policy,</a><br>and allow Promodo to use this information for marketing purposes.
+        </p>
+      </form>
+    </div>
+  </div>
+  </div>
+</section>
     <section class="section section-reviews animated" id="reviews">
   <div class="container">
-    <h2 class="section-title">
-      <span data-i18n="reviews.title.before">Summary</span>
-      <span data-i18n="reviews.title.highlight">information</span>
-      <span data-i18n="reviews.title.after">say</span>
-    </h2>
-    <p class="section-subtitle" data-i18n="reviews.subtitle">
+    <h2 class="section-title">Summary <span>information</span> say</h2>
+    <p class="section-subtitle">
       We provide clear and structured support at every stage of our cooperation.
-      Below you will find essential information about how we communicate,
-      formalize agreements, and stay connected throughout the entire service
-      process.
+      Below you will find essential information about how we communicate, formalize agreements,
+      and stay connected throughout the entire service process.
     </p>
 
     <div class="reviews-slider" aria-roledescription="carousel">
       <button class="nav-btn prev" aria-label="Previous review" type="button">
-        <svg
-          class="nav-btn-icon prev-icon"
-          width="24"
-          height="24"
-          aria-hidden="true"
-        >
+        <svg class="nav-btn-icon prev-icon"
+         width="24"
+         height="24"
+         aria-hidden="true">
           <use href="/green-frog/assets/icons-C7iuSI4g.svg#icon-checkmark"></use>
         </svg>
       </button>
 
-      <div class="viewport" tabindex="0" aria-live="polite">
-        <ul class="review-track">
-          <li class="review-item">
-            <div class="info-box">
-              <div class="review-img-box">
-                <img
-                  class="review-img"
-                  srcset="/green-frog/assets/img-5@1x-D1seCXzH.jpg, /green-frog/assets/img-5@2x-Bziw5OjM.jpg 2x"
-                  src="/green-frog/assets/img-5@1x-D1seCXzH.jpg"
-                  alt="Anna, student"
-                  width="50"
-                  height="50"
-                />
-              </div>
+      
+              <div class="viewport" tabindex="0" aria-live="polite">
+                <ul class="review-track">
+                  <li class="review-item">
+                    <div class="info-box">
+                      <div class="review-img-box">
+                        <img class="review-img" srcset="/green-frog/assets/img-5@1x-D1seCXzH.jpg, /green-frog/assets/img-5@2x-Bziw5OjM.jpg 2x" src="/green-frog/assets/img-5@1x-D1seCXzH.jpg" alt="Anna, student" width="50" height="50" />
+                      </div>
               <div class="review-info">
-                <h3 class="info-title" data-i18n="reviews.item1.title">
-                  QUESTIONS
-                </h3>
+                <h3 class="info-title">QUESTIONS</h3>                
               </div>
             </div>
-            <p class="review-text" data-i18n="reviews.item1.text">
-              Feel free to ask any questions — we are ready to clarify all
-              details, discuss the cooperation process, and provide clear,
-              comprehensive information.
+            <p class="review-text">
+              Feel free to ask any questions — we are ready to clarify
+              all details, discuss the cooperation process, and provide
+              clear, comprehensive information.
+
             </p>
           </li>
 
           <li class="review-item">
             <div class="info-box">
               <div class="review-img-box">
-                <img
-                  class="review-img"
-                  srcset="/green-frog/assets/img-6@1x-C8F22iKO.jpg, /green-frog/assets/img-6@2x-DKMsuq2f.jpg 2x"
-                  src="/green-frog/assets/img-6@1x-C8F22iKO.jpg"
-                  alt="Mykhailo, student"
-                  width="50"
-                  height="50"
-                />
+                <img class="review-img" srcset="/green-frog/assets/img-6@1x-C8F22iKO.jpg, /green-frog/assets/img-6@2x-DKMsuq2f.jpg 2x" src="/green-frog/assets/img-6@1x-C8F22iKO.jpg" alt="Mykhailo, student" width="50" height="50" />
               </div>
 
               <div class="review-info">
-                <h3 class="info-title" data-i18n="reviews.item2.title">
-                  SERVICE AGREEMENT
-                </h3>
+                <h3 class="info-title">SERVICE AGREEMENT</h3>                
               </div>
             </div>
-            <p class="review-text" data-i18n="reviews.item2.text">
-              We prepare a personalized agreement for each client. Pricing is
-              calculated individually and depends on the scope, complexity, and
-              specific requirements of your business.
+            <p class="review-text">
+              We prepare a personalized agreement for each client.
+              Pricing is calculated individually and depends on the scope,
+              complexity, and specific requirements of your business.
             </p>
           </li>
 
           <li class="review-item">
             <div class="info-box">
               <div class="review-img-box">
-                <img
-                  class="review-img"
-                  srcset="/green-frog/assets/img-7@1x-zy_bolSw.jpg, /green-frog/assets/img-7@2x-CjMNKOmy.jpg 2x"
-                  src="/green-frog/assets/img-7@1x-zy_bolSw.jpg"
-                  alt="Victoria, student"
-                  width="50"
-                  height="50"
-                />
+                <img class="review-img" srcset="/green-frog/assets/img-7@1x-zy_bolSw.jpg, /green-frog/assets/img-7@2x-CjMNKOmy.jpg 2x" src="/green-frog/assets/img-7@1x-zy_bolSw.jpg" alt="Victoria, student" width="50" height="50" />
               </div>
 
+
+
               <div class="review-info">
-                <h3 class="info-title" data-i18n="reviews.item3.title">
-                  HOW TO CONTACT US
-                </h3>
+                <h3 class="info-title">HOW TO CONTACT US</h3>
+               
               </div>
             </div>
-            <p class="review-text" data-i18n="reviews.item3.text">
-              Call us or submit your request through the contact form. Please
-              indicate the purpose of your inquiry and key details about your
-              company so we can respond accurately.
+            <p class="review-text">
+              Call us or submit your request through the contact form.
+              Please indicate the purpose of your inquiry and key details
+              about your company so we can respond accurately.
+
             </p>
           </li>
         </ul>
       </div>
 
       <button class="nav-btn next" aria-label="Next review" type="button">
-        <svg
-          class="nav-btn-icon next-btn"
-          width="24"
-          height="24"
-          aria-hidden="true"
-        >
+        <svg class="nav-btn-icon next-btn" width="24" height="24" aria-hidden="true">
           <use href="/green-frog/assets/icons-C7iuSI4g.svg#icon-checkmark"></use>
         </svg>
       </button>
     </div>
   </div>
 </section>
-
   </main>
 
   <footer class="footer" id="footer">
@@ -450,11 +409,11 @@ Company formation, accounting, certified translations, bank account opening, lic
         <!-- Контакти -->
         <ul class="footer-contacts">
           <li>
-            <p class="footer-contacts-label" data-i18n="footer.phone.label">Phone number:</p>
+            <p class="footer-contacts-label">Phone number:</p>
             <a class="footer-phone" href="tel:+420777713093">+420 777-713-093</a>
           </li>
           <li>
-            <p class="footer-contacts-label" data-i18n="footer.address.label">Address:</p>
+            <p class="footer-contacts-label">Address:</p>
             <address>
               <a class="footer-phone" href="https://maps.google.com/?q=Prague.+Czechia" target="_blank"
                 rel="noopener noreferrer">
@@ -469,38 +428,66 @@ Company formation, accounting, certified translations, bank account opening, lic
       <nav class="footer-nav" aria-label="Footer navigation">
         <ul class="footer-menu">
           <li class="footer-menu-item">
-            <a class="footer-address" href="#about" data-i18n="nav.services">Services</a>
+            <a class="footer-address" href="#about">Services</a>
           </li>
-          
-          <li class="footer-menu-item">
-            <a class="footer-address" href="#reviews" data-i18n="nav.reviews">Reviews</a>
+          <!-- <li class="footer-menu-item">
+            <a class="footer-address" href="#lessons">Our lessons</a>
           </li>
           <li class="footer-menu-item">
-            <a class="footer-address" href="#application-form" data-i18n="nav.contact">Contact us</a>
+            <a class="footer-address" href="#teachers">Teachers</a>
+          </li> -->
+          <li class="footer-menu-item">
+            <a class="footer-address" href="#reviews">Reviews</a>
+          </li>
+          <li class="footer-menu-item">
+            <a class="footer-address" href="#application-form">Contact us</a>
           </li>
         </ul>
       </nav>
 
-   
+      <!-- Соціальні мережі -->
+      <!-- <div class="modal_social">
+        <ul class="footer-social-list">
+          <li class="footer-social-item">
+            <a class="social-link" href="https://www.facebook.com/goITclub/" aria-label="Facebook" target="blank">
+              <svg class="social-icon" width="26" height="26" aria-hidden="true">
+                <use href="/img/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a class="social-link" href="https://www.instagram.com/goitclub/" aria-label="Instagram" target="blank">
+              <svg class="social-icon" width="26" height="26" aria-hidden="true">
+                <use href="/img/icons.svg#icon-insta"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a class="social-link" href="https://www.youtube.com/c/GoIT" aria-label="YouTube" target="blank">
+              <svg class="social-icon" width="26" height="26" aria-hidden="true">
+                <use href="/img/icons.svg#icon-youtube"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div> -->
+
+    <!-- Лінія -->
     <hr class="footer-divider" />
 
     <!-- Нижня смуга -->
     <div class="footer-bottom">
       <p class="footer-copyright">
-        <span data-i18n="footer.rights.company">GreenFrogOffice.</span><br>
-        <span data-i18n="footer.rights.text">All rights reserved.</span>
+        GreenFrogOffice.<br>All rights reserved.
       </p>
       <ul class="footer-legal">
         <li class="footer-legal-item">
-          <a class="footer-legal-link" href="/privacy-policy" target="_blank" rel="noopener noreferrer"
-            data-i18n="footer.privacy">
-            Privacy Policy
-          </a>
+          <a class="footer-legal-link" href="/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy
+            Policy</a>
         </li>
         <li class="footer-legal-item">
-          <a class="footer-legal-link" href="/terms" target="_blank" rel="noopener noreferrer" data-i18n="footer.terms">
-            Terms of Service
-          </a>
+          <a class="footer-legal-link" href="/terms" target="_blank" rel="noopener noreferrer">Terms of Service</a>
         </li>
       </ul>
     </div>
@@ -510,6 +497,7 @@ Company formation, accounting, certified translations, bank account opening, lic
 
   <div class="js-menu-overlay"></div>
 
+ 
 
   </body>
   
