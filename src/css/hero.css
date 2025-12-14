@@ -1,16 +1,18 @@
+/* =========================================================
+   HERO — MOBILE FIRST
+   ========================================================= */
 
-.hero-content {
-  padding: 425px 14px 14px 20px;
-  align-items: start;
-}
+/* ---------- Base (Mobile) ---------- */
 
 .hero-section {
   border-radius: 16px;
-  margin: 8px auto 80px;
-  max-width: 335px;  
+  margin: 8px auto 64px;
+  max-width: 335px;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
+  filter: brightness(0.78) saturate(0.82);
+
   background-image:
     linear-gradient(95.97deg,
       rgba(0, 0, 0, 0.4) 36.36%,
@@ -18,17 +20,7 @@
     url(/img/hero/block_mob@1x.jpg);
 }
 
-
-.hero-section {
-  background-image:
-    linear-gradient(95.97deg,
-      rgba(0, 0, 0, 0.4) 36.36%,
-      rgba(0, 0, 0, 0) 51.43%),
-    -webkit-image-set(url(/img/hero/block_mob@1x.jpg) 1x,
-      url(/img/hero/block_mob@2x.jpg) 2x);
-}
-
-
+/* Mobile retina */
 @media (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
   .hero-section {
@@ -40,51 +32,69 @@
   }
 }
 
-/* --- Text / Buttons / Small components (unchanged but fixed var) --- */
+.hero-content {
+  padding: 280px 16px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .hero-text {
   font-family: inherit;
-  font-size: 34px;
-  line-height: 1.05;
-  color: rgb(255, 255, 255);
-  max-width: 295px;
+  font-size: 32px;
+  line-height: 1.1;
+  color: #ffffff;
+  max-width: 280px;
   text-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.01), rgba(0, 0, 0, 0.04));
-    padding: 8px 12px;
+  background: linear-gradient(180deg,
+      rgba(255, 255, 255, 0.01),
+      rgba(0, 0, 0, 0.04));
+  padding: 8px 12px;
 }
 
 .hero-english {
-  color:rgb(239, 125, 43);
-  
+  color: rgb(239, 125, 43);
 }
 
-.button.hero-button {
-  display: flex;
-  justify-content: center;
-  margin-top: 40px;
-  max-width: 295px;
+.hero-button {
+  margin-top: 24px;
   width: 100%;
-  border-color: rgba(129, 167, 109, 1);
+  max-width: 100%;
+  padding: 14px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(231, 100, 7);
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid rgb(231, 100, 7);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  transition: 0.3s;
+  text-align: center;
 }
 
-.button.hero-button {
-   color: rgb(231, 100, 7); 
-  background:rgb(255, 255, 255);
-    /* color:rgb(91, 173, 46); */
-    padding: 16px 32px;
-    border-radius: 12px;
-    font-size: 20px;
-    font-weight: 600;
-    border-color:rgb(231, 100, 7); 
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
-    transition: 0.3s;
-  
-}
-.button.hero-button:hover,
-.button.hero-button:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: rgb(91, 173, 46);
-  border-color:rgb(255, 255, 255);
-  color: rgb(255, 255, 255);
-  /* ← фикс цвета */
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.hero-checkmark {
+  margin-top: 24px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-checkmark-container {
+  width: 38px;
+  height: 38px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
 }
 
 .hero-svg {
@@ -92,28 +102,8 @@
   height: 20px;
 }
 
-
 .hero-use {
   fill: rgba(129, 167, 109, 1);
-}
-
-.hero-checkmark {
-  margin-top: 20px;
-  width: 100%;
-  display: flex;
-  justify-content: end;
-}
-
-.hero-checkmark-container {
-  background-color: rgb(255, 255, 255);
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  transition: var(--common-transition);
-  transition-property: background-color, fill;
 }
 
 .hero-checkmark-container:hover,
@@ -123,11 +113,15 @@
 
 .hero-checkmark-container:hover .hero-use,
 .hero-checkmark-container:focus .hero-use {
-  fill:rgb(255, 255, 255);
+  fill: #ffffff;
 }
 
-/* ----------------- Tablet ----------------- */
-@media (min-width: 768px) and (max-width: 1279px) {
+/* =========================================================
+   TABLET (768px – 1279px)
+   ========================================================= */
+
+@media (min-width: 768px) {
+
   .hero-section {
     border-radius: 30px;
     margin: 32px auto 100px;
@@ -140,16 +134,6 @@
       url(/img/hero/block_tab@1x.jpg);
   }
 
-  .hero-section {
-    background-image:
-      linear-gradient(95.97deg,
-        rgba(0, 0, 0, 0.4) 36.36%,
-        rgba(0, 0, 0, 0) 51.43%),
-      -webkit-image-set(url(/img/hero/block_tab@1x.jpg) 1x,
-        url(/img/hero/block_tab@2x.jpg) 2x);
-  }
-
-  /* Retina for tablet (non-nested) */
   @media (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi) {
     .hero-section {
@@ -162,22 +146,22 @@
   }
 
   .hero-content {
-    padding: 260px 32px 32px 32px;
-  }
-
-  .hero-button {
-    margin-top: 32px;
-    max-width: 306px;
+    padding: 260px 32px 32px;
   }
 
   .hero-text {
-    font-size: 60px;
+    font-size: 56px;
     line-height: 1.16;
     max-width: 488px;
   }
 
+  .hero-button {
+    max-width: 306px;
+    font-size: 18px;
+  }
+
   .hero-checkmark {
-    margin-top: 215px;
+    margin-top: 160px;
   }
 
   .hero-checkmark-container {
@@ -186,10 +170,13 @@
   }
 }
 
-/* ----------------- Desktop ----------------- */
+/* =========================================================
+   DESKTOP (1280px+)
+   ========================================================= */
+
 @media (min-width: 1280px) {
+
   .hero-section {
-    border-radius: 30px;
     margin: 16px auto 96px;
     max-width: 1152px;
 
@@ -200,54 +187,27 @@
       url(/img/hero/block_desk@1x.jpg);
   }
 
-  .hero-section {
-    background-image:
-      linear-gradient(95.97deg,
-        rgba(0, 0, 0, 0.4) 36.36%,
-        rgba(0, 0, 0, 0) 51.43%),
-      -webkit-image-set(url(/img/hero/block_desk@1x.jpg) 1x,
-        url(/img/hero/block_desk@2x.jpg) 2x);
+  @media (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi) {
+    .hero-section {
+      background-image:
+        linear-gradient(95.97deg,
+          rgba(0, 0, 0, 0.4) 36.36%,
+          rgba(0, 0, 0, 0) 51.43%),
+        url(/img/hero/block_desk@2x.jpg);
+    }
   }
-}
 
-/* Desktop retina (separate top-level media query, not nested) */
-@media (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2),
-(min-width: 1280px) and (min-resolution: 192dpi) {
-  .hero-section {
-    background-image:
-      linear-gradient(95.97deg,
-        rgba(0, 0, 0, 0.4) 36.36%,
-        rgba(0, 0, 0, 0) 51.43%),
-      url(/img/hero/block_desk@2x.jpg);
+  .hero-content {
+    padding: 164px 32px 32px 64px;
   }
-}
 
-.hero-section {
-  filter: brightness(0.78) saturate(0.82);
-}
+  .hero-text {
+    font-size: 60px;
+    max-width: 564px;
+  }
 
-.hero-content {
-  padding: 164px 32px 32px 64px;
-}
-
-.hero-button {
-  margin-top: 32px;
-  max-width: 306px;
-
-}
-
-
-.hero-text {
-  font-size: 60px;
-  line-height: 1.16;
-  max-width: 564px;
-}
-
-.hero-checkmark {
-  margin-top: 83px;
-}
-
-.hero-checkmark-container {
-  width: 48px;
-  height: 48px;
+  .hero-checkmark {
+    margin-top: 83px;
+  }
 }
