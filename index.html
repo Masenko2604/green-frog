@@ -260,9 +260,11 @@ Company formation, accounting, certified translations, bank account opening, lic
 <!-- End our Proposal section -->
     <section id="application-form" class="section">
   <div class="container">
-    <h2 class="section-title">Leave an application</h2>
+    <h2 class="section-title" data-i18n="form.title">
+      Leave an application
+    </h2>
     <div class="form-img-container">
-      <p class="leave-item-text-up">
+      <p class="leave-item-text-up" data-i18n="form.subtitle"></p>
         Please use the form below to contact us. Enter your name, email, and
         message and we'll get back to you shortly.
       </p>
@@ -270,25 +272,24 @@ Company formation, accounting, certified translations, bank account opening, lic
       <form class="leave-form" action="#">
         <div class="form-container">
           <label class="visually-hidden" for="user-name">Name</label>
-          <input class="form-input" type="text" name="user-name" id="user-name" placeholder="Name"
+          <input class="form-input" placeholder="Name" data-i18n-placeholder="form.name">
             pattern="^[A-Za-zА-Яа-яЁёІіЇїЄє\s]{2,}$" title="Мінімум 2 літери, тільки букви та пробіли" required />
         </div>
         <div class="form-container">
           <label class="visually-hidden" for="phone">Phone</label>
-          <input class="form-input" type="tel" name="phone" id="phone" placeholder="Phone"
+          <input class="form-input" placeholder="Phone" data-i18n-placeholder="form.phone">
             pattern="^\+38\s?\(0\d{2}\)\s?\d{3}-\d{2}-\d{2}$" title="Формат: +38 (0XX) XXX-XX-XX" required />
         </div>
         <div class="form-container">
           <label class="visually-hidden" for="mail">Email</label>
-          <input class="form-input" type="email" name="mail" id="mail" placeholder="Email"
+          <input class="form-input" placeholder="Email" data-i18n-placeholder="form.email">
             pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$" title="Введіть правильний email" required />
         </div>
         <div class="textarea-container">
           <label class="visually-hidden" for="user-comment">Comment</label>
-          <textarea name="user-comment" class="form-textarea" id="user-comment" rows="10"
-            placeholder="Comment"></textarea>
+          <textarea noted class="form-textarea" placeholder="Comment" data-i18n-placeholder="form.comment"></textarea>
         </div>
-        <button type="submit" class="button -button">Send</button>
+        <button class="button" data-i18n="form.send">Send</button>
         <p class="leave-item-text-down">
           By clicking on “Send” button, you agree to our
           <a class="text-link leave-item-link-text-down" href="/privacy-policy" target="_blank">Privacy
