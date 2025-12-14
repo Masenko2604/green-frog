@@ -377,3 +377,38 @@ input[type='radio']:checked::after {
     justify-content: center;
   }
 }
+
+/* ===== FIX FORM POSITION ON DESKTOP ===== */
+@media screen and (min-width: 1280px) {
+
+  /* Центрируем весь блок */
+  #application-form .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-img-container {
+    width: 100%;
+    max-width: 600px;
+    /* ширина формы */
+    margin: 0 auto;
+    display: block;
+    /* убираем flex-логику */
+  }
+
+  .leave-form {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .leave-item-text-up {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
