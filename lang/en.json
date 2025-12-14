@@ -8,6 +8,18 @@
   "hero.title.after": "Republic!",
   "hero.button": "Leave an application",
 
+  "reviews.title.before": "Summary",
+  "reviews.title.highlight": "information",
+  "reviews.title.after": "say",
+  "reviews.subtitle": "We provide clear and structured support at every stage of our cooperation.",
+
+  "reviews.item1.title": "QUESTIONS",
+  "reviews.item1.text": "Feel free to ask any questions — we are ready to clarify all details.",
+  "reviews.item2.title": "SERVICE AGREEMENT",
+  "reviews.item2.text": "We prepare a personalized agreement for each client.",
+  "reviews.item3.title": "HOW TO CONTACT US",
+  "reviews.item3.text": "Call us or submit your request through the contact form.",
+
   "form.title": "Leave an application",
   "form.subtitle": "Please use the form below to contact us.",
   "form.name": "Name",
