@@ -1,0 +1,18 @@
+{
+  "nav.services": "Services",
+  "nav.reviews": "Reviews",
+  "nav.contact": "Contact us",
+
+  "hero.title.before": "Services in the",
+  "hero.title.highlight": "Czech",
+  "hero.title.after": "Republic!",
+  "hero.button": "Leave an application",
+
+  "form.title": "Leave an application",
+  "form.subtitle": "Please use the form below to contact us.",
+  "form.name": "Name",
+  "form.phone": "Phone",
+  "form.email": "Email",
+  "form.comment": "Comment",
+  "form.send": "Send"
+}

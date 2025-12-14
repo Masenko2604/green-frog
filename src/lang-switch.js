@@ -1,22 +1,44 @@
-export const translations = {
-  en: {
-    heroTitle: "Services",
-    heroSubtitle: "Company formation, accounting...",
-    contactUs: "Contact Us",
-    footerText: "All rights reserved.",
-  },
-  ru: {
-    heroTitle: "О нас",
-    heroSubtitle: "Регистрация бизнеса, бухгалтерия...",
-    contactUs: "Контакты",
-    footerText: "Все права защищены.",
-  },
-  ua: {
-    heroTitle: "Про нас",
-    heroSubtitle: "Реєстрація компанії, бухгалтерія...",
-    contactUs: "Контакти",
-    footerText: "Усі права захищені.",
-  }
-};
+const DEFAULT_LANG = 'en';
+let translations = {};
+
+async function loadLanguage(lang) {
+  const response = await fetch(`/lang/${lang}.json`);
+  translations = await response.json();
+
+  applyTranslations();
+  localStorage.setItem('lang', lang);
+  setActiveLang(lang);
+}
+
+function applyTranslations() {
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.dataset.i18n;
+    if (translations[key]) {
+      el.textContent = translations[key];
+    }
+  });
+
+  document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+    const key = el.dataset.i18nPlaceholder;
+    if (translations[key]) {
+      el.placeholder = translations[key];
+    }
+  });
+}
+
+function setActiveLang(lang) {
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.lang === lang);
+  });
+}
+
+window.setActiveLang = loadLanguage;
+
+// init
+document.addEventListener('DOMContentLoaded', () => {
+  const savedLang = localStorage.getItem('lang') || DEFAULT_LANG;
+  loadLanguage(savedLang);
+});
+
 
 
