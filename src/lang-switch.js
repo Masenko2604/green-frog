@@ -42,6 +42,19 @@ document.addEventListener('DOMContentLoaded', () => {
   loadLanguage(savedLang);
 });
 
+// ===== i18n support for Vite <load /> partials =====
+const observer = new MutationObserver(() => {
+  if (Object.keys(translations).length > 0) {
+    applyTranslations();
+  }
+});
+
+observer.observe(document.body, {
+  childList: true,
+  subtree: true
+});
+
+
 
 
 
