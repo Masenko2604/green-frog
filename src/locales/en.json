@@ -65,5 +65,30 @@
 
   "form_submit": "Send",
 
-  "form_privacy_text": "By clicking on “Send” button, you agree to our Privacy Policy and allow us to use this information for marketing purposes."
+  "form_privacy_text": "By clicking on “Send” button, you agree to our Privacy Policy and allow us to use this information for marketing purposes.",
+
+  "reviews_title": "Overview <span> of </span> Topics",
+
+  "reviews_subtitle": "We provide clear and structured support at every stage of our cooperation. Below you will find essential information about how we communicate, formalize agreements, and stay connected throughout the entire service process.",
+
+  "reviews_questions_title": "QUESTIONS",
+  "reviews_questions_text": "Feel free to ask any questions — we are ready to clarify all details, discuss the cooperation process, and provide clear, comprehensive information.",
+
+  "reviews_agreement_title": "SERVICE AGREEMENT",
+  "reviews_agreement_text": "We prepare a personalized agreement for each client. Pricing is calculated individually and depends on the scope, complexity, and specific requirements of your business.",
+
+  "reviews_contact_title": "HOW TO CONTACT US",
+  "reviews_contact_text": "Call us or submit your request through the contact form. Please indicate the purpose of your inquiry and key details about your company so we can respond accurately.",
+
+  "footer_phone_label": "Phone number:",
+  "footer_address_label": "Address:",
+
+  "footer_nav_services": "Services",
+  "footer_nav_reviews": "Reviews",
+  "footer_nav_contact": "Contact us",
+
+  "footer_copyright": "GreenFrogOffice.<br>All rights reserved.",
+
+  "footer_privacy": "Privacy Policy",
+  "footer_terms": "Terms of Service"
 }
