@@ -95,7 +95,7 @@
   }
 }
 
-.lang-switch {
+/* .lang-switch {
   display: flex;
   gap: 8px;
   align-items: center;
@@ -138,7 +138,7 @@
   border: 1px solid rgba(129, 167, 109, 1);
   color: rgb(98, 129, 82);
   box-shadow: 0 8px 20px rgba(129, 167, 109, 0.08);
-}
+} */
 
 
 /* ===== MOBILE HEADER ===== */
@@ -176,4 +176,24 @@
     border-radius: 8px;
     padding: 0;
   }
+}
+.lang-switcher {
+  display: flex;
+  gap: 8px;
+  margin-left: 16px;
+}
+
+.lang-btn {
+  background: transparent;
+  border: 1px solid rgba(129, 167, 109, 1);
+  color: rgba(129, 167, 109, 1);
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.lang-btn:hover {
+  background: rgba(129, 167, 109, 1);
+  color: #ffffff;
 }

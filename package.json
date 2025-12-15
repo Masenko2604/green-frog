@@ -17,6 +17,8 @@
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "i18next": "^25.7.3",
+    "i18next-browser-languagedetector": "^8.2.0",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-html-include": "^1.5.2",
     "vite-plugin-html-inject": "^1.1.2"
