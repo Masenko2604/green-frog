@@ -84,14 +84,12 @@
   border: 5px solid rgb(231, 100, 7);
 
   box-sizing: border-box;
-  margin-top: 38px;
-  margin-left: 22px;
 }
 
-.hero-button:hover,
-.hero-button:focus-visible,
-.hero-button:active {
-  background-color: rgb(91, 173, 46);
+.button.hero-button:hover,
+.button.hero-button:focus-visible,
+.button.hero-button:active {
+  background-color: rgba(129, 167, 109, 1);
   border: 5px solid #ffffff;
   color: #ffffff;
 }
