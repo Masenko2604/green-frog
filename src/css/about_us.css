@@ -36,11 +36,14 @@
 }
 
 .about-item {
-  border-radius: 12px;
-  border-radius: 16px;
   padding: 20px;
   background: rgb(238, 237, 237);
+  border-radius: 16px;
   position: relative;
+
+  box-shadow: 0 12px 28px rgba(35, 88, 6, 0.18);
+
+  
 
 
   @media screen and (min-width: 768px) {

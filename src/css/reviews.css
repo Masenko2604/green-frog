@@ -89,6 +89,12 @@
   font-weight: 400;
   line-height: 1.33;
 }
+.section-subtitle {
+  font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+}
 
 .review-text {
   font-size: 18px;

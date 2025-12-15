@@ -4,20 +4,36 @@
 
 /* ---------- Base (Mobile) ---------- */
 
-.hero-section {
-  border-radius: 16px;
-  margin: 8px auto 64px;
-  max-width: 335px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: brightness(0.78) saturate(0.82);
 
-  background-image:
+.hero-section {
+    position: relative;
+    border-radius: 16px;
+    margin: 8px auto 64px;
+    max-width: 335px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  
+
+  /* background-image:
     linear-gradient(95.97deg,
       rgba(0, 0, 0, 0.4) 36.36%,
       rgba(0, 0, 0, 0) 51.43%),
-    url(/img/hero/block_mob@1x.jpg);
+    url(/img/hero/block_mob@1x.jpg); */
+}
+.hero-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.25);
+  /* регулируй темноту */
+  pointer-events: none;
+  z-index: 1;
+}
+.hero-section>* {
+  position: relative;
+  z-index: 2;
 }
 
 /* Mobile retina */
@@ -53,31 +69,33 @@
 }
 
 .hero-english {
-  color: rgb(239, 125, 43);
-}
-
-.hero-button {
-  margin-top: 24px;
-  width: 100%;
-  max-width: 100%;
-  padding: 14px 20px;
-  font-size: 16px;
-  font-weight: 600;
   color: rgb(231, 100, 7);
-  background: #ffffff;
-  border-radius: 12px;
-  border: 1px solid rgb(231, 100, 7);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
-  transition: 0.3s;
-  text-align: center;
+}
+.hero-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 5;
+  cursor: pointer;
+
+  color: rgb(231, 100, 7);
+  background-color: #ffffff;
+  border: 5px solid rgb(231, 100, 7);
+
+  box-sizing: border-box;
 }
 
 .hero-button:hover,
-.hero-button:focus {
+.hero-button:focus-visible,
+.hero-button:active {
   background-color: rgb(91, 173, 46);
-  border-color: #ffffff;
+  border: 5px solid #ffffff;
   color: #ffffff;
 }
+
+
+
 
 .hero-checkmark {
   margin-top: 24px;
@@ -100,6 +118,7 @@
 .hero-svg {
   width: 20px;
   height: 20px;
+  
 }
 
 .hero-use {
@@ -210,4 +229,16 @@
   .hero-checkmark {
     margin-top: 83px;
   }
+}
+
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+.hero,
+.hero * {
+  filter: none;
 }
