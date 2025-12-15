@@ -84,6 +84,8 @@
   border: 5px solid rgb(231, 100, 7);
 
   box-sizing: border-box;
+  margin-top: 38px;
+  margin-left: 18px;
 }
 
 .hero-button:hover,
