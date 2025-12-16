@@ -65,7 +65,7 @@
 
   "form_submit": "Send",
 
-  "form_privacy_text": "By clicking on “Send” button, you agree to our Privacy Policy and allow us to use this information for marketing purposes.",
+  "form_privacy_text": "By clicking on \"Send\" button, you agree to our <a class=\"text-link leave-item-link-text-down\" href=\"/privacy-policy\" target=\"_blank\">Privacy Policy</a> and allow us to use this information for marketing purposes.",
 
   "reviews_title": "Overview <span> of </span> Topics",
 
