@@ -87,5 +87,7 @@
   "footer_nav_reviews": "Отзывы",
   "footer_nav_contact": "Связаться с нами",
 
-  "footer_copyright": "GreenFrogOffice.<br>Все права защищены."
+  "footer_copyright": "GreenFrogOffice.<br>Все права защищены.",
+
+  "footer_email_label": "Электронная почта:"
 }

@@ -87,5 +87,8 @@
   "footer_nav_reviews": "Reviews",
   "footer_nav_contact": "Contact us",
 
-  "footer_copyright": "GreenFrogOffice.<br>All rights reserved."
+  "footer_copyright": "GreenFrogOffice.<br>All rights reserved.",
+  
+  "footer_email_label": "Email:"
+
 }
