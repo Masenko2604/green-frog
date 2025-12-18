@@ -18,7 +18,7 @@ Company formation, accounting, certified translations, bank account opening, lic
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400..700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
-  <script type="module" crossorigin src="/green-frog/assets/index-BOHfAo0L.js"></script>
+  <script type="module" crossorigin src="/green-frog/assets/index-BIzsR8WA.js"></script>
   <link rel="stylesheet" crossorigin href="/green-frog/assets/index-BwtjDV4r.css">
 </head>
 
@@ -82,9 +82,10 @@ Company formation, accounting, certified translations, bank account opening, lic
     
 <section id="hero" class="hero-section">
   <div class="container hero-content">
-  <h1 class="hero-text animated" data-i18n="hero_title">
+  <h1 class="hero-text animated" data-i18n-html="hero_title">
     Services in the <span class="hero-english">Czech</span> Republic!
   </h1>
+
 
 
     <a href="#application-form" class="button hero-button animated" data-i18n="hero_button">
@@ -311,103 +312,55 @@ Company formation, accounting, certified translations, bank account opening, lic
         message and we'll get back to you shortly.
       </p>
 
-      <form id="contact-form" class="leave-form" novalidate>
+    <form id="contact-form" class="leave-form">
+    
+      <!-- Honeypot (НЕ влияет на стили) -->
       <input type="text" name="company" tabindex="-1" autocomplete="off" style="position:absolute; left:-9999px;" />
+    
+      <div class="form-container">
+        <label class="visually-hidden" for="user-name" data-i18n="form_name_label">
+          Name
+        </label>
+        <input class="form-input" type="text" id="user-name" name="user_name" placeholder="Name"
+          data-i18n-placeholder="form_name_placeholder" required />
+      </div>
+    
+      <div class="form-container">
+        <label class="visually-hidden" for="phone" data-i18n="form_phone_label">
+          Phone
+        </label>
+        <input class="form-input" type="tel" id="phone" name="user_phone" placeholder="Phone"
+          data-i18n-placeholder="form_phone_placeholder" required />
+      </div>
+    
+      <div class="form-container">
+        <label class="visually-hidden" for="mail" data-i18n="form_email_label">
+          Email
+        </label>
+        <input class="form-input" type="email" id="mail" name="user_email" placeholder="Email"
+          data-i18n-placeholder="form_email_placeholder" required />
+      </div>
+    
+      <div class="textarea-container">
+        <label class="visually-hidden" for="user-comment" data-i18n="form_comment_label">
+          Comment
+        </label>
+        <textarea class="form-textarea" id="user-comment" name="message" rows="10" placeholder="Comment"
+          data-i18n-placeholder="form_comment_placeholder" required></textarea>
+      </div>
+    
+      <!-- ⚠️ кнопка — ТОЛЬКО text, НЕ html -->
+      <button type="submit" class="button -button" data-i18n="form_submit">
+        Send
+      </button>
+    
+      <!-- ⚠️ текст БЕЗ HTML -->
+      <p class="leave-item-text-down" data-i18n="form_privacy_text"></p>
+    
+    </form>
+
 
       
-        <div class="form-container">
-          <label class="visually-hidden" for="user_name">Name</label>
-          <input id="user_name" class="form-input" type="text" name="user_name" placeholder="Name" autocomplete="name"
-            required />
-        </div>
-      
-        <div class="form-container">
-          <label class="visually-hidden" for="user_phone">Phone</label>
-          <input id="user_phone" class="form-input" type="tel" name="user_phone" placeholder="Phone" autocomplete="tel"
-            required />
-        </div>
-      
-        <div class="form-container">
-          <label class="visually-hidden" for="user_email">Email</label>
-          <input id="user_email" class="form-input" type="email" name="user_email" placeholder="Email" autocomplete="email"
-            required />
-        </div>
-      
-        <div class="textarea-container">
-          <label class="visually-hidden" for="message">Comment</label>
-          <textarea id="message" class="form-textarea" name="message" rows="6" placeholder="Comment" required></textarea>
-        </div>
-      
-        <button type="submit" class="button">
-          Send
-        </button>
-      
-      </form>
-      <input type="text" name="company" style="display:none">
-
-
-
-
-      <!-- <form id="contact-form" class="leave-form">
-  <div class="form-container">
-    <label class="visually-hidden" for="user-name" data-i18n="form_name_label">Name</label>
-    <input
-      class="form-input"
-      type="text"
-      id="user-name"
-      name="user_name"
-      placeholder="Name"
-      data-i18n-placeholder="form_name_placeholder"
-      required
-    />
-  </div>
-
-  <div class="form-container">
-    <label class="visually-hidden" for="phone" data-i18n="form_phone_label">Phone</label>
-    <input
-      class="form-input"
-      type="tel"
-      id="phone"
-      name="user_phone"
-      placeholder="Phone"
-      data-i18n-placeholder="form_phone_placeholder"
-      required
-    />
-  </div>
-
-  <div class="form-container">
-    <label class="visually-hidden" for="mail" data-i18n="form_email_label">Email</label>
-    <input
-      class="form-input"
-      type="email"
-      id="mail"
-      name="user_email"
-      placeholder="Email"
-      data-i18n-placeholder="form_email_placeholder"
-      required
-    />
-  </div>
-
-  <div class="textarea-container">
-    <label class="visually-hidden" for="user-comment" data-i18n="form_comment_label">Comment</label>
-    <textarea
-      class="form-textarea"
-      id="user-comment"
-      name="message"
-      rows="10"
-      placeholder="Comment"
-      data-i18n-placeholder="form_comment_placeholder"
-      required
-    ></textarea>
-  </div>
-
-  <button type="submit" class="button -button" data-i18n="form_submit">
-    Send
-  </button>
-
-  <p class="leave-item-text-down" data-i18n="form_privacy_text"></p>
-</form> -->
-
 
         <p class="leave-item-text-down"
   data-i18n="form_privacy_text">></p>
