@@ -3,12 +3,12 @@ import i18next from './i18n';
 console.log('lang-switcher loaded');
 
 function updateContent() {
-  // обычный текст + HTML
+  // ✅ безопасно — меняем только текст
   document.querySelectorAll('[data-i18n]').forEach(el => {
-    el.innerHTML = i18next.t(el.dataset.i18n);
+    el.textContent = i18next.t(el.dataset.i18n);
   });
 
-  // placeholder
+  // ✅ placeholder — можно
   document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
     el.setAttribute(
       'placeholder',
@@ -16,6 +16,7 @@ function updateContent() {
     );
   });
 }
+
 
 document.addEventListener('DOMContentLoaded', () => {
   // первый рендер при загрузке
