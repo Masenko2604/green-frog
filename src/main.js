@@ -1,6 +1,8 @@
-import('./js/mobile-menu');
-import './js/carousel-settings.js';
-import('./js/animation');
+import './js/mobile-menu';
+import './js/carousel-settings';
+import './js/animation';
+import './js/email';
+
 
 
 
