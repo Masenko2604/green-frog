@@ -1,0 +1,2 @@
+if(typeof gsap>"u"||typeof ScrollTrigger>"u")console.warn("GSAP or ScrollTrigger not loaded");else{gsap.registerPlugin(ScrollTrigger);const e=document.querySelectorAll(".animated");e.length?e.forEach((o,n)=>{const r=n%2===0?-225:225;gsap.fromTo(o,{x:r,opacity:0},{x:0,opacity:1,duration:1.4,ease:"power2.out",scrollTrigger:{trigger:o,start:"top 90%",end:"bottom 15%",toggleActions:"play none none none"}})}):console.info("No .animated elements found")}
+//# sourceMappingURL=animation-DSyho-cg.js.map
