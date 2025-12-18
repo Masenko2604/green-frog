@@ -18,7 +18,6 @@ Company formation, accounting, certified translations, bank account opening, lic
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400..700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
-  <script type="module" crossorigin src="/green-frog/assets/index-eHpTdRlJ.js"></script>
   <link rel="stylesheet" crossorigin href="/green-frog/assets/index-BwtjDV4r.css">
 </head>
 
@@ -313,35 +312,26 @@ Company formation, accounting, certified translations, bank account opening, lic
 
       <form id="contact-form" class="leave-form">
         <div class="form-container">
-          <label class="visually-hidden" for="user-name" data-i18n="form_name_label">Name</label>
-          <input class="form-input" type="text" id="user-name" name="user_name" placeholder="Name"
-            data-i18n-placeholder="form_name_placeholder" required />
+          <input class="form-input" type="text" name="user_name" placeholder="Name" required />
         </div>
       
         <div class="form-container">
-          <label class="visually-hidden" for="phone" data-i18n="form_phone_label">Phone</label>
-          <input class="form-input" type="tel" id="phone" name="user_phone" placeholder="Phone"
-            data-i18n-placeholder="form_phone_placeholder" required />
+          <input class="form-input" type="tel" name="user_phone" placeholder="Phone" required />
         </div>
       
         <div class="form-container">
-          <label class="visually-hidden" for="mail" data-i18n="form_email_label">Email</label>
-          <input class="form-input" type="email" id="mail" name="user_email" placeholder="Email"
-            data-i18n-placeholder="form_email_placeholder" required />
+          <input class="form-input" type="email" name="user_email" placeholder="Email" required />
         </div>
       
         <div class="textarea-container">
-          <label class="visually-hidden" for="user-comment" data-i18n="form_comment_label">Comment</label>
-          <textarea class="form-textarea" id="user-comment" name="message" rows="10" placeholder="Comment"
-            data-i18n-placeholder="form_comment_placeholder" required></textarea>
+          <textarea class="form-textarea" name="message" rows="6" placeholder="Comment" required></textarea>
         </div>
       
-        <button type="submit" class="button -button" data-i18n="form_submit">
+        <button type="submit" class="button">
           Send
         </button>
-      
-        <p class="leave-item-text-down" data-i18n="form_privacy_text"></p>
       </form>
+
 
 
 
@@ -629,11 +619,19 @@ Company formation, accounting, certified translations, bank account opening, lic
   <div class="js-menu-overlay"></div>
 
  
-<script>
-  (function () {
-    emailjs.init("-fxlEiaaEB8sP79Pk");
-  })();
-</script>
+  <!-- EmailJS CDN (ОБЯЗАТЕЛЬНО ПЕРВЫМ) -->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  
+  <!-- Инициализация EmailJS -->
+  <script>
+    (function () {
+      emailjs.init("fxlEiaaEB8sP79Pk"); // ✅ ваш Public Key
+    })();
+  </script>
+  
+  <!-- Ваш скрипт с отправкой формы -->
+  <script src="./js/email.js"></script>
+
 
 
   </body>
