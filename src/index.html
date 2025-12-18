@@ -43,18 +43,23 @@ Company formation, accounting, certified translations, bank account opening, lic
   <div class="js-menu-overlay"></div>
 
  
-  <!-- EmailJS CDN (ОБЯЗАТЕЛЬНО ПЕРВЫМ) -->
+  <!-- EmailJS library -->
   <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
   
-  <!-- Инициализация EmailJS -->
+  <!-- Init EmailJS -->
   <script>
     (function () {
-      emailjs.init("fxlEiaaEB8sP79Pk"); // ✅ ваш Public Key
+      emailjs.init("-fxlEiaaEB8sP79Pk");
     })();
   </script>
   
-  <!-- Ваш скрипт с отправкой формы -->
+  <!-- твоя логика формы -->
   <script src="./js/email.js"></script>
+  
+  <!-- остальное -->
+  <script type="module" src="./main.js"></script>
+  <script type="module" src="./js/i18n.js"></script>
+  <script type="module" src="./js/lang-switcher.js"></script>
 
 
 

@@ -11,8 +11,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     emailjs
       .sendForm(
-        "service_hoy596e",      // Service ID
-        "template_8lnxegd",     // Template ID
+        "service_hoy596e",
+        "template_8lnxegd",
         this
       )
       .then(
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         (error) => {
           console.error("EmailJS error:", error);
-          alert("Error sending message. Please try again.");
+          alert("Error sending message.");
         }
       );
   });
