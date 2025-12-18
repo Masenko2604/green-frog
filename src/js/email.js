@@ -1,8 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // 1. ИНИЦИАЛИЗАЦИЯ EmailJS (ОБЯЗАТЕЛЬНО)
-  emailjs.init("YOUR_PUBLIC_KEY"); // ← сюда вставь Public Key из EmailJS
-
-  // 2. Форма
   const form = document.getElementById("contact-form");
 
   if (!form) {
@@ -10,14 +6,13 @@ document.addEventListener("DOMContentLoaded", () => {
     return;
   }
 
-  // 3. Отправка формы
   form.addEventListener("submit", function (e) {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "service_hoy596e",     // Service ID
-        "template_8lnxegd",    // Template ID
+        "service_hoy596e",      // Service ID
+        "template_8lnxegd",     // Template ID
         this
       )
       .then(
