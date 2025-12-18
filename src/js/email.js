@@ -1,38 +1,36 @@
 document.addEventListener('DOMContentLoaded', () => {
   const form = document.getElementById('contact-form');
-  if (!form) return;
+  if (!form) {
+    console.warn('Form not found');
+    return;
+  }
 
-  // 🔑 Инициализация EmailJS
+  // 🔑 ОБЯЗАТЕЛЬНО
   emailjs.init('-fxlEiaaEB8sP79Pk');
 
-  form.addEventListener('submit', async (e) => {
+  form.addEventListener('submit', (e) => {
     e.preventDefault();
 
-    // 🛑 Honeypot — защита от ботов
+    // honeypot
     if (form.company && form.company.value.trim() !== '') {
-      return; // бот — просто молча выходим
+      return;
     }
 
-    const submitBtn = form.querySelector('button[type="submit"]');
-    submitBtn.disabled = true;
-    submitBtn.textContent = 'Sending...';
+    console.log('Form submit triggered'); // 👈 ДИАГНОСТИКА
 
-    try {
-      await emailjs.sendForm(
+    emailjs
+      .sendForm(
         'service_hoy596e',
         'template_8lnxegd',
         form
-      );
-
-      alert('Message sent successfully!');
-      form.reset();
-    } catch (error) {
-      console.error('EmailJS error:', error);
-      alert('Error sending message');
-    } finally {
-      submitBtn.disabled = false;
-      submitBtn.textContent = 'Send';
-    }
+      )
+      .then(() => {
+        alert('Message sent successfully!');
+        form.reset();
+      })
+      .catch((error) => {
+        console.error('EmailJS error:', error);
+        alert('Send failed');
+      });
   });
 });
-
