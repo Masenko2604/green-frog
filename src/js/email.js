@@ -18,19 +18,27 @@ document.addEventListener('DOMContentLoaded', () => {
 
     console.log('Form submit triggered'); // 👈 ДИАГНОСТИКА
 
-    emailjs
-      .sendForm(
-        'service_hoy596e',
-        'template_8lnxegd',
-        form
-      )
-      .then(() => {
-        alert('Message sent successfully!');
-        form.reset();
-      })
-      .catch((error) => {
-        console.error('EmailJS error:', error);
-        alert('Send failed');
-      });
+   emailjs
+  .sendForm(
+    'YOUR_SERVICE_ID',
+    'YOUR_MAIN_TEMPLATE_ID',
+    form
+  )
+  .then(() => {
+    // 📨 автоответ клиенту
+    emailjs.sendForm(
+      'YOUR_SERVICE_ID',
+      'AUTO_REPLY_TEMPLATE_ID',
+      form
+    );
+
+    alert('Message sent successfully!');
+    form.reset();
+  })
+  .catch((error) => {
+    console.error('EmailJS error:', error);
+    alert('Send failed');
+  });
+
   });
 });

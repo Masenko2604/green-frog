@@ -286,49 +286,6 @@ input[type='radio']:checked::after {
 
 }
 
-/* .image {
-  width: 492px;
-  height: 578px;
-  background-color: rgba(129, 167, 109, 1);
-  border-radius: 30px;
-  overflow: hidden;
-  position: relative;
-}
-
-.image img {
-  display: block;
-  width: 100%;
-  object-fit: cover;
-} */
-
-/* @media screen and (max-width: 1279px) {
-  .image {
-    display: none;
-  }
-}
-
-.image-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0;
-  text-align: center;
-  color: rgba(255, 255, 255, 0.7);
-  padding-left: 20px;
-  padding-right: 20px;
-} */
-
-/* .image-text-1000 {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: rgba(255, 255, 255, 0.7);
-  text-align: center;
-  margin-bottom: 8px;
-  margin-top: 20px;
-} */
-
 @media (min-width: 1280px) {
   .leave-form__grid {
     display: flex;
@@ -412,3 +369,4 @@ input[type='radio']:checked::after {
     padding-right: 0;
   }
 }
+
