@@ -17,3 +17,15 @@ function updateContent() {
     );
   });
 }
+document.addEventListener('DOMContentLoaded', () => {
+  updateContent();
+
+  i18next.on('languageChanged', updateContent);
+
+  document.querySelectorAll('[data-lang]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      i18next.changeLanguage(btn.dataset.lang);
+    });
+  });
+});
+
