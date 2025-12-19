@@ -1,32 +1,51 @@
-document.addEventListener('DOMContentLoaded', () => {
-  updateContent();
+const DEFAULT_LANG = 'en';
+let translations = {};
 
-  i18next.on('languageChanged', updateContent);
+async function loadLanguage(lang) {
+  const res = await fetch(`./lang/${lang}.json`);
+  translations = await res.json();
 
-  document.querySelectorAll('[data-lang]').forEach(btn => {
-    btn.addEventListener('click', () => {
-      i18next.changeLanguage(btn.dataset.lang);
-    });
-  });
-});
+  applyTranslations();
+  localStorage.setItem('lang', lang);
+  setActiveLang(lang);
+}
 
-function updateContent() {
-  // 1️⃣ обычный текст (БЕЗ HTML)
+function applyTranslations() {
+  // обычный текст
   document.querySelectorAll('[data-i18n]').forEach(el => {
-    el.textContent = i18next.t(el.dataset.i18n);
+    const key = el.dataset.i18n;
+    if (translations[key]) {
+      el.textContent = translations[key];
+    }
   });
 
-  // 2️⃣ HTML-контент (СПЕЦИАЛЬНО помеченный)
+  // html (h1, span и т.д.)
   document.querySelectorAll('[data-i18n-html]').forEach(el => {
-    el.innerHTML = i18next.t(el.dataset.i18nHtml);
+    const key = el.dataset.i18nHtml;
+    if (translations[key]) {
+      el.innerHTML = translations[key];
+    }
   });
 
-  // 3️⃣ placeholder — безопасно
+  // placeholder
   document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
-    el.setAttribute(
-      'placeholder',
-      i18next.t(el.dataset.i18nPlaceholder)
-    );
+    const key = el.dataset.i18nPlaceholder;
+    if (translations[key]) {
+      el.placeholder = translations[key];
+    }
   });
 }
+
+function setActiveLang(lang) {
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.lang === lang);
+  });
+}
+
+window.setActiveLang = loadLanguage;
+
+document.addEventListener('DOMContentLoaded', () => {
+  const lang = localStorage.getItem('lang') || DEFAULT_LANG;
+  loadLanguage(lang);
+});
 
