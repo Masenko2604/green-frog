@@ -1,3 +1,15 @@
+document.addEventListener('DOMContentLoaded', () => {
+  updateContent();
+
+  i18next.on('languageChanged', updateContent);
+
+  document.querySelectorAll('[data-lang]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      i18next.changeLanguage(btn.dataset.lang);
+    });
+  });
+});
+
 function updateContent() {
   // 1️⃣ обычный текст (БЕЗ HTML)
   document.querySelectorAll('[data-i18n]').forEach(el => {
@@ -17,15 +29,4 @@ function updateContent() {
     );
   });
 }
-document.addEventListener('DOMContentLoaded', () => {
-  updateContent();
-
-  i18next.on('languageChanged', updateContent);
-
-  document.querySelectorAll('[data-lang]').forEach(btn => {
-    btn.addEventListener('click', () => {
-      i18next.changeLanguage(btn.dataset.lang);
-    });
-  });
-});
 
