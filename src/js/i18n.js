@@ -1,3 +1,24 @@
+// import i18next from 'i18next';
+// import HttpBackend from 'i18next-http-backend';
+
+// i18next
+//   .use(HttpBackend)
+//   .init({
+//     lng: 'en',
+//     fallbackLng: 'en',
+//     debug: true,
+
+//     backend: {
+//       loadPath: './locales/{{lng}}.json' // 🔥 ВАЖНО
+//     }
+//   })
+//   .then(() => {
+//     document.dispatchEvent(new Event('i18nReady'));
+//   });
+
+// export default i18next;
+
+
 import i18next from 'i18next';
 import HttpBackend from 'i18next-http-backend';
 
@@ -9,7 +30,7 @@ i18next
     debug: true,
 
     backend: {
-      loadPath: './locales/{{lng}}.json' // 🔥 ВАЖНО
+      loadPath: '/locales/{{lng}}.json'
     }
   })
   .then(() => {
@@ -17,6 +38,7 @@ i18next
   });
 
 export default i18next;
+
 
 
 
