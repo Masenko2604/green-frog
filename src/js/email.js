@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     emailjs
       .sendForm(
         'service_hoy596e',
-        'emplate_8lnxegd',
+        'template_8lnxegd',
         form
       )
       .then(() => {
