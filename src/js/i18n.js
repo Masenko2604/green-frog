@@ -30,8 +30,9 @@ i18next
     debug: true,
 
     backend: {
-      loadPath: '/locales/{{lng}}.json'
-    }
+  loadPath: `${import.meta.env.BASE_URL}locales/{{lng}}.json`
+}
+
   })
   .then(() => {
     document.dispatchEvent(new Event('i18nReady'));
