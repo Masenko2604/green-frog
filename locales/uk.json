@@ -65,6 +65,7 @@
   "form_comment_placeholder": "Коментар",
 
   "form_submit": "Надіслати",
+  "form_success": "Дякуємо! Ваше повідомлення надіслано.",
 
   "form_privacy_text": "Натискаючи кнопку «Надіслати», ви погоджуєтесь з нашою <a class=\"text-link leave-item-link-text-down\" href=\"/privacy-policy\" target=\"_blank\">Політикою конфіденційності</a> та дозволяєте використовувати цю інформацію в маркетингових цілях.",
 
