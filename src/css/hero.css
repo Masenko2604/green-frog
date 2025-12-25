@@ -108,7 +108,7 @@
   }
 
   .hero-content {
-    padding: 260px 32px 32px;
+    padding: 320px 32px 32px;
     align-items: flex-start;
     /* ← ВЛЕВО */
     text-align: left;
@@ -149,7 +149,7 @@
   }
 
   .hero-content {
-    padding: 164px 32px 32px 64px;
+    padding: 220px 32px 32px 64px;
   }
 
   .hero-text {
