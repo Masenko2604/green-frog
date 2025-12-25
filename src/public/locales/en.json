@@ -3,7 +3,9 @@
   "nav_reviews": "Reviews",
   "nav_contact": "Contact us",
 
-  "hero_title": "Services in the <span class='hero-english'>Czech</span> Republic!",
+  "hero.before": "Services in the",
+  "hero.highlight": "Czech",
+  "hero.after": "Republic!",
   "hero_button": "Leave an application",
   "services_title": "Services",
 
