@@ -3,8 +3,9 @@
   "nav_reviews": "Отзывы",
   "nav_contact": "Связаться с нами",
 
-  "hero_title": "Услуги в <span class='hero-english'>Чешской</span> Республике!",
-  "hero_button": "Оставить заявку",
+  "hero.before": "Услуги в",
+  "hero.highlight": "Чешской",
+  "hero.after": "Республике!",
   "services_title": "Услуги",
 
   "about_title": "Услуги",
