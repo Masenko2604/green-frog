@@ -369,4 +369,10 @@ input[type='radio']:checked::after {
     padding-right: 0;
   }
 }
+.form-success-message {
+  margin-top: 12px;
+  color: #2e7d32;
+  font-size: 14px;
+}
+
 

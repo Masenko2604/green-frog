@@ -7,39 +7,43 @@
       <p class="leave-item-text-up" data-i18n-html="form_description"></p>
 
       <form id="contact-form" class="leave-form">
-
+      
         <!-- Honeypot -->
         <input type="text" name="company" tabindex="-1" autocomplete="off" style="position:absolute; left:-9999px;" />
-
+      
         <div class="form-container">
           <label class="visually-hidden" for="user-name" data-i18n="form_name_label"></label>
-          <input class="form-input" type="text" id="user-name" name="user_name"
-            data-i18n-placeholder="form_name_placeholder" required />
+          <input class="form-input" type="text" id="user-name" name="user_name" data-i18n-placeholder="form_name_placeholder"
+            required />
         </div>
-
-        <div class="form-container">
-          <label class="visually-hidden" for="phone" data-i18n="form_phone_label"></label>
-          <input class="form-input" type="tel" id="phone" name="user_phone"
-            data-i18n-placeholder="form_phone_placeholder" required />
-        </div>
-
+      
         <div class="form-container">
           <label class="visually-hidden" for="mail" data-i18n="form_email_label"></label>
-          <input class="form-input" type="email" id="mail" name="user_email"
-            data-i18n-placeholder="form_email_placeholder" required />
+          <input class="form-input" type="email" id="mail" name="user_email" data-i18n-placeholder="form_email_placeholder"
+            required />
         </div>
-
+      
         <div class="textarea-container">
           <label class="visually-hidden" for="user-comment" data-i18n="form_comment_label"></label>
-          <textarea class="form-textarea" id="user-comment" name="message" rows="10"
+          <textarea class="form-textarea" id="user-comment" name="message" rows="5"
             data-i18n-placeholder="form_comment_placeholder" required></textarea>
         </div>
-
-        <button type="submit" class="button -button" data-i18n="form_submit"></button>
-
+      
+        <!-- ✅ КНОПКА -->
+        <button type="submit" class="button" data-i18n="form_submit">
+          Send
+        </button>
+      
+        <!-- текст политики -->
         <p class="leave-item-text-down" data-i18n-html="form_privacy_text"></p>
-
+      
+        <!-- сообщение об успехе -->
+        <p id="form-success" class="form-success-message" hidden>
+          ✅ Message sent successfully
+        </p>
+      
       </form>
+
     </div>
 
   </div>

@@ -38,9 +38,14 @@ document.addEventListener('DOMContentLoaded', () => {
         // );
       })
       .then(() => {
-        alert('Message sent successfully!');
-        form.reset();
-      })
+  form.reset();
+
+  const successMessage = document.getElementById('form-success');
+  if (successMessage) {
+    successMessage.hidden = false;
+  }
+})
+
       .catch(error => {
         console.error('EmailJS error:', error);
       });
