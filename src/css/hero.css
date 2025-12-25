@@ -249,3 +249,18 @@
 .hero * {
   filter: none;
 }
+@media (min-width: 768px) {
+  .hero-content {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+    .hero-text {
+      white-space: normal;
+      max-width: 520px;
+    }
+
+  .hero-button {
+    margin-left: 0;
+  }
+}
