@@ -18,8 +18,8 @@ Company formation, accounting, certified translations, bank account opening, lic
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400..700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
-  <script type="module" crossorigin src="/green-frog/assets/index-BNsSrLFm.js"></script>
-  <link rel="stylesheet" crossorigin href="/green-frog/assets/index-D1v1-O5d.css">
+  <script type="module" crossorigin src="/green-frog/assets/index-BQ1IpVN6.js"></script>
+  <link rel="stylesheet" crossorigin href="/green-frog/assets/index-Cr_jIK-u.css">
 </head>
 
 <body>
@@ -95,7 +95,11 @@ Company formation, accounting, certified translations, bank account opening, lic
     <section id="about" class="section about">
   <div class="container">
 
-    <h2 class="section-title" data-i18n="about_title"></h2>
+    <!-- <h2 class="section-title animated" data-i18n="about_title"></h2> -->
+<h2 class="section-title animated">
+  <span data-i18n="about_title"></span>
+  <span class="title-underline"></span>
+</h2>
 
     <p class="section-subtitle" data-i18n="about_subtitle"></p>
 
@@ -206,8 +210,8 @@ Company formation, accounting, certified translations, bank account opening, lic
             <picture>
               <source srcset="/green-frog/assets/books@1x-CWyTwSlt.avif 1x, /green-frog/assets/books@2x-DOiGQ0rF.avif 2x" type="image/avif" />
               <source srcset="/green-frog/assets/books@1x-C5x3lTuK.png 1x, /green-frog/assets/books@2x-CuxoVPSx.png 2x" />
-              <img src="/green-frog/assets/books@1x-C5x3lTuK.png" alt="Tall stack of books" class="books-img animated" width="321"
-                height="368" />
+              <img src="/green-frog/assets/books@1x-C5x3lTuK.png" alt="Tall stack of books" class="books-img animated from-right" width="321"
+                height="600" />
             </picture>
           </div>
 
@@ -405,12 +409,17 @@ Company formation, accounting, certified translations, bank account opening, lic
   
  
   
-  <!-- остальное -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 
-<!-- EmailJS CDN -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script> -->
+<!-- i18next -->
+<script src="https://unpkg.com/i18next@23.10.1/i18next.min.js"></script>
 
-<!-- Vite entry point -->
+<!-- i18n init -->
+
+<!-- language switcher -->
+
+<!-- main entry (ОДИН РАЗ!) -->
 
   
 
