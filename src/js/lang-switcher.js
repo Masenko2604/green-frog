@@ -1,12 +1,12 @@
 import i18next from './i18n.js';
 
 function updateContent() {
-  // 1️⃣ обычный текст (БЕЗ HTML)
+  // 1️⃣ обычный текст
   document.querySelectorAll('[data-i18n]').forEach(el => {
     el.textContent = i18next.t(el.dataset.i18n);
   });
 
-  // 2️⃣ HTML-контент (span, strong, br и т.п.)
+  // 2️⃣ HTML-контент
   document.querySelectorAll('[data-i18n-html]').forEach(el => {
     el.innerHTML = i18next.t(el.dataset.i18nHtml);
   });
@@ -25,10 +25,49 @@ document.addEventListener('i18nReady', () => {
     btn.addEventListener('click', () => {
       i18next.changeLanguage(btn.dataset.lang).then(() => {
         updateContent();
+
+        // ✅ ВАЖНО: сообщаем, что язык сменился
+        document.dispatchEvent(new Event('languageChanged'));
       });
     });
   });
 });
+
+
+
+
+
+// import i18next from './i18n.js';
+
+// function updateContent() {
+//   // 1️⃣ обычный текст (БЕЗ HTML)
+//   document.querySelectorAll('[data-i18n]').forEach(el => {
+//     el.textContent = i18next.t(el.dataset.i18n);
+//   });
+
+//   // 2️⃣ HTML-контент (span, strong, br и т.п.)
+//   document.querySelectorAll('[data-i18n-html]').forEach(el => {
+//     el.innerHTML = i18next.t(el.dataset.i18nHtml);
+//   });
+
+//   // 3️⃣ placeholder
+//   document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+//     el.placeholder = i18next.t(el.dataset.i18nPlaceholder);
+//   });
+// }
+
+// // ⏳ ждать инициализации i18n
+// document.addEventListener('i18nReady', () => {
+//   updateContent();
+
+//   document.querySelectorAll('[data-lang]').forEach(btn => {
+//     btn.addEventListener('click', () => {
+//       i18next.changeLanguage(btn.dataset.lang).then(() => {
+//         updateContent();
+//       });
+//     });
+//   });
+// });
 
 
 
