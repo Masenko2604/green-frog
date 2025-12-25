@@ -4,26 +4,33 @@
 
 /* ---------- Base (Mobile) ---------- */
 
-.hero-section {
-  position: relative;
-  border-radius: 16px;
-  margin: 8px auto 64px;
-  max-width: 335px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: hidden;
-}
 
+.hero-section {
+    position: relative;
+    border-radius: 16px;
+    margin: 8px auto 64px;
+    max-width: 335px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  
+
+  /* background-image:
+    linear-gradient(95.97deg,
+      rgba(0, 0, 0, 0.4) 36.36%,
+      rgba(0, 0, 0, 0) 51.43%),
+    url(/img/hero/block_mob@1x.jpg); */
+}
 .hero-section::before {
   content: '';
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.25);
+  /* регулируй темноту */
   pointer-events: none;
   z-index: 1;
 }
-
 .hero-section>* {
   position: relative;
   z-index: 2;
@@ -46,43 +53,57 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* mobile — центр */
+  /* ← центр по горизонтали */
   text-align: center;
+  /* ← центр текста */
 }
 
 .hero-text {
+  font-family: inherit;
   font-size: 32px;
   line-height: 1.1;
-  color: #fff;
+  color: #ffffff;
   max-width: 280px;
-  padding: 8px 12px;
   text-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
-  margin: 0 auto;
+  background: linear-gradient(180deg,
+      rgba(255, 255, 255, 0.01),
+      rgba(0, 0, 0, 0.04));
+  padding: 8px 12px;
+  /* max-width: 300px; */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-english {
   color: rgb(231, 100, 7);
 }
-
 .hero-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  margin: 45px auto 0;
-  color: rgb(231, 100, 7);
-  background-color: #fff;
-  border: 5px solid rgb(231, 100, 7);
+  position: relative;
+  z-index: 5;
   cursor: pointer;
+
+  color: rgb(231, 100, 7);
+  background-color: #ffffff;
+  border: 5px solid rgb(231, 100, 7);
+
+  box-sizing: border-box;
+  margin: 45px auto 0;
 }
 
 .button.hero-button:hover,
-.button.hero-button:focus-visible {
+.button.hero-button:focus-visible,
+.button.hero-button:active {
   background-color: rgba(129, 167, 109, 1);
-  border-color: #fff;
-  color: #fff;
+  border: 5px solid #ffffff;
+  color: #ffffff;
 }
 
-/* Checkmark */
+
+
+
 .hero-checkmark {
   margin-top: 24px;
   width: 100%;
@@ -90,16 +111,48 @@
   justify-content: flex-end;
 }
 
+.hero-checkmark-container {
+  width: 38px;
+  height: 38px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.hero-svg {
+  width: 20px;
+  height: 20px;
+  
+}
+
+.hero-use {
+  fill: rgba(129, 167, 109, 1);
+}
+
+.hero-checkmark-container:hover,
+.hero-checkmark-container:focus {
+  background-color: rgba(129, 167, 109, 1);
+}
+
+.hero-checkmark-container:hover .hero-use,
+.hero-checkmark-container:focus .hero-use {
+  fill: #ffffff;
+}
+
 /* =========================================================
-   TABLET (768px+)
+   TABLET (768px – 1279px)
    ========================================================= */
 
 @media (min-width: 768px) {
 
   .hero-section {
-    max-width: 704px;
-    margin: 32px auto 100px;
     border-radius: 30px;
+    margin: 32px auto 100px;
+    max-width: 704px;
+
     background-image:
       linear-gradient(95.97deg,
         rgba(0, 0, 0, 0.4) 36.36%,
@@ -107,28 +160,39 @@
       url(/img/hero/block_tab@1x.jpg);
   }
 
+  @media (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi) {
+    .hero-section {
+      background-image:
+        linear-gradient(95.97deg,
+          rgba(0, 0, 0, 0.4) 36.36%,
+          rgba(0, 0, 0, 0) 51.43%),
+        url(/img/hero/block_tab@2x.jpg);
+    }
+  }
+
   .hero-content {
     padding: 260px 32px 32px;
-    align-items: flex-start;
-    /* ← ВЛЕВО */
-    text-align: left;
   }
 
   .hero-text {
-  font-size: 56px;
+    font-size: 56px;
     line-height: 1.16;
-    max-width: 520px;
-    margin: 40px 0 0;
+    max-width: 488px;
   }
 
   .hero-button {
-    margin-top: 32px;
-    margin-left: 0;
     max-width: 306px;
+    font-size: 18px;
   }
 
   .hero-checkmark {
     margin-top: 160px;
+  }
+
+  .hero-checkmark-container {
+    width: 48px;
+    height: 48px;
   }
 }
 
@@ -139,8 +203,9 @@
 @media (min-width: 1280px) {
 
   .hero-section {
-    max-width: 1152px;
     margin: 16px auto 96px;
+    max-width: 1152px;
+
     background-image:
       linear-gradient(95.97deg,
         rgba(0, 0, 0, 0.4) 36.36%,
@@ -148,17 +213,54 @@
       url(/img/hero/block_desk@1x.jpg);
   }
 
+  @media (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi) {
+    .hero-section {
+      background-image:
+        linear-gradient(95.97deg,
+          rgba(0, 0, 0, 0.4) 36.36%,
+          rgba(0, 0, 0, 0) 51.43%),
+        url(/img/hero/block_desk@2x.jpg);
+    }
+  }
+
   .hero-content {
-    padding: 220px 32px 32px 64px;
+    padding: 164px 32px 32px 64px;
   }
 
   .hero-text {
     font-size: 60px;
-    max-width: 560px;
-    margin: 60px 0 0;
-    }
+    max-width: 564px;
   }
 
   .hero-checkmark {
     margin-top: 83px;
   }
+}
+
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+.hero,
+.hero * {
+  filter: none;
+}
+@media (min-width: 768px) {
+  .hero-content {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+    .hero-text {
+      white-space: normal;
+      max-width: 520px;
+    }
+
+  .hero-button {
+    margin-left: 0;
+  }
+}
