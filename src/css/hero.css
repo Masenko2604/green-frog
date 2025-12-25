@@ -46,12 +46,8 @@
 .hero-content {
   padding: 280px 16px 20px;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
   
-  /* align-items: center; */
-  /* ← центр по горизонтали */
-  /* text-align: center; */
-  /* ← центр текста */
 }
 
 .hero-text {
@@ -67,7 +63,7 @@
       rgba(0, 0, 0, 0.04));
   padding: 8px 12px;  
     margin-left: 0;
-    margin-right: auto;
+    /* margin-right: auto; */
 }
 
 .hero-english {
@@ -80,6 +76,7 @@
   position: relative;
   z-index: 5;
   cursor: pointer;
+  margin: 0 auto;
  
 
   color: rgb(231, 100, 7);
@@ -174,13 +171,15 @@
 
   .hero-text {
     font-size: 56px;
-    line-height: 1.16;
-    max-width: 488px;
+      line-height: 1.16;
+      max-width: 488px;
+      margin-left: 0;
   }
 
   .hero-button {
     max-width: 306px;
-    font-size: 18px;
+      font-size: 18px;
+      margin-left: 0;
   }
 
   .hero-checkmark {
