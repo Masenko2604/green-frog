@@ -5,7 +5,7 @@ import FullReload from 'vite-plugin-full-reload';
 import SortCss from 'postcss-sort-media-queries';
 
 export default defineConfig(({ command }) => ({
-  base: '/green-frog/',
+  base: '/',
 
   root: 'src',
 
@@ -28,3 +28,4 @@ export default defineConfig(({ command }) => ({
     SortCss({ sort: 'mobile-first' }),
   ].filter(Boolean),
 }));
+

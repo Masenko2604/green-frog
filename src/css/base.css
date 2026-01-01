@@ -9,7 +9,7 @@
   --gray-text-color: rgba(18, 20, 23, 0.5);
   --white: rgb(255, 255, 255);
   --white-border: rgba(255, 255, 255, 0.1);
-  --white-button-text: rgba(255, 255, 255, 0.4);
+  /* --white-button-text: rgba(255, 255, 255, 0.4); */
   --white-container: rgba(255, 255, 255, 0.5);
   --hover-green: rgb(129, 167, 109);
   --form-border: rgba(18, 20, 23, 0.1);
@@ -127,7 +127,8 @@ a {
 
 .button:hover,
 .button:focus {
-  background-color: rgba(129, 167, 109, 1);
+  /* background-color: rgba(129, 167, 109, 1); */
+  
   border-color:rgb(231, 100, 7);
   color: rgb(231, 100, 7);
   /* ← фикс цвета */
@@ -206,6 +207,7 @@ a {
     line-height: inherit;
     padding: 16px 32px;
     height: 60px;
+    color: rgb(231, 100, 7);
   }
 
   .title-primary {
