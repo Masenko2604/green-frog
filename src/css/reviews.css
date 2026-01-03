@@ -95,7 +95,7 @@
 .section-subtitle {
   color: #000;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.5;
   letter-spacing: -0.02em;
   opacity: 0.7;
@@ -138,7 +138,7 @@
   }
     .section-subtitle {
       font-size: 24px;
-      font-weight: 700;
+      font-weight: 800;
       line-height: 1.7;
       margin-bottom: 64px;
     }
