@@ -54,7 +54,7 @@
 
 .topic-title {
   font-size: 24px;
-  line-height: 1.2;
+  line-height: 1.4;
   letter-spacing: -0.02em;
   color: rgb(108, 178, 61);
   margin-bottom: 12px;
@@ -66,7 +66,7 @@
   color: rgb(0, 0, 0);
   font-size: 20px;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: -0.02em;
 }
 @media screen and (max-width: 767px) {
@@ -79,7 +79,7 @@
   }
 
   .topic-title {
-    font-size: 18px;
+    font-size: 32px;
     margin-bottom: 8px;
   }
 
