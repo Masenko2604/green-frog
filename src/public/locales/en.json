@@ -8,6 +8,12 @@
   "hero.after": "Republic!",
   "hero_button": "Leave an application",
 
+  "seo": {
+    "title": "Business Services in the Czech Republic",
+    "description": "Company formation, accounting, certified translations, bank account opening, licensing, legal support, and full administrative assistance in the Czech Republic",
+    "keywords": "business services Czech Republic, company registration Czech Republic, accounting services Czech Republic, certified translations Czech Republic, business support Czech Republic"
+  },
+
   "about_title": "Services",
   "about_subtitle": "Company formation, accounting, certified translations, bank account opening, licensing, legal support, and full administrative assistance — fast, reliable, and fully tailored to your needs",
 
@@ -57,15 +63,15 @@
 
   "form_privacy_text": "By clicking on \"Send\" button, you agree to our <a class=\"text-link leave-item-link-text-down\" href=\"/privacy-policy\" target=\"_blank\">Privacy Policy</a> and allow us to use this information for marketing purposes.",
 
-  "reviews_title": "<span> Overview of Topics </span>",
+  "reviews_title": "<span> Key Topics </span>",
 
   "reviews_subtitle": "We provide clear and structured support at every stage of our cooperation. Below you will find essential information about how we communicate, formalize agreements, and stay connected throughout the entire service process.",
 
   "reviews_questions_title": "QUESTIONS",
   "reviews_questions_text": "Feel free to ask any questions — we are ready to clarify all details, discuss the cooperation process, and provide clear, comprehensive information.",
 
-  "reviews_agreement_title": "SERVICE AGREEMENT",
-  "reviews_agreement_text": "We prepare a personalized agreement for each client. Pricing is calculated individually and depends on the scope, complexity, and specific requirements of your business.",
+  "reviews_agreement_title": "Why Choose Us?",
+  "reviews_agreement_text": "We simplify the process of business registration and management in the Czech Republic, making it clear and comfortable. We provide high-quality services and give personal attention to every client.",
 
   "reviews_contact_title": "HOW TO CONTACT US",
   "reviews_contact_text": "Call us or submit your request through the contact form. Please indicate the purpose of your inquiry and key details about your company so we can respond accurately.",

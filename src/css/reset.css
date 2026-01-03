@@ -32,3 +32,43 @@ img {
   max-width: 100%;
   height: auto;
 }
+/* ================================
+   BASE BUTTON RESET (iOS SAFE)
+   ================================ */
+
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: none;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+}
+
+/* ================================
+   BASE BUTTON RESET (iOS SAFE)
+   ================================ */
+
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: none;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+}
+
+/* Убираем синий highlight на iOS */
+button {
+  -webkit-tap-highlight-color: transparent;
+}
