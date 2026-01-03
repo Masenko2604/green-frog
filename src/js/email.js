@@ -1,8 +1,7 @@
 import emailjs from '@emailjs/browser';
 
-// init ОДИН РАЗ
-emailjs.init(import.meta.env.VITE_EMAILJS_PUBLIC_KEY);
-
+// ⚠️ public key
+emailjs.init('-fxlEiaaEB8sP79Pk');
 
 document.addEventListener('DOMContentLoaded', () => {
   const form = document.querySelector('#contact-form');
@@ -12,27 +11,47 @@ document.addEventListener('DOMContentLoaded', () => {
     return;
   }
 
-  form.addEventListener('submit', (e) => {
+  form.addEventListener('submit', function (e) {
     e.preventDefault();
 
-    // 🍯 honeypot (input name="company")
-    if (form.company?.value) return;
+    // honeypot
+    if (form.company.value !== '') return;
 
+    // 1️⃣ письмо админу (как было — НЕ ТРОГАЕМ)
     emailjs
       .sendForm(
-        import.meta.env.VITE_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        'service_hoy596e',          // SERVICE_ID
+        'template_8lnxegd',     // ADMIN TEMPLATE ID
         form
       )
       .then(() => {
-        console.log('Email sent successfully');
-        form.reset();
+
+        // 2️⃣ автоответ пользователю (ДОБАВЛЕНО)
+        // return emailjs.send(
+        //   'service_hoy596e',          // SERVICE_ID (тот же)
+        //   'template_6jrqzqr', // 👈 ВСТАВИ СЮДА
+        //   {
+        //     user_name: form.user_name.value,
+        //     user_email: form.user_email.value,
+        //     message: form.message.value,
+        //   }
+        // );
       })
-      .catch((error) => {
+      .then(() => {
+  form.reset();
+
+  const successMessage = document.getElementById('form-success');
+  if (successMessage) {
+    successMessage.hidden = false;
+  }
+})
+
+      .catch(error => {
         console.error('EmailJS error:', error);
       });
   });
 });
-console.log('PUBLIC', import.meta.env.VITE_EMAILJS_PUBLIC_KEY);
-console.log('SERVICE', import.meta.env.VITE_EMAILJS_SERVICE_ID);
-console.log('TEMPLATE', import.meta.env.VITE_EMAILJS_TEMPLATE_ID);
+
+
+
+
