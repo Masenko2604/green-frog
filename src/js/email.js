@@ -1,7 +1,8 @@
 import emailjs from '@emailjs/browser';
 
-// ✅ init один раз
+// init ОДИН РАЗ
 emailjs.init(import.meta.env.VITE_EMAILJS_PUBLIC_KEY);
+
 
 document.addEventListener('DOMContentLoaded', () => {
   const form = document.querySelector('#contact-form');
@@ -11,10 +12,10 @@ document.addEventListener('DOMContentLoaded', () => {
     return;
   }
 
-  form.addEventListener('submit', function (e) {
+  form.addEventListener('submit', (e) => {
     e.preventDefault();
 
-    // 🛡 honeypot
+    // 🍯 honeypot (input name="company")
     if (form.company?.value) return;
 
     emailjs
@@ -24,23 +25,11 @@ document.addEventListener('DOMContentLoaded', () => {
         form
       )
       .then(() => {
-        // ✅ успех
-        const successMessage = document.getElementById('form-success');
-        if (successMessage) {
-          successMessage.hidden = false;
-        }
+        console.log('Email sent successfully');
+        form.reset();
       })
       .catch((error) => {
-        // ❌ ошибка
         console.error('EmailJS error:', error);
-      })
-      .finally(() => {
-        // 🔁 всегда
-        form.reset();
       });
   });
 });
-
-
-
-

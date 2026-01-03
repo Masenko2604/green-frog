@@ -27,7 +27,7 @@ i18next
   .init({
     lng: 'en',
     fallbackLng: 'en',
-    debug: true,
+    debug: false,
 
     backend: {
   loadPath: `${import.meta.env.BASE_URL}locales/{{lng}}.json`
