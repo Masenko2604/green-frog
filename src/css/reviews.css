@@ -104,15 +104,8 @@
   margin: 0 auto 40px;
 }
 
-/* TABLET + */
-@media screen and (min-width: 768px) {
-  .section-subtitle {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 1.7;
-    margin-bottom: 64px;
-  }
-}
+
+
 .review-text {
   color: rgb(0, 0, 0);
     font-size: 20px;
@@ -143,6 +136,12 @@
     transition: var(--common-transition);
     transition-property: color, opacity, background;
   }
+    .section-subtitle {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 1.7;
+      margin-bottom: 64px;
+    }
 }
 
 .nav-btn:hover,
