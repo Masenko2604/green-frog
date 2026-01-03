@@ -229,12 +229,7 @@ a {
     height: 16px;
   }
 
-  .section-subtitle {
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 64px;
-    max-width: 665px;
-  }
+
 }
 
 @media screen and (min-width: 1280px) {
