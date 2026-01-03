@@ -52,21 +52,21 @@
 
 .button:hover,
 .button:focus {
-  background-color: rgba(129, 167, 109, 1);
-  border-color: rgb(98, 129, 82);
+  background-color: rgb(108, 178, 61);
+  border-color:rgb(108, 178, 61);
   color: var(--white)
 }
 
 .button.lesson-button {
-  color: rgb(231, 100, 7);
+  color:rgb(242, 81, 41);
 }
 
 .form-input:focus+.input-container {
-  color: rgba(129, 167, 109, 1);
+  color: rgb(108, 178, 61);
 }
 
 .form-input:focus {
-  border: 1px solid rgba(129, 167, 109, 1);
+  border: 1px solid rgb(108, 178, 61);
 }
 
 /* textarea */
@@ -103,7 +103,7 @@ textarea {
 }
 
 .form-textarea:focus {
-  border: 1px solid rgba(129, 167, 109, 1);
+  border: 1px solid rgb(108, 178, 61);
 }
 
 .textarea-container textarea::placeholder {
@@ -123,7 +123,7 @@ textarea {
 }
 
 .text-link:hover {
-  color: rgba(129, 167, 109, 1);
+  color: rgb(108, 178, 61);
   text-decoration: underline;
 }
 
@@ -270,7 +270,7 @@ input[type='radio'] {
 }
 
 input[type='radio']:checked {
-  border-color: rgba(129, 167, 109, 1);
+  border-color: rgb(108, 178, 61);
 }
 
 input[type='radio']:checked::after {
@@ -280,7 +280,7 @@ input[type='radio']:checked::after {
   left: 50%;
   width: 10px;
   height: 10px;
-  background-color: rgba(129, 167, 109, 1);
+  background-color: rgb(108, 178, 61);
   border-radius: 50%;
   transform: translate(-50%, -50%);
 
@@ -371,7 +371,7 @@ input[type='radio']:checked::after {
 }
 .form-success-message {
   margin-top: 12px;
-  color: #2e7d32;
+  color: rgb(108, 178, 61);
   font-size: 14px;
 }
 

@@ -1,8 +1,8 @@
 :root {
   --primary-font: 'Manrope', sans-serif;
   --black: rgb(18, 20, 23);
-  --green: rgb(129, 167, 109);
-  --gradient-green: linear-gradient(90deg, rgb(98, 129, 82), rgb(255, 255, 255));
+  --green: rgb(108, 178, 61);
+  --gradient-green: linear-gradient(90deg, rgb(108, 178, 61), rgb(255, 255, 255));
   --light-gray: rgb(243, 245, 246);
   --lighter-gray: rgb(243, 245, 246);
   --gray: rgb(243, 245, 246);
@@ -11,12 +11,12 @@
   --white-border: rgba(255, 255, 255, 0.1);
   /* --white-button-text: rgba(255, 255, 255, 0.4); */
   --white-container: rgba(255, 255, 255, 0.5);
-  --hover-green: rgb(129, 167, 109);
+  --hover-green:rgb(108, 178, 61);
   --form-border: rgba(18, 20, 23, 0.1);
   --form-agreement-text: rgba(18, 20, 23, 0.5);
   --form-app-text: rgba(255, 255, 255, 0.7);
   --icon-color: rgba(18, 20, 23, 0.8);
-  --icon-hover: rgba(129, 167, 109, 1);
+  --icon-hover: rgb(108, 178, 61);
   --icon-border: rgba(77, 194, 116, 0.1);
   --btn-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
   --common-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -54,14 +54,14 @@ a {
 }
 
 .title-primary {
-  color: rgba(129, 167, 109, 1);
+  color: rgb(108, 178, 61);
   font-size: 38px;
   font-weight: 700;
   line-height: 1.05;
 }
 
 .title-primary span {
-  color: rgba(129, 167, 109, 1);
+  color: rgb(108, 178, 61);
 }
 
 .section-title {
@@ -86,7 +86,7 @@ a {
   width: 100%;
   height: 12px;
   border-radius: 8px;
-  background-color: rgba(129, 167, 109, 1);
+  background-color: rgb(108, 178, 61);
   z-index: -1;
 
   transform-origin: center;
@@ -114,12 +114,12 @@ a {
   padding: 14px 16px;
   justify-content: center;
   align-items: center;
-  border: 2px solid rgba(129, 167, 109, 1);
+  border: 2px solid rgb(108, 178, 61);
   border-radius: 12px;
   outline: none;
   font-size: 14px;
   font-weight: 700;
-  color: rgb(231, 100, 7);
+  color: rgb(242, 81, 41);
   /* всегда оранжевый */
   line-height: 1.71;
   transition: background-color var(--common-transition), border-color var(--common-transition);
@@ -129,15 +129,15 @@ a {
 .button:focus {
   /* background-color: rgba(129, 167, 109, 1); */
   
-  border-color:rgb(231, 100, 7);
-  color: rgb(231, 100, 7);
+  border-color:rgb(242, 81, 41);
+  color: rgb(242, 81, 41);
   /* ← фикс цвета */
 }
 
 .button.outlined-button {
   background-color: transparent;
   border: 1px solid var(--white-button-text);
-  color: rgb(231, 100, 7);
+  color: rgb(242, 81, 41);
   /* фикс цвета */
 }
 
@@ -145,7 +145,7 @@ a {
 .button.outlined-button:focus {
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(255, 255, 255);
-  color: rgb(231, 100, 7);
+  color: rgb(242, 81, 41);
   /* ← оставляем ОРАНЖЕВЫЙ */
 }
 
@@ -171,7 +171,7 @@ a {
   bottom: -4px;
   width: 50%;
   height: 2px;
-  background-color: rgb(98, 129, 82);
+  background-color: rgb(108, 178, 61);
   opacity: 0;
   transform: scaleX(0);
   transform-origin: left;
@@ -207,7 +207,7 @@ a {
     line-height: inherit;
     padding: 16px 32px;
     height: 60px;
-    color: rgb(231, 100, 7);
+    color: rgb(242, 81, 41);
   }
 
   .title-primary {

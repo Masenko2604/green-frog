@@ -42,7 +42,7 @@
 
 .info-box {
   border-radius: 15px;
-  background: rgb(129, 167, 109);
+  background: rgb(108, 178, 61);
   padding: 14px;
   display: flex;
   align-items: center;
@@ -59,7 +59,7 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: rgb(129, 167, 109);
+  background: rgb(108, 178, 61);
   display: grid;
   place-items: center;
   overflow: hidden;
@@ -134,7 +134,7 @@
 .nav-btn:focus {
   opacity: 0.9;
   background: var(--white);
-  color: var(--green);
+  color: rgb(108, 178, 61);
 }
 
 .nav-btn:disabled {
@@ -181,7 +181,7 @@
   align-items: center;
   gap: 12px;
 
-  background: rgb(129, 167, 109);
+  background: rgb(108, 178, 61);
   border-radius: 15px;
 
   padding: 14px 16px;
@@ -199,7 +199,7 @@
   padding: 20px 20px 40px;
 }
 .info-box {
-  background: rgb(129, 167, 109);
+  background: rgb(108, 178, 61);
   border-radius: 20px;
 
   padding: 16px;

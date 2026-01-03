@@ -13,19 +13,19 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: 700;
-  color: rgb(129, 167, 109);
+  color: rgb(108, 178, 61);
 
 }
 
 .logo-green-span {
 
-  color: rgb(129, 167, 109);
+  color: rgb(108, 178, 61);
 
 
 }
 
 .logo-span {
-  color: rgb(231, 100, 7);
+  color: rgb(242, 81, 41);
 
 }
 
@@ -44,7 +44,7 @@
   width: 110%;
   height: 4px;
   border-radius: 4px;
-  background: rgba(129, 167, 109, 1);
+  background: rgb(108, 178, 61);
   transition: transform 300ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
@@ -91,54 +91,10 @@
 .header-nav-item:focus,
 .header-nav-item.active {
   .header-link {
-    color: rgb(98, 129, 82);
+    color:rgb(108, 178, 61);
   }
 }
 
-/* .lang-switch {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-  margin-left: 12px;
-  
-  .lang-switch{
-      display: block;
-      width: 32px;
-      height: 32px;
-      stroke: currentColor;
-      fill: none;
-  
-      @media screen and (min-width: 768px) {
-        width: 40px;
-        height: 28px;
-      }
-    }
-}
-
-.lang-btn {
-  min-width: 44px;
-  height: 36px;
-  border-radius: 10px;
-  border: 1px solid rgba(18, 20, 23, 0.08);
-  background: transparent;
-  font-weight: 700;
-  cursor: pointer;
-  transition: all 180ms ease;
-}
-
-.lang-btn:hover,
-.lang-btn:focus {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 14px rgba(18, 20, 23, 0.06);
-  border-color: rgba(129, 167, 109, 0.6);
-}
-
-.lang-btn.active {
-  background: rgba(129, 167, 109, 0.12);
-  border: 1px solid rgba(129, 167, 109, 1);
-  color: rgb(98, 129, 82);
-  box-shadow: 0 8px 20px rgba(129, 167, 109, 0.08);
-} */
 
 
 /* ===== MOBILE HEADER ===== */
@@ -185,8 +141,8 @@
 
 .lang-btn {
   background: transparent;
-  border: 1px solid rgba(129, 167, 109, 1);
-  color: rgba(129, 167, 109, 1);
+  border: 1px solid rgb(108, 178, 61);
+  color:rgb(108, 178, 61);
   padding: 6px 10px;
   border-radius: 6px;
   font-weight: 600;
@@ -194,6 +150,6 @@
 }
 
 .lang-btn:hover {
-  background: rgba(129, 167, 109, 1);
+  background:rgb(108, 178, 61);
   color: #ffffff;
 }

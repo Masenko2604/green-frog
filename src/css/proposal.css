@@ -14,7 +14,7 @@
 }
 
 .title-language {
-  color: rgb(231, 100, 7);
+  color: rgb(242, 81, 41);
 }
 
 .proposal-wrapper {
@@ -83,7 +83,7 @@
   justify-content: center;
   width: 20px;
   height: 20px;
-  background-color: rgb(231, 100, 7);
+  background-color: rgb(242, 81, 41);
   ;
   border-radius: 50%;
 }
