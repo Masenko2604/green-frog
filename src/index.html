@@ -1,88 +1,112 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
 
-<head>
-  <meta charset="UTF-8" />
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Viewport -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./favicon.png" />
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="./favicon.png" />
+    <!-- SEO -->
+    <title>Business Services in the Czech Republic | GreenFrog Office</title>
 
-  <!-- SEO -->
-  <title>Business Services in the Czech Republic | GreenFrog Office</title>
+    <meta
+      name="description"
+      content="Comprehensive business services in the Czech Republic: company registration, accounting, certified translations, bank account opening, licensing and legal support."
+    />
 
-  <meta name="description"
-    content="Comprehensive business services in the Czech Republic: company registration, accounting, certified translations, bank account opening, licensing and legal support." />
+    <meta
+      name="keywords"
+      content="business services Czech Republic, company registration Czech Republic, accounting services Prague, certified translations Czech Republic, legal support Czech Republic"
+    />
 
-  <meta name="keywords"
-    content="business services Czech Republic, company registration Czech Republic, accounting services Prague, certified translations Czech Republic, legal support Czech Republic" />
+    <!-- Open Graph -->
+    <meta
+      property="og:title"
+      content="Business Services in the Czech Republic | GreenFrog Office"
+    />
+    <meta
+      property="og:description"
+      content="Professional business services in the Czech Republic with full legal and administrative support."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://masenko2604.github.io/green-frog/"
+    />
+    <meta
+      property="og:image"
+      content="https://masenko2604.github.io/green-frog/og-image.jpg"
+    />
+  <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    script-src 'self' https://cdnjs.cloudflare.com https://unpkg.com https://cdn.jsdelivr.net;
+    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net;
+    font-src https://fonts.gstatic.com;
+    img-src 'self' data: https://masenko2604.github.io;
+    connect-src 'self' https://api.emailjs.com https://masenko2604.github.io;
+  " />
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="Business Services in the Czech Republic | GreenFrog Office" />
-  <meta property="og:description"
-    content="Professional business services in the Czech Republic with full legal and administrative support." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://masenko2604.github.io/green-frog/" />
-  <meta property="og:image" content="https://masenko2604.github.io/green-frog/og-image.jpg" />
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400..700&display=swap" rel="stylesheet" />
 
-  <!-- Normalize -->
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
 
-  <!-- Main styles -->
-  <link rel="stylesheet" href="./css/styles.css" />
-</head>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
 
-<body>
-  <!-- Header -->
-  <load src="partials/header.html" />
-  <load src="partials/mobile-menu.html" />
+    <!-- Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
 
-  <!-- Main content -->
-  <main>
-    <load src="partials/hero.html" />
-    <load src="partials/about_us.html" />
-    <load src="partials/proposal.html" />
-    <load src="partials/leave_app_form.html" />
-    <load src="partials/reviews.html" />
-  </main>
+    <!-- Main styles -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
 
-  <!-- Footer -->
-  <load src="partials/footer.html" />
+  <body>
+    <!-- Header -->
+    <load src="partials/header.html" />
+    <load src="partials/mobile-menu.html" />
 
-  <!-- Overlay -->
-  <div class="js-menu-overlay"></div>
+    <!-- Main content -->
+    <main>
+      <load src="partials/hero.html" />
+      <load src="partials/about_us.html" />
+      <load src="partials/proposal.html" />
+      <load src="partials/leave_app_form.html" />
+      <load src="partials/reviews.html" />
+    </main>
 
-  <!-- Libraries -->
-  <script src="https://unpkg.com/body-scroll-lock/lib/bodyScrollLock.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-  <script src="https://unpkg.com/i18next@23.10.1/i18next.min.js"></script>
+    <!-- Footer -->
+    <load src="partials/footer.html" />
 
-  <!-- EmailJS -->
-  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-  <script>
-    (function () {
-      emailjs.init('-fxlEiaaEB8sP79Pk');
-    })();
-  </script>
+    <!-- Overlay -->
+    <div class="js-menu-overlay"></div>
 
-  <!-- App scripts -->
-  <script type="module" src="./js/i18n.js"></script>
-  <script type="module" src="./js/lang-switcher.js"></script>
-  <script type="module" src="./main.js"></script>
-</body>
+    <!-- Libraries -->
+    <script src="https://unpkg.com/body-scroll-lock/lib/bodyScrollLock.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/i18next@23.10.1/i18next.min.js"></script>
 
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+      (function () {
+        emailjs.init('-fxlEiaaEB8sP79Pk');
+      })();
+    </script>
+
+    <!-- App scripts -->
+    <script type="module" src="./js/i18n.js"></script>
+    <script type="module" src="./js/lang-switcher.js"></script>
+    <script type="module" src="./main.js"></script>
+  </body>
 </html>
-
-
-
-
-
