@@ -178,7 +178,9 @@ document.addEventListener('DOMContentLoaded', function () {
     window.addEventListener('resize', layout);
     window.addEventListener('orientationchange', layout);
 
-    layout();
-    startAutoplay();
+    window.addEventListener('load', () => {
+  layout();
+  startAutoplay();
+});
   })();
 });
