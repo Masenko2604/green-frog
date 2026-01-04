@@ -135,6 +135,7 @@ a {
   border-color:rgb(242, 81, 41);
   color: rgb(242, 81, 41);
   /* ← фикс цвета */
+  background-color: transparent;
 }
 
 .button.outlined-button {
@@ -146,7 +147,7 @@ a {
 
 .button.outlined-button:hover,
 .button.outlined-button:focus {
-  background-color: rgb(255, 255, 255);
+  background-color: transparent;
   border: 1px solid rgb(255, 255, 255);
   color: rgb(242, 81, 41);
   /* ← оставляем ОРАНЖЕВЫЙ */
