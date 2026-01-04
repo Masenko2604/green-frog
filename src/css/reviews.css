@@ -262,12 +262,14 @@
 
 .info-box {
   border-radius: 15px;
-  background: rgb(108, 178, 61);
+  background:rgb(108, 178, 61);
+  /* border: 5px solid rgb(108, 178, 61); */
   padding: 14px;
   display: flex;
   align-items: center;
   gap: 8px;
   margin-bottom: 20px;
+  
 
   @media screen and (min-width: 768px) {
     margin-bottom: 32px;
@@ -278,8 +280,8 @@
   grid-area: img;
   width: 100px;
   height: 100px;
-  border-radius: 50%;
-  background: rgb(108, 178, 61);
+  border-radius: 50%; 
+  border-color: rgb(108, 178, 61);
   display: grid;
   place-items: center;
   overflow: hidden;
@@ -298,7 +300,7 @@
 }
 
 .info-title {
-  color: var(--white);
+  color: var(--black);
   font-size: 20px;
   font-weight: 700;
   line-height: 1.2;
