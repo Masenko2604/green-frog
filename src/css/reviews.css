@@ -276,8 +276,8 @@
 
 .review-img-box {
   grid-area: img;
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   background: rgb(108, 178, 61);
   display: grid;
@@ -313,10 +313,9 @@
 }
 
 .review-text {
-  color: var(--form-agreement-text);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  line-height: 1.35;
 }
 
 .nav-btn {
