@@ -1,7 +1,7 @@
 {
   "nav_services": "Services",
-  "nav_reviews": "Reviews",
-  "nav_contact": "Contact us",
+  "nav_reviews": "Questions",
+  "nav_contact": "Contacts",
 
   "hero.before": "Services in the",
   "hero.highlight": "Czech",
@@ -63,7 +63,7 @@
 
   "form_privacy_text": "By clicking on \"Send\" button, you agree to our <a class=\"text-link leave-item-link-text-down\" href=\"/privacy-policy\" target=\"_blank\">Privacy Policy</a> and allow us to use this information for marketing purposes.",
 
-  "reviews_title": "<span> Key Topics </span>",
+  "reviews_title": "<span> Questions </span>",
 
   "reviews_subtitle": "We provide clear and structured support at every stage of our cooperation. Below you will find essential information about how we communicate, formalize agreements, and stay connected throughout the entire service process.",
 
@@ -80,8 +80,8 @@
   "footer_address_label": "Address:",
 
   "footer_nav_services": "Services",
-  "footer_nav_reviews": "Reviews",
-  "footer_nav_contact": "Contact us",
+  "footer_nav_reviews": "Questions",
+  "footer_nav_contact": "Contacts",
 
   "footer_copyright": "GreenFrogOffice.<br>All rights reserved.",
 

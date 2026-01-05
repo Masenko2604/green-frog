@@ -1,7 +1,7 @@
 {
   "nav_services": "Послуги",
-  "nav_reviews": "Відгуки",
-  "nav_contact": "Зв’язатися з нами",
+  "nav_reviews": "Запитання",
+  "nav_contact": "Контакти",
 
   "hero.before": "Послуги в",
   "hero.highlight": "Чеській",
@@ -63,7 +63,7 @@
 
   "form_privacy_text": "Натискаючи кнопку «Надіслати», ви погоджуєтесь з нашою <a class=\"text-link leave-item-link-text-down\" href=\"/privacy-policy\" target=\"_blank\">Політикою конфіденційності</a> та дозволяєте використовувати цю інформацію в маркетингових цілях.",
 
-  "reviews_title": "<span> Ключові питання </span>",
+  "reviews_title": "<span> Запитання </span>",
 
   "reviews_subtitle": "Ми надаємо чітку та структуровану підтримку на кожному етапі співпраці. Нижче ви знайдете основну інформацію про те, як ми комунікуємо, оформлюємо угоди та підтримуємо зв’язок протягом усього процесу надання послуг.",
 
@@ -80,8 +80,8 @@
   "footer_address_label": "Адреса:",
 
   "footer_nav_services": "Послуги",
-  "footer_nav_reviews": "Відгуки",
-  "footer_nav_contact": "Зв’язатися з нами",
+  "footer_nav_reviews": "Запитання",
+  "footer_nav_contact": "Контакти",
   "footer_copyright": "GreenFrogOffice.<br>Усі права захищені.",
   "footer_email_label": "Електронна пошта:"
 }
