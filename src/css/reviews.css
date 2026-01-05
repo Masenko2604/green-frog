@@ -262,13 +262,13 @@
 
 .info-box {
   border-radius: 15px;
-  background:rgb(108, 178, 61);
-  /* border: 5px solid rgb(108, 178, 61); */
+  background:rgb(108, 178, 61);  
   padding: 14px;
   display: flex;
   align-items: center;
   gap: 8px;
   margin-bottom: 20px;
+
   
 
   @media screen and (min-width: 768px) {
