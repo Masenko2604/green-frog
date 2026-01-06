@@ -23,11 +23,11 @@
   "service_documents_title": "Accounting Services",
   "service_documents_text": "Comprehensive accounting support for small and medium-sized businesses. We handle bookkeeping, prepare reports, work with VAT (DPH), and monitor tax filing deadlines.",
 
-  "service_licenses_title": "Translations and Apostille",
-  "service_licenses_text": "We provide certified translations by sworn court translators, as well as apostille services for documents.",
+  "service_licenses_title": "Company Changes & Amendments",
+  "service_licenses_text": "We provide full support with making changes to your company structure and details, including amendments to corporate data, management, ownership, registered address, and other statutory information — efficiently and in full compliance with legal requirements.",
 
-  "service_representation_title": "Diploma Nostrification",
-  "service_representation_text": "Completion of the procedure for recognizing your foreign higher education as equivalent to Czech education.",
+  "service_representation_title": "Company Liquidation",
+  "service_representation_text": "We offer professional assistance with the complete liquidation of a company, handling all legal, administrative, and procedural steps to ensure a smooth and compliant closure of your business.",
 
   "form_title": "Leave an application",
   "form_description": "Please use the form below to contact us. Enter your name, email, and message and we will get back to you shortly.",
@@ -35,15 +35,15 @@
 
   "proposal_hidden_title": "Proposal to leave an application",
 
-  "proposal_title": "Extended <span class=\"title-language\">Service</span> Package",
+  "proposal_title": "Your Business - <span class=\"title-language\"> Without Borders!</span>",
 
-  "proposal_item_apostille": "Document apostille of personal and corporate documents for official use in the Czech Republic and abroad.",
+  "proposal_item_apostille": "Translations and Apostille: we provide certified translations by sworn court translators, as well as apostille services for documents.",
 
-  "proposal_item_databox": "Datová schránka setup. Application preparation and full assistance in opening a datová schránka, including client presence.",
+  "proposal_item_databox": "Diploma Nostrification: completion of the procedure for recognizing your foreign higher education as equivalent to Czech education.",
 
-  "proposal_item_bank": "Bank account opening support. Assistance with opening personal and corporate bank accounts in Czech banks, with required client presence.",
+  "proposal_item_bank": "Multilingual Communication: we communicate in English, Czech, Russian, and Ukrainian, ensuring clear and comfortable interaction at every stage.",
 
-  "proposal_item_power": "Service power of attorney. Preparation of a power of attorney for full service support, notarized at the client’s consulate if required.",
+  "proposal_item_power": "Fast Company Registration Without a Criminal Record Certificate: company registration without the need to provide a criminal record certificate — faster, simpler, and with no additional costs.",
 
   "proposal_button": "Leave an application",
 
