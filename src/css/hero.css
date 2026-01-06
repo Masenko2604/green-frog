@@ -136,7 +136,7 @@
 
 .hero-checkmark-container:hover .hero-use,
 .hero-checkmark-container:focus .hero-use {
-  fill: #ffffff;
+  fill: rgb(255, 255, 255);
 }
 
 /* =========================================================
