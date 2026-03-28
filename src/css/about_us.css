@@ -40,12 +40,9 @@
   border-radius: 16px;
   position: relative;
   box-shadow: 0 12px 28px rgb(177, 179, 177);
-  min-height: 320px;
-   
-    display: flex;
-    flex-direction: column;
-
-  
+  min-height: 320px;   
+  display: flex;
+  flex-direction: column; 
 
 
   @media screen and (min-width: 768px) {
