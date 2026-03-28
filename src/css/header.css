@@ -97,7 +97,7 @@
 
 
 
-/* ===== MOBILE HEADER ===== */
+
 @media screen and (max-width: 767px) {
 
   .header {
@@ -108,18 +108,18 @@
     justify-content: space-between;
   }
 
-  /* Скрываем навигацию */
+  
   .page-nav {
     display: none;
   }
 
-  /* Логотип меньше */
+  
   .nav-logo {
     font-size: 22px;
     line-height: 1.2;
   }
 
-  /* Языковые кнопки компактнее */
+ 
   .lang-switch {
     gap: 6px;
     margin-left: 0;

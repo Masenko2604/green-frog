@@ -9,7 +9,7 @@
   --gray-text-color: rgba(18, 20, 23, 0.5);
   --white: rgb(255, 255, 255);
   --white-border: rgba(255, 255, 255, 0.1);
-  /* --white-button-text: rgba(255, 255, 255, 0.4); */
+ 
   --white-container: rgba(255, 255, 255, 0.5);
   --hover-green:rgb(108, 178, 61);
   --form-border: rgba(18, 20, 23, 0.1);
@@ -123,18 +123,18 @@ a {
   font-size: 14px;
   font-weight: 700;
   color: rgb(242, 81, 41);
-  /* всегда оранжевый */
+
   line-height: 1.71;
   transition: background-color var(--common-transition), border-color var(--common-transition);
 }
 
 .button:hover,
 .button:focus {
-  /* background-color: rgba(129, 167, 109, 1); */
+ 
   
   border-color:rgb(242, 81, 41);
   color: rgb(242, 81, 41);
-  /* ← фикс цвета */
+ 
   background-color: transparent;
 }
 
@@ -142,7 +142,7 @@ a {
   background-color: transparent;
   border: 1px solid var(--white-button-text);
   color: rgb(242, 81, 41);
-  /* фикс цвета */
+  
 }
 
 .button.outlined-button:hover,
@@ -150,7 +150,7 @@ a {
   background-color: transparent;
   border: 1px solid rgb(255, 255, 255);
   color: rgb(242, 81, 41);
-  /* ← оставляем ОРАНЖЕВЫЙ */
+  
 }
 
 .visually-hidden {
@@ -263,7 +263,7 @@ a {
   opacity: 1;
   pointer-events: auto;
 }
-/* MOBILE */
+
 .section-subtitle {
   color: #000;
   font-size: 18px;
@@ -276,7 +276,7 @@ a {
   margin: 0 auto 40px;
 }
 
-/* TABLET + */
+
 @media screen and (min-width: 768px) {
   .section-subtitle {
     font-size: 24px;

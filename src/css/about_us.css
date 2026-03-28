@@ -41,7 +41,7 @@
   position: relative;
   box-shadow: 0 12px 28px rgb(177, 179, 177);
   min-height: 320px;
-    /* подбирается визуально */
+   
     display: flex;
     flex-direction: column;
 
@@ -87,7 +87,7 @@
   letter-spacing: -0.02em;
 }
 
-/* MOBILE */
+
 .section-subtitle {
   color: #000;
   font-size: 18px;
@@ -100,7 +100,7 @@
   margin: 0 auto 40px;
 }
 
-/* TABLET + */
+
 @media screen and (min-width: 768px) {
   .section-subtitle {
     font-size: 24px;
