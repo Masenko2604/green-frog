@@ -145,7 +145,7 @@
       linear-gradient(95.97deg,
         rgba(0, 0, 0, 0.4) 36.36%,
         rgba(0, 0, 0, 0) 51.43%),
-      url(/img/hero/block_tab@1x.jpg);
+      url(/img/hero/block_desk@1x.jpg);
   }
 
   @media (-webkit-min-device-pixel-ratio: 2),
@@ -155,7 +155,7 @@
         linear-gradient(95.97deg,
           rgba(0, 0, 0, 0.4) 36.36%,
           rgba(0, 0, 0, 0) 51.43%),
-        url(/img/hero/block_tab@2x.jpg);
+        url(/img/hero/block_desk@2x.jpg);
     }
   }
 
@@ -197,7 +197,7 @@
       linear-gradient(95.97deg,
         rgba(0, 0, 0, 0.4) 36.36%,
         rgba(0, 0, 0, 0) 51.43%),
-      url(/img/hero/block_desk@1x.jpg);
+      url(/img/hero/block_tab@1x.jpg);
   }
 
   @media (-webkit-min-device-pixel-ratio: 2),
@@ -207,7 +207,7 @@
         linear-gradient(95.97deg,
           rgba(0, 0, 0, 0.4) 36.36%,
           rgba(0, 0, 0, 0) 51.43%),
-        url(/img/hero/block_desk@2x.jpg);
+        url(/img/hero/block_tab2x.jpg);
     }
   }
 
