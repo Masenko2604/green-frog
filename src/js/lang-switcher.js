@@ -32,6 +32,32 @@ document.addEventListener('i18nReady', () => {
     });
   });
 });
+const langSwitcher = document.querySelector('.lang-switcher');
+
+if (langSwitcher) {
+  const globeButton = langSwitcher.querySelector('.lang-btn:not([data-lang])');
+  const langMenu = langSwitcher.querySelector('.lang-menu');
+
+  if (globeButton && langMenu) {
+
+    globeButton.addEventListener('click', (event) => {
+      event.stopPropagation();
+      langSwitcher.classList.toggle('open');
+    });
+
+    document.addEventListener('click', (event) => {
+      if (!langSwitcher.contains(event.target)) {
+        langSwitcher.classList.remove('open');
+      }
+    });
+
+    langMenu.querySelectorAll('[data-lang]').forEach(button => {
+      button.addEventListener('click', () => {
+        langSwitcher.classList.remove('open');
+      });
+    });
+  }
+}
 
 
 
