@@ -118,7 +118,7 @@ a {
   justify-content: center;
   align-items: center;
   border: 2px solid rgb(108, 178, 61);
-  border-radius: 12px;
+  border-radius: 50px;
   outline: none;
   font-size: 14px;
   font-weight: 700;
@@ -132,8 +132,8 @@ a {
 .button:focus {
  
   
-  border-color:rgb(242, 81, 41);
-  color: rgb(242, 81, 41);
+  border-color:rgb(232, 62, 19);
+  color: rgb(238, 64, 20);
  
   background-color: transparent;
 }

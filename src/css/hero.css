@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
 .hero-content {
   padding: 425px 14px 14px 20px;
   align-items: start;
@@ -10,18 +12,12 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image:
-    linear-gradient(95.97deg,
-      rgba(0, 0, 0, 0.4) 36.36%,
-      rgba(0, 0, 0, 0) 51.43%),
+  background-image:    
     url(/img/hero/block_mob@1x.jpg);
 }
 
 .hero-section {
-  background-image:
-    linear-gradient(95.97deg,
-      rgba(0, 0, 0, 0.4) 36.36%,
-      rgba(0, 0, 0, 0) 51.43%),
+  background-image:    
     -webkit-image-set(url(/img/hero/block_mob@1x.jpg) 1x,
       url(/img/hero/block_mob@2x.jpg) 2x);
 }
@@ -29,20 +25,44 @@
 @media (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
   .hero-section {
-    background-image:
-      linear-gradient(95.97deg,
-        rgba(0, 0, 0, 0.4) 36.36%,
-        rgba(0, 0, 0, 0) 51.43%),
+    background-image:     
       url(/img/hero/block_mob@2x.jpg);
   }
 }
 
 .hero-text {
   font-family: inherit;
-  font-size: 38px;
-  line-height: 1.05;
-  color: var(--white);
-  max-width: 295px;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.08;
+  letter-spacing: -1px;
+  color: rgb(4, 58, 4);
+  max-width: 760px;
+  margin: 0;
+}
+.hero-text>span:last-child {
+  display: block;
+  margin-top: 8px;
+
+  font-family: 'Allura', cursive;
+  font-size: 58px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 0;
+
+  color: rgb(242, 81, 41);
+}
+.hero-description {
+  max-width: 500px;
+  margin: 18px 0 26px;
+
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: rgba(4, 58, 4, 0.62);
 }
 
 .hero-english {
@@ -55,6 +75,8 @@
   margin-top: 40px;
   max-width: 295px;
   width: 100%;
+  background-color:var(--green);
+  color:rgb(243, 245, 242);
 }
 
 .hero-svg {
@@ -63,7 +85,7 @@
 }
 
 .hero-use {
-  fill: var(--green);
+  fill: var(--white);
 }
 
 .hero-checkmark {
@@ -74,7 +96,7 @@
 }
 
 .hero-checkmark-container {
-  background-color: white;
+  background-color:rgb(242, 81, 41);
   width: 38px;
   height: 38px;
   border-radius: 50%;
@@ -101,18 +123,12 @@
     border-radius: 30px;
     margin: 32px auto 100px;
     max-width: 704px;
-    background-image:
-      linear-gradient(95.97deg,
-        rgba(0, 0, 0, 0.4) 36.36%,
-        rgba(0, 0, 0, 0) 51.43%),
+    background-image:      
       url(/img/hero/block_tab@1x.jpg);
   }
 
   .hero-section {
-    background-image:
-      linear-gradient(95.97deg,
-        rgba(0, 0, 0, 0.4) 36.36%,
-        rgba(0, 0, 0, 0) 51.43%),
+    background-image:     
       -webkit-image-set(url(/img/hero/block_tab@1x.jpg) 1x,
         url(/img/hero/block_tab@2x.jpg) 2x);
   }
@@ -121,10 +137,7 @@
   @media (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi) {
     .hero-section {
-      background-image:
-        linear-gradient(95.97deg,
-          rgba(0, 0, 0, 0.4) 36.36%,
-          rgba(0, 0, 0, 0) 51.43%),
+      background-image:        
         url(/img/hero/block_tab@2x.jpg);
     }
   }
@@ -160,19 +173,14 @@
     border-radius: 30px;
     margin: 16px auto 96px;
     max-width: 1152px;
-    background-image:
-      linear-gradient(95.97deg,
-        rgba(0, 0, 0, 0.4) 36.36%,
-        rgba(0, 0, 0, 0) 51.43%),
+    background-image:     
+   
       url(/img/hero/block_desk@1x.jpg);
   }
 
   /* WebKit для десктоп */
   .hero-section {
-    background-image:
-      linear-gradient(95.97deg,
-        rgba(0, 0, 0, 0.4) 36.36%,
-        rgba(0, 0, 0, 0) 51.43%),
+    background-image:      
       -webkit-image-set(url(/img/hero/block_desk@1x.jpg) 1x,
         url(/img/hero/block_desk@2x.jpg) 2x);
   }
@@ -180,10 +188,7 @@
   @media (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi) {
     .hero-section {
-      background-image:
-        linear-gradient(95.97deg,
-          rgba(0, 0, 0, 0.4) 36.36%,
-          rgba(0, 0, 0, 0) 51.43%),
+      background-image:       
         url(/img/hero/block_desk@2x.jpg);
     }
   }

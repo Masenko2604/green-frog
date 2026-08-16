@@ -17,7 +17,7 @@
 }
 
 .logo-green-span {
-  color: rgb(108, 178, 61);
+  color:var(--green);
 }
 
 .logo-span {
@@ -27,6 +27,7 @@
 .nav-link {
   font-size: 18px;
   font-weight: 800;
+  color: rgb(4, 58, 4);
 }
 
 .nav-link::after {
@@ -58,9 +59,10 @@
 }
 
 .header-link {
-  color: var(--black);
+  color: rgb(4, 58, 4);
   transition: var(--common-transition);
   transition-property: color;
+
 }
 
 .social,
@@ -94,6 +96,10 @@
    LANGUAGE SWITCHER
    ========================= */
 
+/* =========================
+   LANGUAGE SWITCHER
+   ========================= */
+
 .lang-switcher {
   position: relative;
   margin-left: 16px;
@@ -111,27 +117,26 @@
 
   background: transparent;
   border: none;
-  border-radius: 8px;
+  border-radius: 50%;
 
   cursor: pointer;
 }
 
 .globe-icon {
-  width: 30px;
-  height: 30px;
+  width: 36px;
+  height: 36px;
   object-fit: contain;
 
   transition: transform 0.2s ease;
 }
 
 .lang-switcher>.lang-btn:hover {
-  background: transparent;
+  background: rgba(108, 178, 61, 0.08);
 }
 
 .lang-switcher>.lang-btn:hover .globe-icon {
   transform: scale(1.08);
 }
-
 
 /* =========================
    DROPDOWN MENU
@@ -180,7 +185,7 @@
 
 .lang-menu .lang-btn {
   width: 100%;
-  height: 36px;
+  height: 48px;
 
   display: flex;
   align-items: center;
@@ -238,17 +243,46 @@
     margin-left: 0;
   }
 
-  .lang-switcher>.lang-btn {
-    width: 38px;
-    height: 38px;
-  }
-
-  .globe-icon {
-    width: 27px;
-    height: 27px;
-  }
+    .lang-switcher>.lang-btn {
+      width: 38px;
+      height: 38px;
+    }
+  
+     .globe-icon {
+       width: 26px;
+       height: 26px;
+     }
 
   .lang-menu {
     width: 145px;
   }
+}
+.lang-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+
+  width: 150px;
+  padding: 6px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+
+  background: #ffffff;
+  border: 1px solid rgba(108, 178, 61, 0.35);
+  border-radius: 10px;
+
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.10);
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-6px);
+
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease,
+    visibility 0.2s ease;
+
+  z-index: 9999;
 }

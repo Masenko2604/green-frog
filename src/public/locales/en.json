@@ -3,13 +3,14 @@
   "nav_reviews": "Questions",
   "nav_contact": "Contacts",
 
-  "hero.before": "Services in the",
-  "hero.highlight": "Czech",
-  "hero.after": "Republic!",
+  "hero.before": "Business & Personal",
+  "hero.highlight": "Services",
+  "hero.after": "in Czechia ♡",
+  "hero.description": "Company registration, accounting, certified translations and legal support — everything you need for a successful start and comfortable life in the Czech Republic.",
   "hero_button": "Leave an application",
 
   "seo": {
-    "title": "Business Services in the Czech Republic",
+    "title": "Business & Personal Services",
     "description": "Company formation, accounting, certified translations, bank account opening, licensing, legal support, and full administrative assistance in the Czech Republic",
     "keywords": "business services Czech Republic, company registration Czech Republic, accounting services Czech Republic, certified translations Czech Republic, business support Czech Republic"
   },

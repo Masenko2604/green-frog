@@ -1,0 +1,90 @@
+{
+  "nav_services": "Služby",
+  "nav_reviews": "Otázky",
+  "nav_contact": "Kontakt",
+
+  "hero.before": "Služby pro",
+  "hero.highlight": "právnické a fyzické",
+  "hero.after": "osoby ♡",
+  "hero.description": "Registrace společností, účetnictví, ověřené překlady a právní podpora — vše, co potřebujete pro úspěšný začátek podnikání a pohodlný život v Česku.",
+  "hero_button": "Nezávazná poptávka",
+
+  "seo": {
+    "title": "Služby pro právnické a fyzické osoby",
+    "description": "Komplexní služby pro právnické a fyzické osoby v České republice — registrace společností, účetnictví, ověřené překlady, právní podpora a administrativní služby.",
+    "keywords": "služby pro právnické osoby, služby pro fyzické osoby, registrace společnosti, účetnictví, ověřené překlady, právní podpora, administrativní služby, Česká republika"
+  },
+
+  "about_title": "Služby",
+  "about_subtitle": "Zakládání společností, účetnictví, ověřené překlady, otevření bankovního účtu, licencování, právní podpora a kompletní administrativní služby — rychle, spolehlivě a plně přizpůsobené vašim potřebám",
+
+  "service_formation_title": "Registrace společnosti",
+  "service_formation_text": "Zajišťujeme kompletní vzdálenou registraci společnosti v České republice. Připravíme všechny potřebné dokumenty k založení společnosti; celý proces registrace je rychlý a transparentní.",
+
+  "service_documents_title": "Účetní služby",
+  "service_documents_text": "Komplexní účetní podpora pro malé a střední podniky. Vedeme účetnictví, připravujeme přehledy, pracujeme s DPH a sledujeme termíny pro podání daňových přiznání.",
+
+  "service_licenses_title": "Změny a úpravy",
+  "service_licenses_text": "Poskytujeme kompletní podporu při změnách údajů společnosti, včetně změn zakladatelských dokumentů, vedení společnosti, společníků, sídla a dalších údajů.",
+
+  "service_representation_title": "Likvidace společnosti",
+  "service_representation_text": "Nabízíme profesionální pomoc při kompletní likvidaci společnosti. Zajišťujeme všechny právní, administrativní a procesní kroky tak, aby ukončení podnikání proběhlo hladce a v souladu s právními předpisy.",
+
+  "form_title": "Nezávazná poptávka",
+  "form_description": "Použijte prosím níže uvedený formulář a kontaktujte nás. Uveďte své jméno, e-mail a zprávu a my se vám brzy ozveme.",
+  "form_success": "Děkujeme! Vaše zpráva byla odeslána.",
+
+  "proposal_hidden_title": "Nezávazná poptávka",
+
+  "proposal_title": "Vaše podnikání - <span class=\"title-language\">Bez hranic!</span>",
+
+  "proposal_item_apostille": "Překlady a apostila: zajišťujeme ověřené překlady prostřednictvím soudních překladatelů a také apostilu dokumentů.",
+
+  "proposal_item_databox": "Nostrifikace diplomu: zajištění procesu uznání vašeho zahraničního vysokoškolského vzdělání jako rovnocenného českému vzdělání.",
+
+  "proposal_item_bank": "Vícejazyčná komunikace: komunikujeme anglicky, česky, rusky a ukrajinsky a zajišťujeme jasnou a pohodlnou komunikaci v každé fázi spolupráce.",
+
+  "proposal_item_power": "Rychlá registrace společnosti bez výpisu z rejstříku trestů: registrace společnosti bez nutnosti předkládat výpis z rejstříku trestů — rychleji, jednodušeji a bez dalších nákladů.",
+
+  "proposal_button": "Nezávazná poptávka",
+
+  "form_name_label": "Jméno",
+  "form_name_placeholder": "Jméno",
+
+  "form_phone_label": "Telefon",
+  "form_phone_placeholder": "Telefon",
+
+  "form_email_label": "E-mail",
+  "form_email_placeholder": "E-mail",
+
+  "form_comment_label": "Komentář",
+  "form_comment_placeholder": "Komentář",
+
+  "form_submit": "Odeslat",
+
+  "form_privacy_text": "Kliknutím na tlačítko „Odeslat“ souhlasíte s našimi <a class=\"text-link leave-item-link-text-down\" href=\"/privacy-policy\" target=\"_blank\">Zásadami ochrany osobních údajů</a> a dovolujete nám tyto informace používat pro marketingové účely.",
+
+  "reviews_title": "<span>Otázky</span>",
+
+  "reviews_subtitle": "Poskytujeme jasnou a strukturovanou podporu v každé fázi naší spolupráce. Níže najdete důležité informace o tom, jak komunikujeme, formalizujeme dohody a zůstáváme v kontaktu po celou dobu poskytování služeb.",
+
+  "reviews_questions_title": "Otázky",
+  "reviews_questions_text": "Neváhejte se na nás obrátit s jakýmikoli otázkami — rádi objasníme všechny podrobnosti, vysvětlíme průběh spolupráce a poskytneme jasné a komplexní informace.",
+
+  "reviews_agreement_title": "Proč si vybrat nás?",
+  "reviews_agreement_text": "Zjednodušujeme proces registrace a správy společnosti v České republice a činíme jej přehledným a pohodlným. Poskytujeme kvalitní služby a každému klientovi věnujeme individuální pozornost.",
+
+  "reviews_contact_title": "Jak nás kontaktovat",
+  "reviews_contact_text": "Zavolejte nám nebo odešlete svou žádost prostřednictvím kontaktního formuláře. Uveďte účel svého dotazu a základní informace o vaší společnosti, abychom vám mohli co nejpřesněji odpovědět.",
+
+  "footer_phone_label": "Telefonní číslo:",
+  "footer_address_label": "Adresa:",
+
+  "footer_nav_services": "Služby",
+  "footer_nav_reviews": "Otázky",
+  "footer_nav_contact": "Kontakt",
+
+  "footer_copyright": "GreenFrogOffice.<br>Všechna práva vyhrazena.",
+
+  "footer_email_label": "E-mail:"
+}
