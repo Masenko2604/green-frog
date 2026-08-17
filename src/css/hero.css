@@ -1,21 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 
 .hero-content {
-  padding: 425px 14px 14px 20px;
-  align-items: start;
+  padding: 130px 20px 24px;
+  align-items: flex-start;
 }
-
 .hero-section {
   border-radius: 16px;
   margin: 8px auto 80px;
-  max-width: 335px; 
+  max-width: 335px;
+  min-height: 700px;
   background-size: cover;
-  background-position: center;
+  background-position: center 115%;
   background-repeat: no-repeat;
-  background-image:    
-    url(/img/hero/block_mob@1x.jpg);
 }
-
 .hero-section {
   background-image:    
     -webkit-image-set(url(/img/hero/block_mob@1x.jpg) 1x,
@@ -32,7 +29,7 @@
 
 .hero-text {
   font-family: inherit;
-  font-size: 42px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 1.08;
   letter-spacing: -1px;
@@ -54,7 +51,7 @@
   color: rgb(242, 81, 41);
 }
 .hero-description {
-  max-width: 500px;
+  max-width: 275px;
   margin: 18px 0 26px;
 
   font-family: inherit;
@@ -117,6 +114,22 @@
   fill: var(--white);
 }
 
+@media screen and (max-width: 767px) {
+  .hero-description {
+    display: none;
+  }
+
+    .hero-button {
+      display: flex;
+      justify-content: center;
+      margin-top: 230px;
+      max-width: 295px;
+      width: 100%;
+      background-color: var(--green);
+      color: rgb(243, 245, 242);
+    }
+}
+
 /* Tablet */
 @media (min-width: 768px) and (max-width: 1279px) {
   .hero-section {
@@ -147,7 +160,7 @@
   }
 
   .hero-button {
-    margin-top: 32px;
+    margin-top: 70px;
     max-width: 306px;
   }
 
