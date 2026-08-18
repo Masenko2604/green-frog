@@ -24,10 +24,16 @@ function updateContent() {
 // i18n
 // ========================================
 
+// document.addEventListener('i18nReady', () => {
+//   updateContent();
+// });
 document.addEventListener('i18nReady', () => {
+  console.log('i18nReady');
+  console.log('questions_title:', i18next.t('questions_title'));
+  console.log('faq_q1:', i18next.t('faq_q1'));
+
   updateContent();
 });
-
 
 // ========================================
 // LANGUAGE SWITCHER
