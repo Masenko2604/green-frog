@@ -86,5 +86,57 @@
 
   "footer_copyright": "GreenFrogOffice.<br>All rights reserved.",
 
-  "footer_email_label": "Email:"
+  "footer_email_label": "Email:",
+  "questions_title": "Questions & Answers",
+  "questions_description": "We provide clear and structured support at every stage of our cooperation. Below you will find answers to the most common questions about our services and doing business in the Czech Republic.",
+
+  "faq_q1": "How can I register a company in the Czech Republic?",
+  "faq_a1": "We can assist you with the entire process of establishing a Czech s.r.o., from preparing the necessary documents to arranging the registration with the relevant authorities. Depending on your situation, we can also help with the registered office, trade licence, business bank account and other administrative formalities. Before starting, we explain each step and provide you with a clear list of the documents required.",
+
+  "faq_q2": "Do I need to be in the Czech Republic to register a company?",
+  "faq_a2": "In many cases, you do not need to be physically present in the Czech Republic. Company registration and related formalities can often be arranged remotely using a power of attorney and properly prepared documents. We will explain which steps can be completed remotely and when personal presence or notarisation may be required.",
+
+  "faq_q3": "What documents are required to register an s.r.o.?",
+  "faq_a3": "The required documents depend on the shareholders, directors, nationality and planned business activities of the company. Typically, identification documents and information about the future company, its registered office, shareholders and directors are required. We will provide you with a personalised list of documents and help prepare them for the registration process.",
+
+  "faq_q4": "How long does company registration take?",
+  "faq_a4": "The registration timeframe depends on how quickly the required documents can be prepared and on the procedures of the relevant authorities. Additional steps, such as obtaining a trade licence or arranging a registered office, may also affect the overall timeframe. We will explain the expected procedure and timeframe before we start working on your case.",
+
+  "faq_q5": "Can you help me open a business bank account?",
+  "faq_a5": "Yes. We can help you prepare the documents and information required for opening a business bank account in the Czech Republic. We can also explain the general procedure and help you communicate with the bank during the application process. The final decision to open an account is always made by the bank after its own compliance checks.",
+
+  "faq_q6": "Do I need a trade licence in the Czech Republic?",
+  "faq_a6": "This depends on the type of business activity you plan to carry out. Some activities can be performed under a general trade licence, while others may require professional qualifications, a specific authorisation or a different type of permit. We can help you identify the requirements applicable to your planned business activities and arrange the necessary formalities.",
+
+  "faq_q7": "Can you provide accounting services for my company?",
+  "faq_a7": "Yes. We can provide ongoing accounting support for companies operating in the Czech Republic. Depending on your needs, this may include bookkeeping, preparation of accounting documents and reports, VAT-related administration and monitoring of important tax and accounting deadlines. We can discuss the scope of services based on the size and activities of your company.",
+
+  "faq_q8": "Can you help with VAT registration?",
+  "faq_a8": "Yes. We can assist with VAT (DPH) registration and help prepare the documents and information required for the application. We can also explain the basic obligations connected with VAT registration and ongoing VAT administration. The appropriate registration procedure depends on the company's activities and individual circumstances.",
+
+  "faq_q9": "Can you help with a Czech data box (datová schránka)?",
+  "faq_a9": "Yes. We can help you understand how the Czech data box (datová schránka) works and assist with the related administrative procedures. A data box is an important communication channel between companies and Czech public authorities. We can also explain how to use it and what responsibilities are connected with receiving official electronic communications.",
+
+  "faq_q10": "Can you provide certified translations?",
+  "faq_a10": "Yes. We can arrange certified translations of documents into or from Czech through qualified sworn court translators. This service can be useful for documents required by Czech authorities, banks, courts or other institutions. We can help determine what type of translation or certification is required for your particular document.",
+
+  "faq_q11": "Can you help with powers of attorney and notarisation?",
+  "faq_a11": "Yes. We can help prepare the documents required for a power of attorney and explain when notarisation or a certified signature may be necessary. This can be particularly useful when company registration or other administrative procedures are being handled remotely. Where required, we can help coordinate the notarisation process.",
+
+  "faq_q12": "Can you help with apostille or legalisation of documents?",
+  "faq_a12": "Yes. We can assist with the apostille or legalisation of documents intended for use in another country. The procedure depends on the type of document, the country where it will be used and the requirements of the receiving authority. We can help determine which form of certification is required and coordinate the necessary steps.",
+
+  "faq_q13": "Can I receive legal assistance for my business?",
+  "faq_a13": "Yes. If your matter requires professional legal advice, we can help arrange a consultation with a qualified Czech lawyer. This may include matters related to contracts, corporate issues, business activities or other legal questions. The lawyer will assess your specific situation and provide legal advice within their professional competence.",
+
+  "faq_q14": "Can I arrange the services remotely?",
+  "faq_a14": "Many of our services can be arranged remotely, which makes the process convenient for clients who are outside the Czech Republic. Depending on the service, documents may be signed electronically, by power of attorney or with a certified signature. We will explain the procedure and let you know if any step requires your personal presence.",
+
+  "faq_q15": "How can I request a consultation?",
+  "faq_a15": "You can contact us by phone, email or through the application form on our website. Please briefly describe what you need help with and provide the key details of your situation, if possible. We will review your request and explain the next steps, including arranging a consultation with an appropriate specialist when necessary.",
+
+  "questions_contact_title": "Didn't find the answer?",
+  "questions_contact_text": "Contact us and describe your situation. We will be happy to discuss your requirements and explain the next steps.",
+  "questions_contact_button": "Leave an application",
+  "questions_back": "← Back to website"
 }
