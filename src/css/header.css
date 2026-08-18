@@ -126,6 +126,8 @@
   width: 36px;
   height: 36px;
   object-fit: contain;
+  background-color:#ffffff;
+  border-radius: 50%;
 
   transition: transform 0.2s ease;
 }

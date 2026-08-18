@@ -94,6 +94,7 @@
 .questions-contact {
   margin-top: 90px;
   text-align: center;
+  
 }
 
 .questions-contact h2 {
@@ -108,13 +109,14 @@
 
   font-size: 18px;
   line-height: 1.6;
-  color: #666;
+  color: oklch(100% 0.00011 271.152);
 }
 
 .questions-contact-button {
   width: 100%;
   max-width: 700px;
   margin: 0 auto;
+  background-color: rgb(108, 178, 61);
 }
 
 .questions-back {
@@ -129,6 +131,31 @@
 
 .questions-back:hover {
   text-decoration: underline;
+}
+.questions-back {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 32px;
+  padding: 14px 32px;
+
+  border: 2px solid #ff542f;
+  border-radius: 50px;
+  color: #ffffff;
+  background-color: rgb(255, 84, 47);
+
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+
+  transition: all 0.25s ease;
+}
+
+.questions-back:hover,
+.questions-back:focus {
+  color: #ffffff;
+  background-color:rgb(108, 178, 61);
 }
 
 
@@ -204,4 +231,7 @@
   .questions-contact-button {
     width: 100%;
   }
+}
+.questions-contact-button {
+  color: #ffffff;
 }

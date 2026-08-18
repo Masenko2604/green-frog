@@ -86,5 +86,58 @@
 
   "footer_copyright": "GreenFrogOffice.<br>Všechna práva vyhrazena.",
 
-  "footer_email_label": "E-mail:"
+  "footer_email_label": "E-mail:",
+
+  "questions_title": "Otázky a odpovědi",
+  "questions_description": "Poskytujeme jasnou a strukturovanou podporu v každé fázi naší spolupráce. Níže najdete odpovědi na nejčastější otázky týkající se našich služeb a podnikání v České republice.",
+
+  "faq_q1": "Jak mohu založit společnost v České republice?",
+  "faq_a1": "Můžeme vám pomoci s celým procesem založení české s.r.o. – od přípravy potřebných dokumentů až po registraci u příslušných úřadů. V závislosti na vaší situaci vám můžeme pomoci také se sídlem společnosti, živnostenským oprávněním, otevřením podnikatelského bankovního účtu a dalšími administrativními formalitami. Před zahájením spolupráce vám vysvětlíme jednotlivé kroky a poskytneme jasný seznam potřebných dokumentů.",
+
+  "faq_q2": "Musím být při registraci společnosti v České republice osobně přítomen?",
+  "faq_a2": "V mnoha případech není nutné být v České republice osobně. Registraci společnosti a související formality lze často vyřídit na dálku na základě plné moci a správně připravených dokumentů. Vysvětlíme vám, které kroky lze vyřídit na dálku a kdy může být nutná osobní přítomnost nebo notářské ověření.",
+
+  "faq_q3": "Jaké dokumenty jsou potřeba k založení s.r.o.?",
+  "faq_a3": "Požadované dokumenty závisí na společnících, jednatelích, jejich občanství a plánované podnikatelské činnosti společnosti. Obvykle jsou potřeba doklady totožnosti a informace o budoucí společnosti, jejím sídle, společnících a jednatelích. Poskytneme vám individuální seznam dokumentů a pomůžeme s jejich přípravou pro registraci.",
+
+  "faq_q4": "Jak dlouho trvá založení společnosti?",
+  "faq_a4": "Doba registrace závisí na rychlosti přípravy potřebných dokumentů a na postupech příslušných úřadů. Celkovou dobu mohou ovlivnit také další kroky, například získání živnostenského oprávnění nebo zajištění sídla společnosti. Před zahájením práce vám vysvětlíme předpokládaný postup a orientační časový rámec.",
+
+  "faq_q5": "Můžete mi pomoci s otevřením podnikatelského bankovního účtu?",
+  "faq_a5": "Ano. Můžeme vám pomoci připravit dokumenty a informace potřebné k otevření podnikatelského účtu v české bance. Vysvětlíme vám také obecný postup a můžeme vám pomoci při komunikaci s bankou během podání žádosti. Konečné rozhodnutí o otevření účtu vždy činí banka na základě vlastní kontroly klienta.",
+
+  "faq_q6": "Potřebuji v České republice živnostenské oprávnění?",
+  "faq_a6": "Záleží na druhu podnikatelské činnosti, kterou plánujete vykonávat. Některé činnosti lze provozovat na základě běžného živnostenského oprávnění, zatímco jiné mohou vyžadovat odbornou způsobilost, zvláštní povolení nebo jiný typ oprávnění. Pomůžeme vám zjistit požadavky vztahující se k vaší plánované činnosti a vyřídit potřebné formality.",
+
+  "faq_q7": "Můžete pro mou společnost zajišťovat účetní služby?",
+  "faq_a7": "Ano. Můžeme poskytovat průběžnou účetní podporu společnostem působícím v České republice. Podle vašich potřeb může služba zahrnovat vedení účetnictví, přípravu účetních dokladů a výkazů, administrativu související s DPH a sledování důležitých daňových a účetních termínů. Rozsah služeb můžeme přizpůsobit velikosti a činnosti vaší společnosti.",
+
+  "faq_q8": "Můžete mi pomoci s registrací k DPH?",
+  "faq_a8": "Ano. Můžeme vám pomoci s registrací k DPH a připravit potřebné dokumenty a informace pro podání žádosti. Můžeme také vysvětlit základní povinnosti spojené s registrací a následnou administrativou DPH. Konkrétní postup závisí na činnosti společnosti a její individuální situaci.",
+
+  "faq_q9": "Můžete mi pomoci s datovou schránkou?",
+  "faq_a9": "Ano. Můžeme vám pomoci s orientací v používání datové schránky a se souvisejícími administrativními postupy. Pro společnosti je datová schránka důležitým kanálem oficiální elektronické komunikace se státními orgány České republiky. Vysvětlíme vám také základní způsob jejího používání a povinnosti spojené s přijímáním úředních zpráv.",
+
+  "faq_q10": "Můžete zajistit úředně ověřené překlady?",
+  "faq_a10": "Ano. Můžeme zajistit úředně ověřené překlady dokumentů z češtiny nebo do češtiny prostřednictvím kvalifikovaných soudních překladatelů. Tato služba může být potřebná u dokumentů předkládaných českým úřadům, bankám, soudům nebo jiným institucím. Pomůžeme vám určit, jaký typ překladu nebo ověření je pro váš dokument potřebný.",
+
+  "faq_q11": "Můžete pomoci s plnou mocí a notářským ověřením?",
+  "faq_a11": "Ano. Můžeme pomoci připravit potřebné dokumenty pro udělení plné moci a vysvětlit, kdy je nutné notářské ověření nebo ověření podpisu. To je užitečné zejména v případě, kdy jsou registrace společnosti nebo jiné administrativní postupy vyřizovány na dálku. V případě potřeby můžeme pomoci také s organizací notářského ověření.",
+
+  "faq_q12": "Můžete pomoci s apostilou nebo legalizací dokumentů?",
+  "faq_a12": "Ano. Můžeme pomoci s vyřízením apostily nebo legalizace dokumentů určených k použití v jiné zemi. Postup závisí na typu dokumentu, zemi, ve které bude dokument použit, a požadavcích příslušného úřadu. Pomůžeme vám určit potřebný typ ověření a koordinovat jednotlivé kroky.",
+
+  "faq_q13": "Mohu získat právní pomoc pro své podnikání?",
+  "faq_a13": "Ano. Pokud vaše záležitost vyžaduje odborné právní poradenství, můžeme vám pomoci zajistit konzultaci s kvalifikovaným českým advokátem. Může se jednat například o smlouvy, otázky týkající se společnosti, podnikatelské činnosti nebo jiné právní záležitosti. Advokát posoudí vaši konkrétní situaci a poskytne právní poradenství v rámci své odborné působnosti.",
+
+  "faq_q14": "Lze služby vyřídit na dálku?",
+  "faq_a14": "Mnoho našich služeb lze vyřídit na dálku, což je praktické zejména pro klienty, kteří se nacházejí mimo Českou republiku. V závislosti na konkrétní službě lze dokumenty vyřídit elektronicky, prostřednictvím plné moci nebo s ověřeným podpisem. Vysvětlíme vám celý postup a předem vás upozorníme, zda bude v některé fázi nutná vaše osobní přítomnost.",
+
+  "faq_q15": "Jak si mohu objednat konzultaci?",
+  "faq_a15": "Kontaktovat nás můžete telefonicky, e-mailem nebo prostřednictvím kontaktního formuláře na našich webových stránkách. Stručně popište, s čím potřebujete pomoci, a pokud možno uveďte základní informace o své situaci. Vaši žádost posoudíme, vysvětlíme další postup a v případě potřeby zajistíme konzultaci s vhodným odborníkem.",
+
+  "questions_contact_title": "Nenašli jste odpověď na svou otázku?",
+  "questions_contact_text": "Kontaktujte nás a popište svou situaci. Rádi s vámi probereme vaše požadavky a vysvětlíme další postup.",
+  "questions_contact_button": "Odeslat žádost",
+  "questions_back": "← Zpět na web"
 }
