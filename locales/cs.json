@@ -3,10 +3,10 @@
   "nav_reviews": "Otázky",
   "nav_contact": "Kontakt",
 
-  "hero.before": "Služby pro",
-  "hero.highlight": "právnické a fyzické",
+  "hero.before": "Služby pro právnické",
+  "hero.highlight": "a fyzické osoby",
   "hero.after": "v Česku ♡",
-  "hero.description": "Registrace společnosti, účetnictví a podpora podnikání — vše, co potřebujete pro úspěšný start a pohodlné podnikání v České republice.",
+  "hero.description": "Registrace společnosti, účetnictví a komplexní podpora – vše, co potřebujete k úspěšnému zahájení a pohodlnému provozování svého podnikání v České republice.",
   "hero_button": "Nezávazná poptávka",
 
   "seo": {
@@ -16,7 +16,7 @@
   },
 
   "about_title": "Služby",
-  "about_subtitle": "Zakládání společností, účetnictví, ověřené překlady, otevření bankovního účtu, licencování, právní podpora a kompletní administrativní služby — rychle, spolehlivě a plně přizpůsobené vašim potřebám",
+  "about_subtitle": "Registrace společností, účetní služby, obdržení živnosti a kompletní škála administrativních služeb pro veškeré obchodní záležitosti.",
 
   "service_formation_title": "Registrace společnosti",
   "service_formation_text": "Zajišťujeme kompletní vzdálenou registraci společnosti v České republice. Připravíme všechny potřebné dokumenty k založení společnosti; celý proces registrace je rychlý a transparentní.",
@@ -31,7 +31,7 @@
   "service_representation_text": "Nabízíme profesionální pomoc při kompletní likvidaci společnosti. Zajišťujeme všechny právní, administrativní a procesní kroky tak, aby ukončení podnikání proběhlo hladce a v souladu s právními předpisy.",
 
   "form_title": "Nezávazná poptávka",
-  "form_description": "Použijte prosím níže uvedený formulář a kontaktujte nás. Uveďte své jméno, e-mail a zprávu a my se vám brzy ozveme.",
+  "form_description": "Můžete nám napsat na adresu <a class=\"text-link\" href=\"mailto:greenfrog.office@email.cz\">greenfrog.office@email.cz</a> nebo vyplnit formulář níže. Uveďte své jméno, e-mail a zprávu a my se vám co nejdříve ozveme.",
   "form_success": "Děkujeme! Vaše zpráva byla odeslána.",
 
   "proposal_hidden_title": "Nezávazná poptávka",
@@ -62,11 +62,11 @@
 
   "form_submit": "Odeslat",
 
-  "form_privacy_text": "Kliknutím na tlačítko „Odeslat“ souhlasíte s našimi <a class=\"text-link leave-item-link-text-down\" href=\"/privacy-policy\" target=\"_blank\">Zásadami ochrany osobních údajů</a> a dovolujete nám tyto informace používat pro marketingové účely.",
+  "form_privacy_text": "Kliknutím na tlačítko „Odeslat“ souhlasíte s našimi <a href=\"./privacy-policy.html\">Zásadami ochrany osobních údajů</a>.",
 
   "reviews_title": "<span>Otázky a odpovědi</span>",
 
-  "reviews_subtitle": "Kliknutím na odkaz najdete odpovědi na nejčastější otázky týkající se našich služeb a podnikání v České republice.",
+  "reviews_subtitle": "Kliknutím na odkaz najděte odpovědi na nejčastější otázky týkající se našich služeb a podnikání v České republice.",
 
   "questions_preview_button": "Zobrazit všechny otázky a odpovědi",
 
