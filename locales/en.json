@@ -64,9 +64,11 @@
 
   "form_privacy_text": "By submitting this form, you acknowledge that your personal data will be processed for the purpose of responding to your inquiry and providing the requested services. Please see our <a class=\"text-link leave-item-link-text-down\" href=\"/privacy-policy.html\" target=\"_blank\">Privacy Policy</a>.",
 
-  "reviews_title": "<span> Questions </span>",
+  "reviews_title": "<span> Questions & Answers</span>",
 
-  "reviews_subtitle": "We provide clear and structured support at every stage of our cooperation. Below you will find essential information about how we communicate, formalize agreements, and stay connected throughout the entire service process.",
+  "reviews_subtitle": "By clicking the link, you'll find answers to the most frequently asked questions about our services and doing business in the Czech Republic.",
+
+  "questions_preview_button": "View all Questions & Answers",
 
   "reviews_questions_title": "Questions",
   "reviews_questions_text": "Feel free to ask any questions — we are ready to clarify all details, discuss the cooperation process, and provide clear, comprehensive information.",

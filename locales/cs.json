@@ -64,9 +64,11 @@
 
   "form_privacy_text": "Kliknutím na tlačítko „Odeslat“ souhlasíte s našimi <a class=\"text-link leave-item-link-text-down\" href=\"/privacy-policy\" target=\"_blank\">Zásadami ochrany osobních údajů</a> a dovolujete nám tyto informace používat pro marketingové účely.",
 
-  "reviews_title": "<span>Otázky</span>",
+  "reviews_title": "<span>Otázky a odpovědi</span>",
 
-  "reviews_subtitle": "Poskytujeme jasnou a strukturovanou podporu v každé fázi naší spolupráce. Níže najdete důležité informace o tom, jak komunikujeme, formalizujeme dohody a zůstáváme v kontaktu po celou dobu poskytování služeb.",
+  "reviews_subtitle": "Kliknutím na odkaz najdete odpovědi na nejčastější otázky týkající se našich služeb a podnikání v České republice.",
+
+  "questions_preview_button": "Zobrazit všechny otázky a odpovědi",
 
   "reviews_questions_title": "Otázky",
   "reviews_questions_text": "Neváhejte se na nás obrátit s jakýmikoli otázkami — rádi objasníme všechny podrobnosti, vysvětlíme průběh spolupráce a poskytneme jasné a komplexní informace.",
