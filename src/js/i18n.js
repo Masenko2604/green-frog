@@ -4,9 +4,9 @@ import HttpBackend from 'i18next-http-backend';
 i18next
   .use(HttpBackend)
   .init({
-    lng: 'en',
-    fallbackLng: 'en',
-    supportedLngs: ['en', 'ru', 'uk', 'cs'],
+    lng: 'cs',
+    fallbackLng: 'cs',
+    supportedLngs: ['cs', 'en', 'uk', 'ru'],
     debug: false,
 
     keySeparator: false,

@@ -367,3 +367,6 @@
   transform: translateX(-50%) scaleX(1);
 }
 
+html {
+  scroll-behavior: smooth;
+}

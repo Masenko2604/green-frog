@@ -1,5 +1,3 @@
-
-
 import i18next from './i18n.js';
 
 function updateContent() {
@@ -20,88 +18,58 @@ function updateContent() {
 }
 
 
-// ========================================
-// i18n
-// ========================================
+// =========================
+// I18N
+// =========================
 
-// document.addEventListener('i18nReady', () => {
-//   updateContent();
-// });
 document.addEventListener('i18nReady', () => {
-  console.log('i18nReady');
-  console.log('questions_title:', i18next.t('questions_title'));
-  console.log('faq_q1:', i18next.t('faq_q1'));
-
   updateContent();
-});
 
-// ========================================
-// LANGUAGE SWITCHER
-// ========================================
-
-// Клик по глобусу
-document.addEventListener('click', event => {
-
-  const globeButton = event.target.closest(
-    '.lang-switcher > .lang-btn'
-  );
-
-  if (globeButton) {
-    event.stopPropagation();
-
-    const langSwitcher = globeButton.closest('.lang-switcher');
-
-    if (langSwitcher) {
-      langSwitcher.classList.toggle('open');
-    }
-
-    return;
-  }
-
-
-  // Выбор языка
-  const languageButton = event.target.closest(
-    '.lang-menu [data-lang]'
-  );
-
-  if (languageButton) {
-
-    const language = languageButton.dataset.lang;
-    const langSwitcher = languageButton.closest('.lang-switcher');
-
-    i18next.changeLanguage(language)
-      .then(() => {
-
+  // Переключение языка
+  document.querySelectorAll('[data-lang]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      i18next.changeLanguage(btn.dataset.lang).then(() => {
         updateContent();
 
-        document.dispatchEvent(
-          new Event('languageChanged')
-        );
+        document.dispatchEvent(new Event('languageChanged'));
+
+        // Закрываем меню после выбора языка
+        const langSwitcher = document.querySelector('.lang-switcher');
 
         if (langSwitcher) {
           langSwitcher.classList.remove('open');
         }
-
-      })
-      .catch(error => {
-        console.error('Language change error:', error);
       });
+    });
+  });
 
-    return;
-  }
+  // =========================
+  // LANGUAGE SWITCHER
+  // =========================
 
+  const langSwitcher = document.querySelector('.lang-switcher');
 
-  // Клик вне переключателя
-  if (!event.target.closest('.lang-switcher')) {
-    document
-      .querySelectorAll('.lang-switcher.open')
-      .forEach(switcher => {
-        switcher.classList.remove('open');
-      });
-  }
+  if (!langSwitcher) return;
 
+  const globeButton = langSwitcher.querySelector('.lang-btn:not([data-lang])');
+  const langMenu = langSwitcher.querySelector('.lang-menu');
+
+  if (!globeButton || !langMenu) return;
+
+  // Открыть / закрыть меню
+  globeButton.addEventListener('click', (event) => {
+    event.stopPropagation();
+
+    langSwitcher.classList.toggle('open');
+  });
+
+  // Клик вне меню — закрыть
+  document.addEventListener('click', (event) => {
+    if (!langSwitcher.contains(event.target)) {
+      langSwitcher.classList.remove('open');
+    }
+  });
 });
-
 
 
 
