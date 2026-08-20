@@ -1,3 +1,5 @@
+
+
 .header {
   padding: 20px 0;
 }
@@ -287,4 +289,24 @@
     visibility 0.2s ease;
 
   z-index: 9999;
+}
+
+.nav-logo {
+  font-family: 'Manrope', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+
+  text-shadow:
+    0 2px 3px rgba(108, 178, 61, 0.28),
+    0 5px 10px rgba(242, 81, 41, 0.16);
+}
+
+.logo-green-span {
+  color: rgb(108, 178, 61);
+  text-shadow: 0 3px 7px rgba(108, 178, 61, 0.28);
+}
+
+.logo-span {
+  color: rgb(242, 81, 41);
+  text-shadow: 0 3px 7px rgba(242, 81, 41, 0.22);
 }

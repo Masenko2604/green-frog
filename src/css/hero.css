@@ -1,9 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+.hero-text span[data-i18n="hero.after"] {
+  font-family: 'Marck Script', cursive;
+  font-weight: 400;
+}
 
 .hero-content {
   padding: 130px 20px 24px;
   align-items: flex-start;
 }
+
 .hero-section {
   border-radius: 16px;
   margin: 8px auto 80px;
@@ -13,8 +20,9 @@
   background-position: center 115%;
   background-repeat: no-repeat;
 }
+
 .hero-section {
-  background-image:    
+  background-image:
     -webkit-image-set(url(/img/hero/block_mob@1x.jpg) 1x,
       url(/img/hero/block_mob@2x.jpg) 2x);
 }
@@ -22,7 +30,7 @@
 @media (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
   .hero-section {
-    background-image:     
+    background-image:
       url(/img/hero/block_mob@2x.jpg);
   }
 }
@@ -37,6 +45,7 @@
   max-width: 760px;
   margin: 0;
 }
+
 .hero-text>span:last-child {
   display: block;
   margin-top: 8px;
@@ -50,6 +59,7 @@
 
   color: rgb(242, 81, 41);
 }
+
 .hero-description {
   max-width: 275px;
   margin: 18px 0 26px;
@@ -64,6 +74,7 @@
 
 .hero-english {
   color: var(--lighter-green);
+  
 }
 
 .hero-button {
@@ -72,8 +83,8 @@
   margin-top: 40px;
   max-width: 295px;
   width: 100%;
-  background-color:var(--green);
-  color:rgb(243, 245, 242);
+  background-color: var(--green);
+  color: rgb(243, 245, 242);
 }
 
 .hero-svg {
@@ -93,7 +104,7 @@
 }
 
 .hero-checkmark-container {
-  background-color:rgb(242, 81, 41);
+  background-color: rgb(242, 81, 41);
   width: 38px;
   height: 38px;
   border-radius: 50%;
@@ -119,15 +130,15 @@
     display: none;
   }
 
-    .hero-button {
-      display: flex;
-      justify-content: center;
-      margin-top: 230px;
-      max-width: 295px;
-      width: 100%;
-      background-color: var(--green);
-      color: rgb(243, 245, 242);
-    }
+  .hero-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 230px;
+    max-width: 295px;
+    width: 100%;
+    background-color: var(--green);
+    color: rgb(243, 245, 242);
+  }
 }
 
 /* Tablet */
@@ -136,12 +147,12 @@
     border-radius: 30px;
     margin: 32px auto 100px;
     max-width: 704px;
-    background-image:      
+    background-image:
       url(/img/hero/block_tab@1x.jpg);
   }
 
   .hero-section {
-    background-image:     
+    background-image:
       -webkit-image-set(url(/img/hero/block_tab@1x.jpg) 1x,
         url(/img/hero/block_tab@2x.jpg) 2x);
   }
@@ -150,7 +161,7 @@
   @media (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi) {
     .hero-section {
-      background-image:        
+      background-image:
         url(/img/hero/block_tab@2x.jpg);
     }
   }
@@ -186,14 +197,14 @@
     border-radius: 30px;
     margin: 16px auto 96px;
     max-width: 1152px;
-    background-image:     
-   
+    background-image:
+
       url(/img/hero/block_desk@1x.jpg);
   }
 
   /* WebKit для десктоп */
   .hero-section {
-    background-image:      
+    background-image:
       -webkit-image-set(url(/img/hero/block_desk@1x.jpg) 1x,
         url(/img/hero/block_desk@2x.jpg) 2x);
   }
@@ -201,7 +212,7 @@
   @media (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi) {
     .hero-section {
-      background-image:       
+      background-image:
         url(/img/hero/block_desk@2x.jpg);
     }
   }
@@ -229,4 +240,8 @@
     width: 48px;
     height: 48px;
   }
+}
+.hero-text span[data-i18n="hero.after"] {
+  font-family: 'Marck Script', cursive;
+  font-weight: 400;
 }
