@@ -1,7 +1,10 @@
-gsap.registerPlugin(ScrollTrigger);
-
 document.querySelectorAll('.animated').forEach((section, i) => {
-  const fromX = i % 2 === 0 ? -225 : 225;
+  const fromX = section.classList.contains('hero-checkmark-container')
+    ? 225
+    : i % 2 === 0
+      ? -225
+      : 225;
+
   gsap.fromTo(
     section,
     { x: fromX, opacity: 0 },
