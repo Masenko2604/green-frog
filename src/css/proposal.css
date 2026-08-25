@@ -15,6 +15,7 @@
 
 .title-language {
   color: rgb(242, 81, 41);
+  
 }
 
 .proposal-wrapper {
@@ -215,4 +216,13 @@
     bottom: 79px;
     right: 0;
   }
+}
+
+.title-language {
+  color: rgb(242, 81, 41);
+  font-family: 'Marck Script', cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.15em;
+  line-height: 1;
 }
