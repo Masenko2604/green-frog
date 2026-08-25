@@ -47,15 +47,15 @@
 }
 
 
-.button:hover,
+/* .button:hover,
 .button:focus {
   background-color: rgb(242, 81, 41);
-  border-color:rgb(108, 178, 61);
-  color: var(--white)
-}
+  border-color:rgb(242, 81, 41);
+  color: var(--white);
+} */
 
 .button.lesson-button {
-  color:rgb(242, 81, 41);
+  color:var(--white);
 }
 
 .form-input:focus+.input-container {

@@ -298,7 +298,7 @@
   margin-bottom: 20px;
 }
 
-.questions-link-button {
+/* .questions-link-button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -326,7 +326,7 @@
     background 250ms ease,
     transform 250ms ease,
     box-shadow 250ms ease;
-}
+} */
 
 .questions-link-button:hover,
 .questions-link-button:focus {

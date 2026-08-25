@@ -134,7 +134,7 @@ a {
   border-color:rgb(232, 62, 19);
   color: rgb(238, 64, 20);
  
-  background-color: transparent;
+  /* background-color: transparent; */
 }
 
 .button.outlined-button {
@@ -286,4 +286,64 @@ a {
     line-height: 1.7;
     margin-bottom: 64px;
   }
+}
+
+.button {
+  /* display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  max-width: 295px;
+  width: 100%;
+  background-color: var(--green);
+  color: rgb(243, 245, 242); */
+
+
+
+  display: flex;
+  justify-content: center;
+  margin-top: 230px;
+  max-width: 295px;
+  width: 100%;
+  background-color: var(--green);
+  color: rgb(243, 245, 242);
+  display: flex;
+    align-items: center;
+    justify-content: center;
+  font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+  
+    text-align: center;
+    text-decoration: none;
+  
+   
+    width: 100%;
+    max-width: 420px;
+    min-height: 56px;
+  
+    margin: 0 auto 50px;
+    padding: 0 30px;
+  
+    border-radius: 30px;
+}
+
+ /* Retina для планшетів */
+
+.button {
+  margin-top: 70px;
+  max-width: 306px;
+}
+
+/* WebKit для десктоп */
+
+.button {
+    margin-top: 32px;
+    max-width: 306px;
+  }       
+
+.button:hover,
+.button:focus {
+  background-color: rgb(242, 81, 41);
+  border-color: rgb(242, 81, 41);
+  color: var(--white)
 }

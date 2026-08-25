@@ -168,11 +168,11 @@
     letter-spacing: -0.4px;
   }
 
-  .button.proposal-button {
+  /* .button.proposal-button {
     width: 306px;
-    color: rgb(231, 100, 7);
+    color: var(--white);
 
-  }
+  } */
 
   .books-image-wrapper {
     position: absolute;

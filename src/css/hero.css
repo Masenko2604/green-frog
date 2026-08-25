@@ -77,15 +77,15 @@
   
 }
 
-.hero-button {
+/* .hero-button {
   display: flex;
-  justify-content: center;
-  margin-top: 40px;
-  max-width: 295px;
-  width: 100%;
-  background-color: var(--green);
-  color: rgb(243, 245, 242);
-}
+    justify-content: center;
+    margin-top: 230px;
+    max-width: 295px;
+    width: 100%;
+    background-color: var(--green);
+    color: rgb(243, 245, 242);
+} */
 
 .hero-svg {
   width: 20px;
