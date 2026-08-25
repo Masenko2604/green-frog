@@ -156,6 +156,11 @@
     .hero-section {
       background-image:
         url(/img/hero/block_tab@2x.jpg);
+    border-radius: 30px;
+      margin: 32px auto 100px;
+      width: 90vw;
+      max-width: none;
+        
     }
   }
 
