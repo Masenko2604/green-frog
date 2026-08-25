@@ -19,6 +19,9 @@
   background-size: cover;
   background-position: center 115%;
   background-repeat: no-repeat;
+
+
+  
 }
 
 .hero-section {
@@ -233,4 +236,59 @@
 .hero-text span[data-i18n="hero.after"] {
   font-family: 'Marck Script', cursive;
   font-weight: 400;
+}
+
+
+
+@media (min-width: 1280px) {
+  .hero-section {
+    border-radius: 30px;
+    margin: 16px auto 96px;
+    max-width: 1152px;
+    min-height: 820px;
+
+    background-image:
+      -webkit-image-set(url(/img/hero/block_desk@1x.jpg) 1x,
+        url(/img/hero/block_desk@2x.jpg) 2x);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .hero-content {
+    padding: 164px 32px 32px 64px;
+  }
+
+  .hero-section .button {
+    margin: 32px 0 50px 0;
+    max-width: 306px;
+  }
+
+  .hero-text {
+    font-size: 60px;
+    line-height: 1.16;
+    max-width: 564px;
+  }
+
+  .hero-checkmark {
+    margin-top: 83px;
+  }
+
+  .hero-checkmark-container {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero-section {
+    width: 100vw;
+    max-width: none;
+    margin-left: calc(50% - 50vw);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
