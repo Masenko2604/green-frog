@@ -112,19 +112,6 @@
   color: oklch(100% 0.00011 271.152);
 }
 
-/* .questions-contact-button {
-  width: 100%;
-  max-width: 700px;
-  margin: 0 auto;
-background: linear-gradient(90deg, rgb(108, 178, 61)60%, #cfeebc 100%);
-}
-
-
-.questions-contact-button:hover {
-  background: linear-gradient(90deg, #f25129 0%, #ea9783 100%);
- 
-} */
-
 .questions-back {
   display: block;
   width: fit-content;

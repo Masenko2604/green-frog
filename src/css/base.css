@@ -288,17 +288,7 @@ a {
   }
 }
 
-.button {
-  /* display: flex;
-  justify-content: center;
-  margin-top: 40px;
-  max-width: 295px;
-  width: 100%;
-  background-color: var(--green);
-  color: rgb(243, 245, 242); */
-
-
-
+.button {  
   display: flex;
   justify-content: center;
   margin-top: 230px;

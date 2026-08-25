@@ -44,15 +44,11 @@
   .form-input {
     height: 56px;
   }
+}.hero-section .button {
+  margin: 70px 0 50px 0;
+  max-width: 306px;
 }
 
-
-/* .button:hover,
-.button:focus {
-  background-color: rgb(242, 81, 41);
-  border-color:rgb(242, 81, 41);
-  color: var(--white);
-} */
 
 .button.lesson-button {
   color:var(--white);

@@ -298,35 +298,6 @@
   margin-bottom: 20px;
 }
 
-/* .questions-link-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  width: 100%;
-  max-width: 420px;
-  min-height: 56px;
-
-  margin: 0 auto 50px;
-  padding: 0 30px;
-
-  border-radius: 30px;
-
-  background: var(--gradient-green);
-  color: #ffffff;
-
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.2;
-
-  text-align: center;
-  text-decoration: none;
-
-  transition:
-    background 250ms ease,
-    transform 250ms ease,
-    box-shadow 250ms ease;
-} */
 
 .questions-link-button:hover,
 .questions-link-button:focus {
