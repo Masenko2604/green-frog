@@ -106,3 +106,11 @@
     margin-bottom: 64px;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .about-item {
+    min-height: 250px;
+    height: 250px;
+    box-sizing: border-box;
+  }
+}
