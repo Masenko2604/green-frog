@@ -62,14 +62,14 @@
   font-display: swap;
 }
 
+
 @font-face {
-  font-family: 'Marck Script';
-  src: url('../fonts/marck-script/MarckScript-Regular.ttf') format('truetype');
-  font-weight: 400;
+  font-family: 'Caveat';
+  src: url('../fonts/caveat/Caveat-VariableFont_wght.ttf') format('truetype');
+  font-weight: 400 700;
   font-style: normal;
   font-display: swap;
 }
-
 html {
   scroll-behavior: smooth;
 }

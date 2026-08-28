@@ -27,7 +27,7 @@
 } */
 
 .hero-text span[data-i18n="hero.after"] {
-  font-family: 'Marck Script', cursive;
+  font-family: 'Caveat', cursive;
   font-weight: 400;
 }
 
@@ -78,8 +78,7 @@
 .hero-text>span:last-child {
   display: block;
   margin-top: 8px;
-
-  font-family: 'Allura', cursive;
+  font-family: 'Caveat', cursive;
   font-size: 58px;
   font-weight: 400;
   font-style: normal;
@@ -163,7 +162,7 @@
   }
 }
 
-/* Tablet */
+
 /* Tablet */
 @media (min-width: 768px) and (max-width: 1279px) {
   .hero-section {
