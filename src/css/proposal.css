@@ -112,7 +112,6 @@
    line-height: 1.42;
    letter-spacing: -0.28px;
  }
- 
 
  @media screen and (max-width: 767px) {
    .books-image-wrapper {
@@ -121,84 +120,70 @@
  }
  /* ===========tablet========== */
 
-@media (min-width: 768px) and (max-width: 1279px) {
-.hero-section {
-    border-radius: 30px;
-    margin: 32px auto 100px;
-    max-width: 704px;
-
-    background-image:
-      -webkit-image-set(url(/img/hero/block_tab@1x.jpg) 1x,
-        url(/img/hero/block_tab@2x.jpg) 2x);
-
-    background-size: cover;
-    background-position: 58% center;
-    background-repeat: no-repeat;
-  }
+ @media screen and (min-width: 768px) and (max-width: 1279px) {
   .proposal-container {
-    padding: 64px 18px 93px 18px;
-  }
-
-  .title {
-    font-size: 50px;
-    line-height: 1.17;
-    margin-bottom: 83px;
-  }
-
-  .proposal-wrapper {
-    border-radius: 30px;
-    padding: 65px 188px 63px 32px;
-    max-width: 100%;
-  }
-
-  .proposal-inner::before {
-    border-radius: 30px;
-    transform: rotate(-9.864deg);
-  }
-
-  .proposal-inner::after {
-    border-radius: 30px;
-    transform: rotate(10.655deg);
-    z-index: -2;
-  }
-
-  .proposal-list {
-    margin-bottom: 32px;
-  }
-
-  .proposal-item {
-    gap: 16px;
-  }
-
-  .icon-wrapper {
-    width: 28px;
-    height: 28px;
-  }
-
-  .check-icon {
-    width: 20px;
-    height: 20px;
-  }
-
-  .proposal-text {
-    font-size: 40px;
-    font-style: normal;
-    letter-spacing: -0.8px;
-    margin-bottom: 32px;
-  }
-
-  .proposal-item-text {
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: -0.4px;
-  }
-
-  .books-image-wrapper {
-    position: absolute;
-    bottom: 20px;
-    right: -50px;
-  }
-}
+      padding: 64px 18px 93px 18px;
+    }
+  
+    .title {
+      font-size: 50px;
+      line-height: 1.17;
+      margin-bottom: 83px;
+    }
+  
+    .proposal-wrapper {
+      border-radius: 30px;
+      padding: 65px 188px 63px 32px;
+      max-width: 100%;
+    }
+  
+    .proposal-inner::before {
+      border-radius: 30px;
+      transform: rotate(-9.864deg);
+    }
+  
+    .proposal-inner::after {
+      border-radius: 30px;
+      transform: rotate(10.655deg);
+      z-index: -2;
+    }
+  
+    .proposal-list {
+      margin-bottom: 32px;
+    }
+  
+    .proposal-item {
+      gap: 16px;
+    }
+  
+    .icon-wrapper {
+      width: 28px;
+      height: 28px;
+    }
+  
+    .check-icon {
+      width: 20px;
+      height: 20px;
+    }
+  
+    .proposal-text {
+      font-size: 40px;
+      font-style: normal;
+      letter-spacing: -0.8px;
+      margin-bottom: 32px;
+    }
+  
+    .proposal-item-text {
+      font-size: 20px;
+      line-height: 1.2;
+      letter-spacing: -0.4px;
+    }
+  
+    .books-image-wrapper {
+      position: absolute;
+      bottom: 20px;
+      right: -50px;
+    }}
 
  /* ==========decktop========== */
 
