@@ -2,428 +2,259 @@
 <html lang="cs">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
 
-  <title>Privacy Policy — GreenFrogOffice</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <style>
-    * {
-      box-sizing: border-box;
-    }
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./favicon.png" />
 
-    html {
-      scroll-behavior: smooth;
-    }
+  <!-- SEO -->
+  <title>Privacy Policy | GreenFrog Office</title>
 
-    body {
-      margin: 0;
-      background: #ffffff;
-      color: #333333;
-      font-family: Arial, sans-serif;
-      line-height: 1.65;
-    }
+  <meta name="description"
+    content="Privacy Policy and information about the processing and protection of personal data by CANOPUS s.r.o." />
 
-    .privacy-page {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 40px 24px 80px;
-    }
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    /* Header */
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400..700&display=swap" rel="stylesheet" />
 
-    .privacy-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 70px;
-    }
+  <!-- Normalize -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
 
-    .privacy-logo {
-      color: #043a04;
-      text-decoration: none;
-      font-size: 28px;
-      font-weight: 700;
-    }
+  <!-- Main styles -->
 
-    .privacy-logo-green {
-      color: #65b536;
-    }
-
-    .privacy-logo-orange {
-      color: #f25129;
-    }
-
-    .back-home {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      color: #043a04;
-      text-decoration: none;
-      font-size: 15px;
-      font-weight: 600;
-    }
-
-    .back-home:hover {
-      color: #f25129;
-    }
-
-    /* Main title */
-
-    .privacy-intro {
-      margin-bottom: 55px;
-    }
-
-    .privacy-intro h1 {
-      margin: 0 0 18px;
-      color: #043a04;
-      font-size: 48px;
-      line-height: 1.1;
-      letter-spacing: -1px;
-    }
-
-    .privacy-intro p {
-      max-width: 720px;
-      margin: 0;
-      color: rgba(4, 58, 4, 0.65);
-      font-size: 17px;
-    }
-
-    .updated {
-  margin-top: 16px;
-  color: #777777;
-  font-size: 14px;
-}
-
-    /* Sections */
-
-    .privacy-section {
-      padding: 32px 0;
-      border-top: 1px solid #e7ebe5;
-    }
-
-    .privacy-section h2 {
-      margin: 0 0 18px;
-      color: #043a04;
-      font-size: 27px;
-      line-height: 1.3;
-    }
-
-    .privacy-section h3 {
-      margin: 25px 0 12px;
-      color: #043a04;
-      font-size: 20px;
-    }
-
-    .privacy-section p {
-      margin: 0 0 15px;
-      font-size: 16px;
-    }
-
-    .privacy-section ul {
-      margin: 0 0 18px;
-      padding-left: 24px;
-    }
-
-    .privacy-section li {
-      margin-bottom: 8px;
-      font-size: 16px;
-    }
-
-    .privacy-section a {
-      color: #f25129;
-    }
-
-    .privacy-section a:hover {
-      color: #65b536;
-    }
-
-    /* Company card */
-
-    .company-card {
-      margin: 20px 0;
-      padding: 24px 26px;
-      border-radius: 14px;
-      background: #f5f7f4;
-      border-left: 4px solid #65b536;
-    }
-
-    .company-card p {
-      margin: 0;
-    }
-
-    .company-name {
-      color: #043a04;
-      font-size: 20px;
-      font-weight: 700;
-    }
-
-    /* Highlight */
-
-    .privacy-note {
-      margin: 22px 0;
-      padding: 20px 22px;
-      border-radius: 12px;
-      background: #fff5f1;
-      border-left: 4px solid #f25129;
-    }
-
-    .privacy-note p {
-      margin: 0;
-    }
-
-    /* Footer */
-
-    .privacy-footer {
-      margin-top: 55px;
-      padding-top: 30px;
-      border-top: 1px solid #e7ebe5;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 20px;
-    }
-
-    .privacy-footer p {
-      margin: 0;
-      color: #777777;
-      font-size: 14px;
-    }
-
-    .top-link {
-      color: #65b536;
-      text-decoration: none;
-      font-weight: 600;
-    }
-
-    .top-link:hover {
-      color: #f25129;
-    }
-
-    /* Mobile */
-
-    @media screen and (max-width: 767px) {
-      .privacy-page {
-        padding: 25px 20px 60px;
-      }
-
-      .privacy-header {
-        margin-bottom: 50px;
-      }
-
-      .privacy-logo {
-        font-size: 24px;
-      }
-
-      .back-home {
-        font-size: 13px;
-      }
-
-      .privacy-intro h1 {
-        font-size: 36px;
-      }
-
-      .privacy-intro p {
-        font-size: 16px;
-      }
-
-      .privacy-section {
-        padding: 27px 0;
-      }
-
-      .privacy-section h2 {
-        font-size: 23px;
-      }
-
-      .privacy-section h3 {
-        font-size: 19px;
-      }
-
-      .privacy-section p,
-      .privacy-section li {
-        font-size: 15px;
-      }
-
-      .company-card {
-        padding: 20px;
-      }
-
-      .privacy-footer {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-    }
-  </style>
+  <!-- Privacy Policy styles -->
+  <script type="module" crossorigin src="./assets/vendor-BNqRyOic.js"></script>
+  <script type="module" crossorigin src="./assets/lang-switcher-D015c5nx.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/lang-switcher-_1iJOqib.css">
+  <link rel="stylesheet" crossorigin href="./assets/privacy-policy-Co218JHI.css">
 </head>
 
 <body>
 
-  <main class="privacy-page" id="top">
+  <!-- Header -->
+  <header class="header">
+  <div class="container">
+    <nav class="header-nav">
 
-    <header class="privacy-header">
+      <div class="nav-logo">
+        <a href="./index.html">
+          <span class="logo-green-span">GreenFrog</span><span class="logo-span">Office</span>
+        </a>
+      </div>
 
-      <a class="privacy-logo" href="/">
-        <span class="privacy-logo-green">GreenFrog</span><span class="privacy-logo-orange">Office</span>
-      </a>
+      <div class="page-nav">
+        <ul class="header-nav-list">
+          <li class="nav-item">
+            <a href="#about" class="nav-link" data-i18n="nav_services"></a>
+          </li>
 
-      <a class="back-home" href="/">
-        ← Back to website
-      </a>
+          <li class="nav-item">
+        <a href="./questions.html" class="nav-link" data-i18n="nav_reviews"></a>
+          </li>
 
-    </header>
+          <li class="nav-item">
+            <a href="#application-form" class="nav-link" data-i18n="nav_contact"></a>
+          </li>
+        </ul>
+      </div>
+
+    <div class="lang-switcher">
+    
+      <button type="button" class="lang-btn" aria-label="Choose language">
+      <img src="./img/header/globus.png" alt="" class="globe-icon">
+      </button>
+    
+      <div class="lang-menu">
+
+        <button type="button" data-lang="cs" class="lang-btn">
+          <span>Čeština</span>
+        </button>
+    
+        <button type="button" data-lang="en" class="lang-btn">
+          <span>English</span>
+        </button>
+
+        <button type="button" data-lang="uk" class="lang-btn">
+          <span>Українська</span>
+        </button>
+    
+        <button type="button" data-lang="ru" class="lang-btn">
+          <span>Русский</span>
+        </button>
+    
+       
+        
+    
+      </div>
+    
+    </div>
+
+    </nav>
+  </div>
+</header>
 
 
-    <section class="privacy-intro">
 
-      <h1>Privacy Policy</h1>
 
-      <p>
-        This Privacy Policy explains how CANOPUS s.r.o., operating the
-        GreenFrogOffice website, processes personal data when you visit
-        our website or contact us through the contact form.
+
+  <!-- Mobile menu -->
+  
+
+
+  <!-- Main content -->
+  <main>
+    <section class="privacy-page" id="top">
+
+  <div class="privacy-container">
+
+    <!-- Back to website -->
+    <a class="privacy-back" href="./index.html" data-i18n="privacy_back">
+      ← Zpět na web
+    </a>
+
+    <!-- Intro -->
+    <div class="privacy-intro">
+
+      <h1 data-i18n="privacy_title">
+        Zásady ochrany osobních údajů
+      </h1>
+
+      <p class="privacy-subtitle" data-i18n="privacy_subtitle">
+        Informace o zpracování a ochraně osobních údajů
       </p>
 
-      <p class="updated">
-        Last updated: 18 August 2026
+      <p class="privacy-date" data-i18n="privacy_effective_date">
+        Účinnost od: 27. srpna 2026
       </p>
 
-    </section>
+    </div>
 
 
     <!-- 1 -->
-
     <section class="privacy-section">
 
-      <h2>1. Data Controller</h2>
+      <h2 data-i18n="privacy_section_1_title">
+        1. Správce osobních údajů
+      </h2>
 
-      <p>
-        The controller responsible for the processing of personal data
-        is:
-      </p>
-
-      <div class="company-card">
+      <div class="privacy-company">
 
         <p>
-          <span class="company-name">CANOPUS s.r.o.</span><br><br>
-
+          <strong>CANOPUS s.r.o.</strong><br>
           IČO: 24666068<br>
-          DIČ: CZ24666068<br>
-          Kamenná 5124<br>
-          430 04 Chomutov<br>
-          Czech Republic
-        </p>
-
-        <br>
-
-        <p>
-          Phone:
+          <span data-i18n="privacy_address_label">Sídlo:</span>
+          Kamenná 5124, 430 04 Chomutov, Česká republika<br>
+          E-mail:
+          <a href="mailto:greenfrog.office@email.com">
+            greenfrog.office@email.com
+          </a><br>
+          Telefon:
           <a href="tel:+420777713093">
             +420 777 713 093
-          </a>
-          <br>
-
-          Email:
-          <a href="mailto:greenfrog.office@email.cz">
-            greenfrog.office@email.cz
-          </a>
+          </a><br>
+          <span data-i18n="privacy_website_label">Web:</span>
+          greenfrogoffice.cz
         </p>
 
       </div>
+
+      <p data-i18n="privacy_section_1_text">
+        Správcem osobních údajů získaných prostřednictvím těchto webových stránek je společnost CANOPUS s.r.o.
+      </p>
 
     </section>
 
 
     <!-- 2 -->
-
     <section class="privacy-section">
 
-      <h2>2. Personal Data We Collect</h2>
+      <h2 data-i18n="privacy_section_2_title">
+        2. Jaké osobní údaje získáváme
+      </h2>
 
-      <p>
-        Depending on how you use our website, we may process personal
-        data that you voluntarily provide to us.
+      <p data-i18n="privacy_section_2_intro">
+        Prostřednictvím kontaktního formuláře uživatel poskytuje zejména:
       </p>
 
-      <p>This may include:</p>
-
       <ul>
-        <li>name;</li>
-        <li>email address;</li>
-        <li>telephone number;</li>
-        <li>information contained in your message or inquiry;</li>
-        <li>other information that you voluntarily provide to us.</li>
+        <li data-i18n="privacy_section_2_item_1">jméno;</li>
+        <li data-i18n="privacy_section_2_item_2">telefonní číslo;</li>
+        <li data-i18n="privacy_section_2_item_3">e-mailovou adresu.</li>
       </ul>
 
-      <p>
-        We ask you to provide only information that is necessary for
-        your inquiry or the requested service.
+      <p data-i18n="privacy_section_2_text_1">
+        Prostřednictvím formuláře nepožadujeme zvláštní kategorie osobních údajů.
+      </p>
+
+      <p data-i18n="privacy_section_2_text_2">
+        Pokud uživatel dobrovolně poskytne další informace v textu zprávy nebo při následné komunikaci se společností
+        CANOPUS s.r.o., mohou být tyto informace zpracovávány v rozsahu nezbytném pro vyřízení požadavku a poskytnutí
+        požadovaných služeb.
       </p>
 
     </section>
 
 
     <!-- 3 -->
-
     <section class="privacy-section">
 
-      <h2>3. How We Collect Personal Data</h2>
+      <h2 data-i18n="privacy_section_3_title">
+        3. Účely zpracování osobních údajů
+      </h2>
 
-      <p>
-        Personal data may be collected when you voluntarily submit
-        information through our contact form or contact us directly
-        using the contact details published on the website.
+      <p data-i18n="privacy_section_3_intro">
+        Osobní údaje získané prostřednictvím webových stránek používáme zejména za účelem:
       </p>
 
-      <p>
-        The website may also process certain technical information
-        necessary for its operation, security and maintenance.
-      </p>
+      <ol>
+        <li data-i18n="privacy_section_3_item_1">přijetí a vyřízení poptávky;</li>
+        <li data-i18n="privacy_section_3_item_2">kontaktování uživatele telefonicky nebo e-mailem;</li>
+        <li data-i18n="privacy_section_3_item_3">poskytnutí informací o našich službách;</li>
+        <li data-i18n="privacy_section_3_item_4">přípravy nabídky;</li>
+        <li data-i18n="privacy_section_3_item_5">projednání podmínek spolupráce;</li>
+        <li data-i18n="privacy_section_3_item_6">přípravy a uzavření smlouvy;</li>
+        <li data-i18n="privacy_section_3_item_7">plnění uzavřené smlouvy;</li>
+        <li data-i18n="privacy_section_3_item_8">plnění právních povinností společnosti CANOPUS s.r.o.;</li>
+        <li data-i18n="privacy_section_3_item_9">ochrany oprávněných zájmů společnosti CANOPUS s.r.o.;</li>
+        <li data-i18n="privacy_section_3_item_10">zasílání obchodních sdělení a informací o vlastních službách v souladu
+          s platnými právními předpisy.</li>
+      </ol>
 
     </section>
 
 
     <!-- 4 -->
-
     <section class="privacy-section">
 
-      <h2>4. Purposes of Processing</h2>
+      <h2 data-i18n="privacy_section_4_title">
+        4. Právní základ zpracování
+      </h2>
 
-      <p>
-        We process personal data for specific and legitimate purposes,
-        including:
+      <p data-i18n="privacy_section_4_intro">
+        V závislosti na konkrétním účelu zpracování jsou osobní údaje zpracovávány zejména na základě:
       </p>
 
       <ul>
-        <li>
-          responding to your inquiry or request;
+        <li data-i18n="privacy_section_4_item_1">
+          čl. 6 odst. 1 písm. b) GDPR – zpracování nezbytné pro přijetí opatření na žádost subjektu údajů před uzavřením
+          smlouvy nebo pro plnění smlouvy;
         </li>
 
-        <li>
-          communicating with you regarding our services;
+        <li data-i18n="privacy_section_4_item_2">
+          čl. 6 odst. 1 písm. c) GDPR – splnění právní povinnosti;
         </li>
 
-        <li>
-          preparing information or an offer for requested services;
+        <li data-i18n="privacy_section_4_item_3">
+          čl. 6 odst. 1 písm. f) GDPR – oprávněný zájem správce;
         </li>
 
-        <li>
-          taking steps at your request before entering into a contract;
-        </li>
-
-        <li>
-          performing and managing contractual relationships;
-        </li>
-
-        <li>
-          complying with applicable legal obligations;
-        </li>
-
-        <li>
-          protecting our legitimate interests and legal rights;
-        </li>
-
-        <li>
-          maintaining the security and proper functioning of the website.
+        <li data-i18n="privacy_section_4_item_4">
+          případně čl. 6 odst. 1 písm. a) GDPR – souhlas subjektu údajů, pokud je pro konkrétní zpracování vyžadován.
         </li>
       </ul>
 
@@ -431,348 +262,392 @@
 
 
     <!-- 5 -->
-
     <section class="privacy-section">
 
-      <h2>5. Legal Basis for Processing</h2>
+      <h2 data-i18n="privacy_section_5_title">
+        5. Obchodní sdělení
+      </h2>
 
-      <p>
-        The applicable legal basis depends on the particular purpose
-        for which personal data is processed.
+      <p data-i18n="privacy_section_5_text_1">
+        Společnost CANOPUS s.r.o. může zasílat obchodní sdělení a informace o vlastních službách pouze v případech a za
+        podmínek stanovených platnými právními předpisy, zejména zákonem č. 480/2004 Sb., o některých službách
+        informační společnosti.
       </p>
 
-      <p>
-        Depending on the circumstances, processing may be based on:
+      <p data-i18n="privacy_section_5_text_2">
+        Příjemce obchodního sdělení má právo kdykoli bezplatně odmítnout další zasílání obchodních sdělení.
       </p>
 
-      <ul>
-
-        <li>
-          taking steps at your request prior to entering into a contract;
-        </li>
-
-        <li>
-          performance of a contract;
-        </li>
-
-        <li>
-          compliance with a legal obligation;
-        </li>
-
-        <li>
-          our legitimate interests, where permitted by applicable law;
-        </li>
-
-        <li>
-          your consent, where consent is required by law.
-        </li>
-
-      </ul>
-
-      <div class="privacy-note">
-
-        <p>
-          We do not require consent where personal data can lawfully be
-          processed on another legal basis.
-        </p>
-
-      </div>
+      <p data-i18n="privacy_section_5_text_3">
+        Pokud je pro konkrétní způsob marketingové komunikace vyžadován předchozí souhlas, bude komunikace prováděna
+        pouze na základě takového souhlasu.
+      </p>
 
     </section>
 
 
     <!-- 6 -->
-
     <section class="privacy-section">
 
-      <h2>6. Contact Form and EmailJS</h2>
+      <h2 data-i18n="privacy_section_6_title">
+        6. Příjemci osobních údajů
+      </h2>
 
-      <p>
-        Our website contains a contact form through which you can send
-        an inquiry to us.
+      <p data-i18n="privacy_section_6_text_1">
+        CANOPUS s.r.o. osobní údaje neprodává ani je neposkytuje třetím stranám pro jejich vlastní marketingové účely.
       </p>
 
-      <p>
-        The form may collect your name, telephone number, email address
-        and the content of your message.
+      <p data-i18n="privacy_section_6_text_2">
+        Osobní údaje mohou být v nezbytném rozsahu zpracovávány poskytovateli technických služeb, kteří jednají pro
+        CANOPUS s.r.o., zejména poskytovateli:
       </p>
 
-      <p>
-        The contact form uses the EmailJS service to transmit submitted
-        information to the email address used by the website operator.
+      <ul>
+        <li data-i18n="privacy_section_6_item_1">webhostingu;</li>
+        <li data-i18n="privacy_section_6_item_2">e-mailových služeb;</li>
+        <li data-i18n="privacy_section_6_item_3">IT infrastruktury;</li>
+        <li data-i18n="privacy_section_6_item_4">analytických služeb.</li>
+      </ul>
+
+      <p data-i18n="privacy_section_6_text_3">
+        Tyto subjekty mohou vystupovat jako zpracovatelé osobních údajů a osobní údaje zpracovávají pouze v rozsahu
+        nezbytném pro poskytování příslušných služeb.
       </p>
 
-      <p>
-        Personal data submitted through the form is used for the purpose
-        of responding to your inquiry and communicating with you about
-        the requested services.
+      <p data-i18n="privacy_section_6_text_4">
+        Osobní údaje mohou být rovněž poskytnuty orgánům veřejné moci nebo jiným oprávněným subjektům, pokud to vyžaduje
+        právní předpis.
       </p>
 
     </section>
 
 
     <!-- 7 -->
-
     <section class="privacy-section">
 
-      <h2>7. Recipients and Service Providers</h2>
+      <h2 data-i18n="privacy_section_7_title">
+        7. Google Analytics
+      </h2>
 
-      <p>
-        Personal data may be made available to service providers where
-        this is necessary for operating the website, processing contact
-        requests, providing technical services or complying with legal
-        obligations.
+      <p data-i18n="privacy_section_7_text_1">
+        Webové stránky používají Google Analytics pro statistickou analýzu návštěvnosti a používání webových stránek.
       </p>
 
-      <p>
-        Such providers may process personal data only to the extent
-        necessary for the relevant service and subject to applicable
-        data protection requirements.
+      <p data-i18n="privacy_section_7_text_2">
+        Analytické cookies a obdobné technologie, u nichž je podle platných právních předpisů vyžadován předchozí
+        souhlas uživatele, nesmí být aktivovány před udělením příslušného souhlasu.
       </p>
 
-      <p>
-        The website currently uses EmailJS for the transmission of
-        contact form submissions.
-      </p>
-
-      <p>
-        Other recipients may include competent public authorities,
-        courts, professional advisers or other recipients where this is
-        required or permitted by applicable law.
+      <p data-i18n="privacy_section_7_text_3">
+        Uživatel musí mít možnost analytické cookies odmítnout bez omezení přístupu k hlavnímu obsahu webových stránek.
       </p>
 
     </section>
 
 
     <!-- 8 -->
-
     <section class="privacy-section">
 
-      <h2>8. Data Retention</h2>
+      <h2 data-i18n="privacy_section_8_title">
+        8. Cookies
+      </h2>
 
-      <p>
-        We retain personal data only for as long as necessary to fulfil
-        the purpose for which it was collected, to establish or maintain
-        a contractual relationship, to comply with legal obligations,
-        or to establish, exercise or defend legal claims.
+      <p data-i18n="privacy_section_8_text_1">
+        Webové stránky mohou používat technické cookies nezbytné pro jejich řádné fungování.
       </p>
 
-      <p>
-        When personal data is no longer required, it will be deleted or
-        otherwise securely disposed of, subject to applicable legal
-        retention requirements.
+      <p data-i18n="privacy_section_8_text_2">
+        Analytické a jiné netechnické cookies mohou být používány pouze v souladu s platnými právními předpisy, včetně
+        získání předchozího souhlasu uživatele, pokud je tento souhlas vyžadován.
       </p>
 
     </section>
 
 
     <!-- 9 -->
-
     <section class="privacy-section">
 
-      <h2>9. Direct Marketing</h2>
+      <h2 data-i18n="privacy_section_9_title">
+        9. Doba uchování
+      </h2>
 
-      <p>
-        Where we process personal data for direct marketing purposes,
-        we will comply with applicable data protection and electronic
-        communications legislation.
+      <p data-i18n="privacy_section_9_text_1">
+        Osobní údaje jsou uchovávány pouze po dobu nezbytnou pro naplnění účelu zpracování, pokud právní předpis
+        nestanoví delší dobu uchování.
       </p>
 
-      <p>
-        You have the right to object at any time to the processing of
-        your personal data for direct marketing purposes.
+      <p data-i18n="privacy_section_9_text_2">
+        Údaje potenciálního klienta, který se nestane klientem společnosti CANOPUS s.r.o., jsou uchovávány po dobu
+        nezbytnou pro vyřízení poptávky a související komunikaci.
       </p>
 
-      <p>
-        If you receive a marketing communication from us, you may
-        unsubscribe or contact us using the details provided above.
+      <p data-i18n="privacy_section_9_text_3">
+        Pokud je uzavřena smlouva, mohou být osobní údaje uchovávány po dobu trvání smluvního vztahu a následně po dobu
+        nezbytnou pro splnění zákonných povinností a ochranu právních nároků.
+      </p>
+
+      <p data-i18n="privacy_section_9_text_4">
+        Dokumenty, u nichž právní předpis stanoví povinnost uchování, jsou uchovávány po příslušnou zákonnou dobu.
       </p>
 
     </section>
 
 
     <!-- 10 -->
-
     <section class="privacy-section">
 
-      <h2>10. Cookies and Similar Technologies</h2>
+      <h2 data-i18n="privacy_section_10_title">
+        10. Práva subjektu údajů
+      </h2>
 
-      <p>
-        Our website may use cookies or similar technologies that are
-        necessary for the operation, security and functionality of the
-        website.
+      <p data-i18n="privacy_section_10_intro">
+        Za podmínek stanovených GDPR má subjekt údajů zejména právo:
       </p>
 
-      <p>
-        Where non-essential cookies or similar technologies require
-        consent under applicable law, we will request the appropriate
-        consent before using them.
-      </p>
-
-      <p>
-        You can also manage or delete cookies through the settings of
-        your web browser.
-      </p>
+      <ul>
+        <li data-i18n="privacy_section_10_item_1">na přístup ke svým osobním údajům;</li>
+        <li data-i18n="privacy_section_10_item_2">na opravu nepřesných osobních údajů;</li>
+        <li data-i18n="privacy_section_10_item_3">na výmaz osobních údajů;</li>
+        <li data-i18n="privacy_section_10_item_4">na omezení zpracování;</li>
+        <li data-i18n="privacy_section_10_item_5">vznést námitku proti zpracování;</li>
+        <li data-i18n="privacy_section_10_item_6">na přenositelnost údajů v případech stanovených GDPR;</li>
+        <li data-i18n="privacy_section_10_item_7">odvolat souhlas, pokud je zpracování založeno na souhlasu;</li>
+        <li data-i18n="privacy_section_10_item_8">vznést kdykoli námitku proti zpracování osobních údajů pro účely
+          přímého marketingu.</li>
+      </ul>
 
     </section>
 
 
     <!-- 11 -->
-
     <section class="privacy-section">
 
-      <h2>11. Data Security</h2>
+      <h2 data-i18n="privacy_section_11_title">
+        11. Kontakt pro uplatnění práv
+      </h2>
 
-      <p>
-        We take appropriate technical and organisational measures to
-        protect personal data against accidental or unlawful
-        destruction, loss, alteration, unauthorised disclosure or
-        unauthorised access.
+      <p data-i18n="privacy_section_11_text">
+        Svá práva může subjekt údajů uplatnit prostřednictvím:
       </p>
 
-      <p>
-        Access to personal data is limited to persons and service
-        providers who need it for legitimate business purposes or to
-        fulfil legal obligations.
+      <div class="privacy-company">
+
+        <p>
+          <strong>E-mail:</strong>
+          <a href="mailto:greenfrog.office@email.com">
+            greenfrog.office@email.com
+          </a>
+          <br>
+
+          <strong>Telefon:</strong>
+          <a href="tel:+420777713093">
+            +420 777 713 093
+          </a>
+          <br>
+
+          <strong data-i18n="privacy_address_label">
+            Adresa:
+          </strong>
+          Kamenná 5124, 430 04 Chomutov, Česká republika
+        </p>
+
+      </div>
+
+      <p data-i18n="privacy_section_11_text_2">
+        Žádosti jsou vyřizovány bez zbytečného odkladu, zpravidla nejpozději do jednoho měsíce od jejich obdržení. Za
+        podmínek stanovených GDPR může být tato lhůta prodloužena.
       </p>
 
     </section>
 
 
     <!-- 12 -->
-
     <section class="privacy-section">
 
-      <h2>12. Your Rights</h2>
+      <h2 data-i18n="privacy_section_12_title">
+        12. Dozorový úřad
+      </h2>
 
-      <p>
-        Subject to the conditions established by applicable data
-        protection law, you may have the following rights:
+      <p data-i18n="privacy_section_12_text_1">
+        Subjekt údajů má právo podat stížnost u dozorového úřadu, pokud se domnívá, že zpracováním jeho osobních údajů
+        dochází k porušení GDPR nebo jiných právních předpisů.
       </p>
 
-      <ul>
-
-        <li>
-          the right to obtain confirmation as to whether your personal
-          data is being processed;
-        </li>
-
-        <li>
-          the right to access your personal data;
-        </li>
-
-        <li>
-          the right to request correction of inaccurate or incomplete
-          personal data;
-        </li>
-
-        <li>
-          the right to request erasure of personal data;
-        </li>
-
-        <li>
-          the right to request restriction of processing;
-        </li>
-
-        <li>
-          the right to object to certain processing;
-        </li>
-
-        <li>
-          the right to data portability, where applicable;
-        </li>
-
-        <li>
-          the right to withdraw consent where processing is based on
-          consent.
-        </li>
-
-      </ul>
-
-      <p>
-        To exercise your rights, please contact us:
+      <p data-i18n="privacy_section_12_text_2">
+        Dozorovým úřadem v České republice je:
       </p>
 
-      <p>
-        <a href="mailto:greenfrog.office@email.cz">
-          greenfrog.office@email.cz
-        </a>
-      </p>
+      <div class="privacy-company">
+
+        <p>
+          <strong>Úřad pro ochranu osobních údajů</strong><br>
+          Pplk. Sochora 27<br>
+          170 00 Praha 7<br>
+          Česká republika<br>
+          Web:
+          <a href="https://uoou.gov.cz/" target="_blank" rel="noopener noreferrer">
+            uoou.gov.cz
+          </a>
+        </p>
+
+      </div>
 
     </section>
 
 
     <!-- 13 -->
-
     <section class="privacy-section">
 
-      <h2>13. Right to Lodge a Complaint</h2>
+      <h2 data-i18n="privacy_section_13_title">
+        13. Změny těchto Zásad
+      </h2>
 
-      <p>
-        If you believe that your personal data is being processed in
-        violation of applicable data protection legislation, you have
-        the right to lodge a complaint with the competent supervisory
-        authority.
+      <p data-i18n="privacy_section_13_text_1">
+        CANOPUS s.r.o. může tyto Zásady ochrany osobních údajů průběžně aktualizovat zejména v souvislosti se změnami
+        právních předpisů, technologií nebo způsobů zpracování osobních údajů.
       </p>
 
-      <p>
-        In the Czech Republic, the supervisory authority is:
-      </p>
-
-      <div class="company-card">
-
-        <p>
-          <strong>Úřad pro ochranu osobních údajů</strong><br>
-          Office for Personal Data Protection<br>
-          Pplk. Sochora 27<br>
-          170 00 Praha 7<br>
-          Czech Republic
-        </p>
-
-      </div>
-
-      <p>
-        Further information is available on the website of the
-        <a href="https://uoou.gov.cz/" target="_blank" rel="noopener noreferrer">
-          Office for Personal Data Protection
-        </a>.
+      <p data-i18n="privacy_section_13_text_2">
+        Aktuální znění je vždy zveřejněno na webových stránkách greenfrogoffice.cz.
       </p>
 
     </section>
 
 
-    <!-- 14 -->
+    <!-- Footer link -->
+    <div class="privacy-bottom">
 
-    <section class="privacy-section">
-
-      <h2>14. Changes to This Privacy Policy</h2>
-
-      <p>
-        We may update this Privacy Policy from time to time to reflect
-        changes in our services, technologies, legal requirements or
-        data processing practices.
-      </p>
-
-      <p>
-        The latest version will always be published on this page.
-      </p>
-
-    </section>
-
-
-    <footer class="privacy-footer">
-
-      <p>
-        © 2026 GreenFrogOffice — CANOPUS s.r.o.
-      </p>
-
-      <a class="top-link" href="#top">
-        ↑ Back to top
+      <a href="#top" class="privacy-top" data-i18n="privacy_top">
+        ↑ Nahoru
       </a>
 
+    </div>
+
+  </div>
+
+</section>
+  </main>
+
+  <!-- Footer -->
+  
+<footer class="footer" id="footer">
+  <div class="container">
+    <div class="footer-container">
+      <div class="logo-contacts-container">
+        <!-- Логотип -->
+        <div class="footer-logo">
+          <a class="footer-logo-link" href="/green-frog">
+            GreenFrog<span class="logo-span">Office</span>
+          </a>
+        </div>
+
+        <!-- Контакти -->
+        <ul class="footer-contacts">
+          <li>
+            <p class="footer-contacts-label" data-i18n="footer_phone_label"></p>
+            <a class="footer-phone" href="tel:+420777713093">+420 777-713-093</a>
+          </li>
+          <li>
+            <p class="footer-contacts-label" data-i18n="footer_email_label"></p>
+            <a class="footer-phone" href="mailto:greenfrog.office@email.cz">
+              greenfrog.office@email.cz
+            </a>
+          </li>
+          <li>
+            <p class="footer-contacts-label" data-i18n="footer_address_label"></p>
+            <address>
+              <a class="footer-phone" href="https://maps.google.com/?q=Prague.+Czechia" target="_blank" rel="noopener noreferrer">
+                Kamenná 5124, Chomutov 430 04, Czechia
+              </a>
+            </address>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Навігація -->
+      
+          <nav class="footer-nav" aria-label="Footer navigation">
+            <ul class="footer-menu">
+              <li class="footer-menu-item">
+                <a class="footer-address" href="#about" data-i18n="footer_nav_services"></a>
+              </li>
+              <li class="footer-menu-item">
+                <a class="footer-address" href="./questions.html" data-i18n="footer_nav_reviews"></a>
+
+
+              </li>
+              <li class="footer-menu-item">
+                <a class="footer-address" href="#application-form" data-i18n="footer_nav_contact"></a>
+              </li>
+            </ul>
+          </nav>      
+
+  
+    <div class="modal_social">
+      <ul class="footer-social-list">
+    
+        <li class="footer-social-item">
+          <a class="social-link" href="https://t.me/SvetaMasenko" target="_blank">
+            <img src="./img/telegram.svg" width="26" height="26" alt="Telegram">
+          </a>
+        </li>
+    
+        <li class="footer-social-item">
+          <a class="social-link" href="https://wa.me/420777713093" target="_blank">
+            <img src="./img/whatsapp.svg" width="26" height="26" alt="WhatsApp">
+          </a>
+        </li>
+    
+        <li class="footer-social-item">
+          <a href="https://viber.me/420777713093" target="_blank" rel="noopener noreferrer">
+            <img src="./img/viber.svg" width="26" height="26" alt="Viber">
+          </a>
+        </li>
+    
+      </ul>
+    </div>
+    </div>
+
+
+    <!-- ===== DIVIDER ===== -->
+    <hr class="footer-divider" />
+    
+    
+    <!-- ===== BOTTOM PART ===== -->
+    <div class="footer-bottom">
+      <p class="footer-copyright">
+        CANOPUS s.r.o. IČO: 24666068
+      </p>
+      <p class="footer-copyright">
+        ©2026 GreenFrogOffice. All rights reserved.
+      </p>
+    
+      <ul class="footer-legal">
+        <li>
+          <a class="footer-legal-link" href="/privacy-policy">Privacy Policy</a>
+        </li>
+        <li>
+          <a class="footer-legal-link" href="/terms">Terms of Service</a>
+        </li>
+      </ul>
+    </div>
+    </div>
     </footer>
 
-  </main>
+  <!-- Overlay -->
+  <div class="js-menu-overlay"></div>
+
+  <!-- Libraries -->
+  <script src="https://unpkg.com/body-scroll-lock/lib/bodyScrollLock.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <script src="https://unpkg.com/i18next@23.10.1/i18next.min.js"></script>
+
+  <!-- App scripts -->
+
 
 </body>
 
