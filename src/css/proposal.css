@@ -15,7 +15,9 @@
 
 .title-language {
   color: rgb(242, 81, 41);
-  
+  font-family: 'Marck Script', cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .proposal-wrapper {
