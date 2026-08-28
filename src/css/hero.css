@@ -1,31 +1,3 @@
-
-/* @import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap'); */
-
-
-
-/* mobile */
-
-/* @media (min-width: 1280px) {
-
-  .hero-section {
-    position: relative;
-  }
-
-  .hero-checkmark {
-    position: absolute;
-    right: 32px;
-    bottom: 24px;
-    margin: 0;
-    width: auto;
-  }
-
-  .hero-checkmark-container {
-    width: 48px;
-    height: 48px;
-    top: 0;
-  }
-} */
-
 .hero-text span[data-i18n="hero.after"] {
   font-family: 'Caveat', cursive;
   font-weight: 400;
@@ -44,10 +16,7 @@
   min-height: 700px;
   background-size: cover;
   background-position: center 115%;
-  background-repeat: no-repeat;
-
-
-  
+  background-repeat: no-repeat;  
 }
 
 .hero-section {
