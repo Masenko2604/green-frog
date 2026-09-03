@@ -83,6 +83,11 @@
  .proposal-list {
    margin-bottom: 20px;
  }
+ .proposal-price {
+   color: #68b638;
+   font-weight: 700;
+   white-space: nowrap;
+ }
 
  .proposal-item {
    display: flex;
@@ -111,6 +116,16 @@
    font-weight: 700;
    line-height: 1.42;
    letter-spacing: -0.28px;
+ }
+ @media screen and (max-width: 767px) {
+   .proposal-item-text {
+     display: block;
+   }
+
+   .proposal-price {
+    display: block;
+    margin-top: 5px;
+   }
  }
 
  @media screen and (max-width: 767px) {
@@ -175,7 +190,12 @@
      .proposal-item {
        gap: 16px;
      }
-  
+    .proposal-price {
+      color: #68b638;
+      font-weight: 700;
+      white-space: nowrap;
+      margin-left: 8px;
+    }
      .icon-wrapper {
        width: 28px;
        height: 28px;

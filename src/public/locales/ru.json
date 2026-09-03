@@ -34,13 +34,21 @@
 
   "proposal_title": "Бухгалтерия, <span class=\"title-language\"> на которую можно положиться!</span>",
 
-  "proposal_item_apostille": "Переводы и апостилирование: осуществляем переводы заверенные судебным переводчиком, а также апостилирование документов.",
+  "proposal_item_company": "Регистрация компании <span class=\"proposal-price\">30 000 Kč</span>",
 
-  "proposal_item_databox": "Нострификация дипломов: прохождение процедуры признания вашего зарубежного высшего образования эквивалентным чешскому.",
+  "proposal_item_address": "Юридический адрес",
 
-  "proposal_item_bank": "Многоязычная коммуникация: мы общаемся на английском, чешском, русском и украинском языках, обеспечивая комфортное и понятное взаимодействие на каждом этапе.",
+  "proposal_item_liquidation": "Ликвидация компании <span class=\"proposal-price\">60 000 Kč</span>",
 
-  "proposal_item_power": "Быстрая регистрация компании без справки о несудимости: регистрация компании без необходимости предоставления справки о несудимости — быстрее, проще и без дополнительных расходов.",
+  "proposal_item_licenses": "Получение свободных лицензий <span class=\"proposal-price\">2 500 Kč</span>",
+
+  "proposal_item_accounting": "Комплексное бухгалтерское обслуживание",
+
+  "proposal_item_annual_report": "Годовой отчёт <span class=\"proposal-price\">от 3 500 Kč</span>",
+
+  "proposal_item_vat_report": "Отчётность по НДС <span class=\"proposal-price\">от 500 Kč</span>",
+
+  "proposal_item_identified_person": "Регистрация в качестве идентифицированного лица по НДС <span class=\"proposal-price\">2 000 Kč</span>",
 
   "proposal_button": "Оставить заявку",
 
