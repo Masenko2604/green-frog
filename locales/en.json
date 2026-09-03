@@ -38,15 +38,23 @@
 
   "proposal_title": "Accounting, <span class=\"title-language\"> you can trust!</span>",
 
-  "proposal_item_apostille": "Translations and Apostille: we provide certified translations by sworn court translators, as well as apostille services for documents.",
+  "proposal_item_company": "Company registration <span class=\"proposal-price\">30,000 Kč</span>",
 
-  "proposal_item_databox": "Diploma Nostrification: completion of the procedure for recognizing your foreign higher education as equivalent to Czech education.",
+  "proposal_item_address": "Legal address",
 
-  "proposal_item_bank": "Multilingual Communication: we communicate in English, Czech, Russian, and Ukrainian, ensuring clear and comfortable interaction at every stage.",
+  "proposal_item_liquidation": "Company liquidation <span class=\"proposal-price\">60,000 Kč</span>",
 
-  "proposal_item_power": "Fast Company Registration Without a Criminal Record Certificate: company registration without the need to provide a criminal record certificate — faster, simpler, and with no additional costs.",
+  "proposal_item_licenses": "Obtaining free licenses <span class=\"proposal-price\">2,500 Kč</span>",
 
-  "proposal_button": "Leave an application",
+  "proposal_item_accounting": "Comprehensive accounting",
+
+  "proposal_item_annual_report": "Annual report <span class=\"proposal-price\">from 3,500 Kč</span>",
+
+  "proposal_item_vat_report": "VAT report <span class=\"proposal-price\">from 500 Kč</span>",
+
+  "proposal_item_identified_person": "Registration as an identified person for VAT <span class=\"proposal-price\">2,000 Kč</span>",
+
+  "proposal_button": "Leave an application", 
 
   "form_name_label": "Name",
   "form_name_placeholder": "Name",

@@ -38,13 +38,21 @@
 
   "proposal_title": "Účetnictví, <span class=\"title-language\">na které se můžete spolehnout!</span>",
 
-  "proposal_item_apostille": "Překlady a apostila: zajišťujeme ověřené překlady prostřednictvím soudních překladatelů a také apostilu dokumentů.",
+  "proposal_item_company": "Založení společnosti <span class=\"proposal-price\">30 000 Kč</span>",
 
-  "proposal_item_databox": "Nostrifikace diplomu: zajištění procesu uznání vašeho zahraničního vysokoškolského vzdělání jako rovnocenného českému vzdělání.",
+  "proposal_item_address": "Poskytnutí sídla společnosti",
 
-  "proposal_item_bank": "Vícejazyčná komunikace: komunikujeme anglicky, česky, rusky a ukrajinsky a zajišťujeme jasnou a pohodlnou komunikaci v každé fázi spolupráce.",
+  "proposal_item_liquidation": "Likvidace společnosti <span class=\"proposal-price\">60 000 Kč</span>",
 
-  "proposal_item_power": "Rychlá registrace společnosti bez výpisu z rejstříku trestů: registrace společnosti bez nutnosti předkládat výpis z rejstříku trestů — rychleji, jednodušeji a bez dalších nákladů.",
+  "proposal_item_licenses": "Získání volných živností <span class=\"proposal-price\">2 500 Kč</span>",
+
+  "proposal_item_accounting": "Komplexní účetní služby",
+
+  "proposal_item_annual_report": "Výroční zpráva <span class=\"proposal-price\">od 3 500 Kč</span>",
+
+  "proposal_item_vat_report": "Přiznání k DPH <span class=\"proposal-price\">od 500 Kč</span>",
+
+  "proposal_item_identified_person": "Registrace identifikované osoby k DPH <span class=\"proposal-price\">2 000 Kč</span>",
 
   "proposal_button": "Nezávazná poptávka",
 
