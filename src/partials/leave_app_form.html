@@ -1,55 +1,71 @@
 <section id="application-form" class="section">
   <div class="container">
 
-    <h2 class="section-title" data-i18n="form_title"></h2>
+    <h2 class="section-title" data-i18n="form_title">
+      Nezávazná poptávka
+    </h2>
 
     <div class="form-img-container">
-      <p class="leave-item-text-up" data-i18n-html="form_description"></p>
+      <p class="leave-item-text-up" data-i18n-html="form_description">
+        Můžete nám napsat na adresu
+        <a class="text-link" href="mailto:greenfrog.office@email.cz">greenfrog.office@email.cz</a>
+        nebo vyplnit formulář níže. Uveďte své jméno, e-mail a zprávu a my se vám co nejdříve ozveme.
+      </p>
 
       <form id="contact-form" class="leave-form">
-      
+
         <!-- Honeypot -->
         <input type="text" name="company" tabindex="-1" autocomplete="off" style="position:absolute; left:-9999px;" />
-      
+
         <div class="form-container">
-          <label class="visually-hidden" for="user-name" data-i18n="form_name_label"></label>
-          <input class="form-input" type="text" id="user-name" name="user_name" data-i18n-placeholder="form_name_placeholder"
-            required />
+          <label class="visually-hidden" for="user-name" data-i18n="form_name_label">
+            Jméno
+          </label>
+          <input class="form-input" type="text" id="user-name" name="user_name"
+            data-i18n-placeholder="form_name_placeholder" placeholder="Jméno" required />
         </div>
-      
+
         <div class="form-container">
-          <label class="visually-hidden" for="mail" data-i18n="form_email_label"></label>
-          <input class="form-input" type="email" id="mail" name="user_email" data-i18n-placeholder="form_email_placeholder"
-            required />
+          <label class="visually-hidden" for="mail" data-i18n="form_email_label">
+            E-mail
+          </label>
+          <input class="form-input" type="email" id="mail" name="user_email"
+            data-i18n-placeholder="form_email_placeholder" placeholder="E-mail" required />
         </div>
 
         <div class="form-container">
           <label class="visually-hidden" for="user-phone" data-i18n="form_phone_label">
+            Telefon
           </label>
-        
-          <input class="form-input" type="tel" id="user-phone" name="user_phone" data-i18n-placeholder="form_phone_placeholder"
-            autocomplete="tel" />
+
+          <input class="form-input" type="tel" id="user-phone" name="user_phone"
+            data-i18n-placeholder="form_phone_placeholder" placeholder="Telefon" autocomplete="tel" />
         </div>
-      
+
         <div class="textarea-container">
-          <label class="visually-hidden" for="user-comment" data-i18n="form_comment_label"></label>
+          <label class="visually-hidden" for="user-comment" data-i18n="form_comment_label">
+            Komentář
+          </label>
           <textarea class="form-textarea" id="user-comment" name="message" rows="5"
-            data-i18n-placeholder="form_comment_placeholder" required></textarea>
+            data-i18n-placeholder="form_comment_placeholder" placeholder="Komentář" required></textarea>
         </div>
-      
-        <!-- ✅ КНОПКА -->
+
+        <!-- KNOPOČKA -->
         <button type="submit" class="button" data-i18n="form_submit">
-          Send
+          Odeslat
         </button>
-      
-        <!-- текст политики -->
-        <p class="leave-item-text-down" data-i18n-html="form_privacy_text"></p>
-      
-        <!-- сообщение об успехе -->
-        <p id="form-success" class="form-success-message" hidden>
-          ✅ Message sent successfully
+
+        <!-- text politiky -->
+        <p class="leave-item-text-down" data-i18n-html="form_privacy_text">
+          Kliknutím na tlačítko „Odeslat“ souhlasíte s našimi
+          <a href="./privacy-policy.html">Zásadami ochrany osobních údajů</a>.
         </p>
-      
+
+        <!-- zpráva o úspěšném odeslání -->
+        <p id="form-success" class="form-success-message" hidden data-i18n="form_success">
+          Děkujeme! Vaše zpráva byla odeslána.
+        </p>
+
       </form>
 
     </div>
