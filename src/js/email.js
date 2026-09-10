@@ -1,7 +1,8 @@
 import emailjs from '@emailjs/browser';
 
 // ⚠️ public key
-emailjs.init('-fxlEiaaEB8sP79Pk');
+
+emailjs.init(import.meta.env.VITE_EMAILJS_PUBLIC_KEY);
 
 document.addEventListener('DOMContentLoaded', () => {
   const form = document.querySelector('#contact-form');
@@ -18,12 +19,13 @@ document.addEventListener('DOMContentLoaded', () => {
     if (form.company.value !== '') return;
 
     // 1️⃣ письмо админу (как было — НЕ ТРОГАЕМ)
-    emailjs
+    emailjs      
       .sendForm(
-        'service_hoy596e',          // SERVICE_ID
-        'template_8lnxegd',     // ADMIN TEMPLATE ID
-        form
-      )
+  import.meta.env.VITE_EMAILJS_SERVICE_ID,
+  import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+  form
+)
+     
       .then(() => {
 
         // 2️⃣ автоответ пользователю (ДОБАВЛЕНО)
