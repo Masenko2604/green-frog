@@ -291,6 +291,10 @@ a {
     padding-top: 75px;
     padding-bottom: 75px;
   }
+    #proposal.section {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
 
 @media screen and (min-width: 1280px) {
   .section-title span::after {

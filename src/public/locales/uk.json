@@ -30,29 +30,30 @@
   "service_representation_title": "Ліквідація компанії",
   "service_representation_text": "Ми пропонуємо професійну допомогу в повній ліквідації компанії. Ми забезпечуємо всі юридичні, адміністративні та процесуальні кроки, щоб припинення бізнесу відбулося безперешкодно та відповідно до законодавчих норм.",
 
-  "proposal_hidden_title": "Пропозиція залишити заявку",
+  "section_intro": "Почніть вести бізнес у Чехії просто, швидко та без зайвих турбот.",
 
-  "proposal_title": "Бухгалтерія, <span class=\"title-language\"> на яку можна покладатися!</span>",
+  "proposal_hidden_title": "Наші послуги",
 
-  "proposal_item_company": "Реєстрація компанії <span class=\"proposal-price\">30 000 Kč</span>",
+  "proposal_title": "НАШІ ПОСЛУГИ та <span class=\"title-language\">з чим ми вам допоможемо:</span>",
 
-  "proposal_item_address": "Юридична адреса",
+  "proposal_item_company": "Реєстрація компанії",
 
-  "proposal_item_liquidation": "Ліквідація компанії <span class=\"proposal-price\">60 000 Kč</span>",
+  "proposal_item_osvc": "Реєстрація ФОП",
 
-  "proposal_item_licenses": "Отримання вільних ліцензій <span class=\"proposal-price\">2 500 Kč</span>",
+  "proposal_item_changes": "Зміни в існуючій компанії",
+
+  "proposal_item_licenses": "Ліцензії та підприємницькі дозволи",
 
   "proposal_item_accounting": "Комплексне бухгалтерське обслуговування",
 
-  "proposal_item_annual_report": "Річний звіт <span class=\"proposal-price\">від 3 500 Kč</span>",
+  "proposal_item_administrative": "Адміністративна підтримка",
 
-  "proposal_item_vat_report": "Звітність з ПДВ <span class=\"proposal-price\">від 500 Kč</span>",
-
-  "proposal_item_identified_person": "Реєстрація як ідентифікованої особи з ПДВ <span class=\"proposal-price\">2 000 Kč</span>",
+  "proposal_item_liquidation": "Ліквідація компанії",
 
   "proposal_button": "Залишити заявку",
 
   "form_title": "Залишити заявку",
+
   "form_description": "Ви можете написати нам на адресу <a class=\"text-link\" href=\"mailto:greenfrog.office@email.cz\">greenfrog.office@email.cz</a> або заповнити форму нижче. Вкажіть ім’я, електронну пошту та повідомлення, і ми зв’яжемося з вами найближчим часом.",
 
   "form_name_label": "Ім’я",

@@ -8,7 +8,18 @@
       width: 100%;
       padding: 40px 20px 64px 20px;
  }
+ .section-intro {
+   max-width: 600px;
+   margin: -35px auto 25px;
+   padding: 0 20px;
 
+   text-align: center;
+   font-family: 'Manrope', sans-serif;
+   font-size: 20px;
+   line-height: 1.35;
+   font-weight: 500;
+   color: rgba(4, 58, 4, 0.75);
+ }
  .title {
   color: var(--white);
   font-family: 'Caveat', cursive;
@@ -155,6 +166,22 @@
       padding: 64px 18px 93px 18px;
   }
 
+    @media screen and (min-width: 768px) {
+  
+      .section-intro {
+        max-width: 700px;
+      margin: -35px auto 10px;
+        padding: 0 30px;
+  
+        text-align: center;
+        font-family: 'Manrope', sans-serif;
+        font-size: 24px;
+        line-height: 1.35;
+        font-weight: 500;
+        color: rgba(4, 58, 4, 0.75);
+      }
+    }
+
    .title {
     font-family: 'Caveat', cursive;
      font-size: 60px;
@@ -234,6 +261,15 @@
    .proposal-container {
      padding: 64px 64px 142px;
    }
+
+     .section-intro {
+       max-width: 900px;
+      margin: -35px auto 15px;
+       padding: 0 20px;
+  
+       font-size: 28px;
+       line-height: 1.35;
+     }
 
    .title {
     font-family: 'Caveat', cursive;
