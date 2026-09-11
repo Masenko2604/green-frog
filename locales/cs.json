@@ -6,7 +6,7 @@
   "hero.before": "Služby pro právnické",
   "hero.highlight": "a fyzické osoby",
   "hero.after": "v Česku ♡",
-  "hero.description": "Registrace společnosti, účetnictví a komplexní podpora – vše, co potřebujete k úspěšnému zahájení a pohodlnému provozování svého podnikání v České republice.",
+  "hero.description": "Registrace společností, účetnictví a komplexní podpora – vše, co potřebujete k úspěšnému zahájení a pohodlnému provozování svého podnikání v České republice.",
   "hero_button": "Nezávazná poptávka",
 
   "seo": {
@@ -34,28 +34,26 @@
   "form_description": "Můžete nám napsat na adresu <a class=\"text-link\" href=\"mailto:greenfrog.office@email.cz\">greenfrog.office@email.cz</a> nebo vyplnit formulář níže. Uveďte své jméno, e-mail a zprávu a my se vám co nejdříve ozveme.",
   "form_success": "Děkujeme! Vaše zpráva byla odeslána.",
 
-  "proposal_hidden_title": "Nezávazná poptávka",
+  "section_intro": "Založte si firmu v České republice jednoduše a bez zbytečných starostí.",
 
-  "proposal_title": "Účetnictví, <span class=\"title-language\">na které se můžete spolehnout!</span>",
+  "proposal_hidden_title": "Naše služby",
 
-  "proposal_item_company": "Založení společnosti <span class=\"proposal-price\">30 000 Kč</span>",
+  "proposal_title": "NAŠE SLUŽBY a <span class=\"title-language\">s čím vám pomůžeme:</span>",
 
-  "proposal_item_address": "Poskytnutí sídla společnosti",
+  "proposal_item_company": "Založení společnosti",
 
-  "proposal_item_liquidation": "Likvidace společnosti <span class=\"proposal-price\">60 000 Kč</span>",
+  "proposal_item_osvc": "Založení OSVČ",
 
-  "proposal_item_licenses": "Získání volných živností <span class=\"proposal-price\">2 500 Kč</span>",
+  "proposal_item_changes": "Změny u existující společnosti",
 
-  "proposal_item_accounting": "Komplexní účetní služby",
+  "proposal_item_licenses": "Živnosti a podnikatelská oprávnění",
+  "proposal_item_accounting": "Komplexní účetnictví",
 
-  "proposal_item_annual_report": "Výroční zpráva <span class=\"proposal-price\">od 3 500 Kč</span>",
+  "proposal_item_administrative": "Administrativní podpora",
 
-  "proposal_item_vat_report": "Přiznání k DPH <span class=\"proposal-price\">od 500 Kč</span>",
-
-  "proposal_item_identified_person": "Registrace identifikované osoby k DPH <span class=\"proposal-price\">2 000 Kč</span>",
+  "proposal_item_liquidation": "Likvidace společnosti",
 
   "proposal_button": "Nezávazná poptávka",
-
   "form_name_label": "Jméno",
   "form_name_placeholder": "Jméno",
 

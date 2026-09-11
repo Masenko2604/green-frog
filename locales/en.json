@@ -34,38 +34,42 @@
   "form_description": "You can contact us at <a class=\"text-link\" href=\"mailto:greenfrog.office@email.cz\">greenfrog.office@email.cz</a> or fill out the form below. Please provide your name, email address and message, and we will get back to you shortly.",
   "form_success": "Thank you! Your message has been sent.",
 
-  "proposal_hidden_title": "Proposal to leave an application",
+  "section_intro": "Start your business in the Czech Republic simply, quickly and without unnecessary worries.",
 
-  "proposal_title": "Accounting, <span class=\"title-language\"> you can trust!</span>",
+  "proposal_hidden_title": "Our Services",
 
-  "proposal_item_company": "Company registration <span class=\"proposal-price\">30,000 Kč</span>",
+  "proposal_title": "OUR SERVICES and <span class=\"title-language\">how we can help you:</span>",
 
-  "proposal_item_address": "Legal address",
+  "proposal_item_company": "Company registration",
 
-  "proposal_item_liquidation": "Company liquidation <span class=\"proposal-price\">60,000 Kč</span>",
+  "proposal_item_osvc": "Self-employed registration",
 
-  "proposal_item_licenses": "Obtaining free licenses <span class=\"proposal-price\">2,500 Kč</span>",
+  "proposal_item_changes": "Changes to an existing company",
 
-  "proposal_item_accounting": "Comprehensive accounting",
+  "proposal_item_licenses": "Business licenses and permits",
 
-  "proposal_item_annual_report": "Annual report <span class=\"proposal-price\">from 3,500 Kč</span>",
+  "proposal_item_accounting": "Comprehensive accounting services",
 
-  "proposal_item_vat_report": "VAT report <span class=\"proposal-price\">from 500 Kč</span>",
+  "proposal_item_administrative": "Administrative support",
 
-  "proposal_item_identified_person": "Registration as an identified person for VAT <span class=\"proposal-price\">2,000 Kč</span>",
+  "proposal_item_liquidation": "Company liquidation",
 
-  "proposal_button": "Leave an application", 
+  "proposal_button": "Leave a request",
 
   "form_name_label": "Name",
+
   "form_name_placeholder": "Name",
 
   "form_phone_label": "Phone",
+
   "form_phone_placeholder": "Phone",
 
   "form_email_label": "Email",
+
   "form_email_placeholder": "Email",
 
   "form_comment_label": "Comment",
+
   "form_comment_placeholder": "Comment",
 
   "form_submit": "Send",

@@ -30,44 +30,52 @@
   "service_representation_title": "Ликвидация компании",
   "service_representation_text": "Мы предлагаем профессиональную помощь в полной ликвидации компании. Мы обеспечиваем соблюдение всех юридических, административных и процессуальных процедур, чтобы прекращение деятельности предприятия прошло гладко и в соответствии с законодательными нормами.",
 
-  "proposal_hidden_title": "Предложение оставить заявку",
+  "section_intro": "Начните бизнес в Чехии просто, быстро и без лишних забот.",
 
-  "proposal_title": "Бухгалтерия, <span class=\"title-language\"> на которую можно положиться!</span>",
+  "proposal_hidden_title": "Наши услуги",
 
-  "proposal_item_company": "Регистрация компании <span class=\"proposal-price\">30 000 Kč</span>",
+  "proposal_title": "НАШИ УСЛУГИ и <span class=\"title-language\">с чем мы вам поможем:</span>",
 
-  "proposal_item_address": "Юридический адрес",
+  "proposal_item_company": "Регистрация компании",
 
-  "proposal_item_liquidation": "Ликвидация компании <span class=\"proposal-price\">60 000 Kč</span>",
+  "proposal_item_osvc": "Регистрация ИП",
 
-  "proposal_item_licenses": "Получение свободных лицензий <span class=\"proposal-price\">2 500 Kč</span>",
+  "proposal_item_changes": "Изменения в существующей компании",
+
+  "proposal_item_licenses": "Лицензии и предпринимательские разрешения",
 
   "proposal_item_accounting": "Комплексное бухгалтерское обслуживание",
 
-  "proposal_item_annual_report": "Годовой отчёт <span class=\"proposal-price\">от 3 500 Kč</span>",
+  "proposal_item_administrative": "Административная поддержка",
 
-  "proposal_item_vat_report": "Отчётность по НДС <span class=\"proposal-price\">от 500 Kč</span>",
-
-  "proposal_item_identified_person": "Регистрация в качестве идентифицированного лица по НДС <span class=\"proposal-price\">2 000 Kč</span>",
+  "proposal_item_liquidation": "Ликвидация компании",
 
   "proposal_button": "Оставить заявку",
 
   "form_title": "Оставить заявку",
+
   "form_title": "Оставить заявку",
+
   "form_description": "Вы можете написать нам по адресу <a class=\"text-link\" href=\"mailto:greenfrog.office@email.cz\">greenfrog.office@email.cz</a> или заполнить форму ниже. Укажите имя, электронную почту и сообщение, и мы свяжемся с вами в ближайшее время.",
+
   "form_name_label": "Имя",
+
   "form_name_placeholder": "Имя",
 
   "form_phone_label": "Телефон",
+
   "form_phone_placeholder": "Телефон",
 
   "form_email_label": "Email",
+
   "form_email_placeholder": "Email",
 
   "form_comment_label": "Комментарий",
+
   "form_comment_placeholder": "Комментарий",
 
   "form_submit": "Отправить",
+
   "form_success": "Спасибо! Ваше сообщение отправлено.",
 
   "form_privacy_text": "Нажимая кнопку «Отправить», вы соглашаетесь с нашей <a href=\"./privacy-policy.html\">Политикой конфиденциальности</a>.",
