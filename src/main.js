@@ -4,6 +4,7 @@ import './js/mobile-menu';
 import './js/carousel-settings';
 import './js/animation';
 import './js/email';
+import './css/cookie-banner.css';
 
 document.addEventListener('DOMContentLoaded', () => {
   if (window.location.hash === '#application-form') {
