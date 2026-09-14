@@ -493,5 +493,15 @@
   "cookie_description": "Мы используем cookies для корректной работы сайта и анализа посещаемости. Вы можете в любое время изменить свой выбор.",
   "cookie_accept": "Принять",
   "cookie_reject": "Отклонить",
-  "cookie_settings": "Настройки"
+  "cookie_settings": "Настройки",
+
+  "cookie_settings_title": "Настройки cookies",
+  "cookie_settings_description": "Выберите, какие типы cookies вы хотите разрешить.",
+  "cookie_necessary_title": "Необходимые cookies",
+  "cookie_necessary_text": "Эти cookies необходимы для правильной работы сайта.",
+  "cookie_always_active": "Всегда активны",
+  "cookie_analytics_title": "Аналитические cookies",
+  "cookie_analytics_text": "Помогают нам понять, как посетители используют наш сайт.",
+  "cookie_save_settings": "Сохранить настройки",
+  "cookie_accept_all": "Принять все"
 }

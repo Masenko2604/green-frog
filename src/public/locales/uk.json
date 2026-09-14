@@ -484,5 +484,15 @@
   "cookie_description": "Ми використовуємо cookies для коректної роботи сайту та аналізу відвідуваності. Ви можете будь-коли змінити свій вибір.",
   "cookie_accept": "Прийняти",
   "cookie_reject": "Відхилити",
-  "cookie_settings": "Налаштування"
+  "cookie_settings": "Налаштування",
+
+  "cookie_settings_title": "Налаштування cookies",
+  "cookie_settings_description": "Виберіть, які типи cookies ви хочете дозволити.",
+  "cookie_necessary_title": "Необхідні cookies",
+  "cookie_necessary_text": "Ці cookies необхідні для правильної роботи сайту.",
+  "cookie_always_active": "Завжди активні",
+  "cookie_analytics_title": "Аналітичні cookies",
+  "cookie_analytics_text": "Допомагають нам зрозуміти, як відвідувачі використовують наш сайт.",
+  "cookie_save_settings": "Зберегти налаштування",
+  "cookie_accept_all": "Прийняти все"
 }

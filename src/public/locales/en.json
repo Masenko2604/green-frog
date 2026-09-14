@@ -490,5 +490,15 @@
   "cookie_description": "We use cookies to ensure the proper functioning of the website and to analyze website traffic. You can change your choice at any time.",
   "cookie_accept": "Accept",
   "cookie_reject": "Reject",
-  "cookie_settings": "Settings"
+  "cookie_settings": "Settings",
+
+  "cookie_settings_title": "Cookie settings",
+  "cookie_settings_description": "Choose which types of cookies you want to allow.",
+  "cookie_necessary_title": "Necessary cookies",
+  "cookie_necessary_text": "These cookies are necessary for the proper functioning of the website.",
+  "cookie_always_active": "Always active",
+  "cookie_analytics_title": "Analytics cookies",
+  "cookie_analytics_text": "They help us understand how visitors use our website.",
+  "cookie_save_settings": "Save settings",
+  "cookie_accept_all": "Accept all"
 }

@@ -503,5 +503,15 @@
   "cookie_description": "Používáme cookies pro správné fungování webu a pro analýzu návštěvnosti. O svém souhlasu můžete kdykoli rozhodnout.",
   "cookie_accept": "Přijmout",
   "cookie_reject": "Odmítnout",
-  "cookie_settings": "Nastavení"
+  "cookie_settings": "Nastavení",
+
+  "cookie_settings_title": "Nastavení cookies",
+  "cookie_settings_description": "Vyberte, které typy cookies chcete povolit.",
+  "cookie_necessary_title": "Nezbytné cookies",
+  "cookie_necessary_text": "Tyto cookies jsou nezbytné pro správné fungování webu.",
+  "cookie_always_active": "Vždy aktivní",
+  "cookie_analytics_title": "Analytické cookies",
+  "cookie_analytics_text": "Pomáhají nám porozumět, jak návštěvníci používají naše webové stránky.",
+  "cookie_save_settings": "Uložit nastavení",
+  "cookie_accept_all": "Přijmout vše"
 }

@@ -73,8 +73,69 @@ document.addEventListener('DOMContentLoaded', () => {
     banner.hidden = true;
   });
 
-  settingsButton?.addEventListener('click', () => {
-    // Settings panel will be added later.
-    banner.hidden = false;
+settingsButton?.addEventListener('click', () => {
+  const settingsPanel = document.getElementById('cookie-settings-panel');
+
+  if (!settingsPanel) {
+    return;
+  }
+
+  settingsPanel.hidden = false;
+
+  const analyticsCheckbox = document.getElementById('cookie-analytics');
+
+  if (analyticsCheckbox) {
+    analyticsCheckbox.checked =
+      localStorage.getItem('cookieConsent') === 'accepted';
+  }
+});
+
+const saveSettingsButton = document.getElementById('cookie-save-settings');
+
+saveSettingsButton?.addEventListener('click', () => {
+  const analyticsCheckbox = document.getElementById('cookie-analytics');
+
+  const analyticsAccepted = analyticsCheckbox?.checked;
+
+  localStorage.setItem(
+    'cookieConsent',
+    analyticsAccepted ? 'accepted' : 'rejected'
+  );
+
+  gtag('consent', 'update', {
+    analytics_storage: analyticsAccepted ? 'granted' : 'denied',
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied'
   });
+
+  const settingsPanel = document.getElementById('cookie-settings-panel');
+
+  if (settingsPanel) {
+    settingsPanel.hidden = true;
+  }
+
+  banner.hidden = true;
+});
+
+const acceptAllButton = document.getElementById('cookie-accept-all');
+
+acceptAllButton?.addEventListener('click', () => {
+  localStorage.setItem('cookieConsent', 'accepted');
+
+  gtag('consent', 'update', {
+    analytics_storage: 'granted',
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied'
+  });
+
+  const settingsPanel = document.getElementById('cookie-settings-panel');
+
+  if (settingsPanel) {
+    settingsPanel.hidden = true;
+  }
+
+  banner.hidden = true;
+});
 });
