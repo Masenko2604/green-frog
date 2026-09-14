@@ -497,5 +497,11 @@
 
   "privacy_section_13_title": "13. Změny těchto Zásad",
   "privacy_section_13_text_1": "CANOPUS s.r.o. může tyto Zásady ochrany osobních údajů průběžně aktualizovat zejména v souvislosti se změnami právních předpisů, technologií nebo způsobů zpracování osobních údajů.",
-  "privacy_section_13_text_2": "Aktuální znění je vždy zveřejněno na webových stránkách greenfrogoffice.cz."
+  "privacy_section_13_text_2": "Aktuální znění je vždy zveřejněno na webových stránkách greenfrogoffice.cz.",
+
+  "cookie_title": "Používáme cookies",
+  "cookie_description": "Používáme cookies pro správné fungování webu a pro analýzu návštěvnosti. O svém souhlasu můžete kdykoli rozhodnout.",
+  "cookie_accept": "Přijmout",
+  "cookie_reject": "Odmítnout",
+  "cookie_settings": "Nastavení"
 }

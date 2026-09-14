@@ -42,11 +42,14 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
 
   <!-- Main styles -->
+
+  <script src="./js/cookie-consent.js"></script>
+  
   <script type="module" crossorigin src="./index.js"></script>
   <link rel="modulepreload" crossorigin href="./assets/vendor-DRC6Ryd-.js">
   <link rel="modulepreload" crossorigin href="./assets/lang-switcher-gdh-_Zl6.js">
   <link rel="stylesheet" crossorigin href="./assets/lang-switcher-ViDnZj7s.css">
-  <link rel="stylesheet" crossorigin href="./assets/index-DqRGzg0n.css">
+  <link rel="stylesheet" crossorigin href="./assets/index-BnbKBGRJ.css">
 </head>
   <body>
     <!-- Header -->
@@ -734,6 +737,42 @@
 
     <!-- Overlay -->
     <div class="js-menu-overlay"></div>
+    <!-- Cookie banner -->
+    <div id="cookie-banner" class="cookie-banner" hidden>
+  <div class="cookie-banner__content">
+
+    <div class="cookie-banner__text">
+      <h2 class="cookie-banner__title" data-i18n="cookie_title">
+        Používáme cookies
+      </h2>
+
+      <p class="cookie-banner__description" data-i18n="cookie_description">
+        Používáme cookies pro správné fungování webu a pro analýzu návštěvnosti.
+        O svém souhlasu můžete kdykoli rozhodnout.
+      </p>
+    </div>
+
+    <div class="cookie-banner__actions">
+
+      <button type="button" class="cookie-banner__button cookie-banner__button--accept" id="cookie-accept"
+        data-i18n="cookie_accept">
+        Přijmout
+      </button>
+
+      <button type="button" class="cookie-banner__button cookie-banner__button--reject" id="cookie-reject"
+        data-i18n="cookie_reject">
+        Odmítnout
+      </button>
+
+      <button type="button" class="cookie-banner__button cookie-banner__button--settings" id="cookie-settings"
+        data-i18n="cookie_settings">
+        Nastavení
+      </button>
+
+    </div>
+
+  </div>
+</div>
 
     <!-- Libraries -->
     <script src="https://unpkg.com/body-scroll-lock/lib/bodyScrollLock.min.js"></script>

@@ -484,5 +484,11 @@
 
   "privacy_section_13_title": "13. Changes to this Privacy Policy",
   "privacy_section_13_text_1": "CANOPUS s.r.o. may update this Privacy Policy from time to time, particularly due to changes in applicable legislation, technology or data processing practices.",
-  "privacy_section_13_text_2": "The current version will always be published on greenfrogoffice.cz."
+  "privacy_section_13_text_2": "The current version will always be published on greenfrogoffice.cz.",
+
+  "cookie_title": "We use cookies",
+  "cookie_description": "We use cookies to ensure the proper functioning of the website and to analyze website traffic. You can change your choice at any time.",
+  "cookie_accept": "Accept",
+  "cookie_reject": "Reject",
+  "cookie_settings": "Settings"
 }
