@@ -44,12 +44,21 @@
   <!-- Main styles -->
 
   <script src="./js/cookie-consent.js"></script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EMJ6NHFGLW"></script>
+  
+  <script>
+    gtag('js', new Date());
+
+    gtag('config', 'G-EMJ6NHFGLW');
+  </script>
   
   <script type="module" crossorigin src="./index.js"></script>
   <link rel="modulepreload" crossorigin href="./assets/vendor-DRC6Ryd-.js">
-  <link rel="modulepreload" crossorigin href="./assets/lang-switcher-gdh-_Zl6.js">
-  <link rel="stylesheet" crossorigin href="./assets/lang-switcher-ViDnZj7s.css">
-  <link rel="stylesheet" crossorigin href="./assets/index-BnbKBGRJ.css">
+  <link rel="modulepreload" crossorigin href="./assets/lang-switcher-DusUrWTc.js">
+  <link rel="stylesheet" crossorigin href="./assets/lang-switcher-CTfDdRZx.css">
+  <link rel="stylesheet" crossorigin href="./assets/index-DqRGzg0n.css">
 </head>
   <body>
     <!-- Header -->
@@ -739,6 +748,7 @@
     <div class="js-menu-overlay"></div>
     <!-- Cookie banner -->
     <div id="cookie-banner" class="cookie-banner" hidden>
+
   <div class="cookie-banner__content">
 
     <div class="cookie-banner__text">
@@ -772,6 +782,87 @@
     </div>
 
   </div>
+
+
+  <!-- Cookie settings panel -->
+
+  <div id="cookie-settings-panel" class="cookie-settings-panel" hidden>
+
+    <div class="cookie-settings__content">
+
+      <h2 class="cookie-settings__title" data-i18n="cookie_settings_title">
+        Nastavení cookies
+      </h2>
+
+      <p class="cookie-settings__description" data-i18n="cookie_settings_description">
+        Vyberte, které typy cookies chcete povolit.
+      </p>
+
+
+      <div class="cookie-settings__option">
+
+        <div>
+
+          <h3 class="cookie-settings__option-title" data-i18n="cookie_necessary_title">
+            Nezbytné cookies
+          </h3>
+
+          <p class="cookie-settings__option-text" data-i18n="cookie_necessary_text">
+            Tyto cookies jsou nezbytné pro správné fungování webu.
+          </p>
+
+        </div>
+
+        <span class="cookie-settings__status" data-i18n="cookie_always_active">
+          Vždy aktivní
+        </span>
+
+      </div>
+
+
+      <div class="cookie-settings__option">
+
+        <div>
+
+          <h3 class="cookie-settings__option-title" data-i18n="cookie_analytics_title">
+            Analytické cookies
+          </h3>
+
+          <p class="cookie-settings__option-text" data-i18n="cookie_analytics_text">
+            Pomáhají nám porozumět, jak návštěvníci používají naše webové stránky.
+          </p>
+
+        </div>
+
+        <label class="cookie-toggle">
+
+          <input type="checkbox" id="cookie-analytics" />
+
+          <span class="cookie-toggle__slider"></span>
+
+        </label>
+
+      </div>
+
+
+      <div class="cookie-settings__actions">
+
+        <button type="button" class="cookie-banner__button cookie-banner__button--accept" id="cookie-save-settings"
+          data-i18n="cookie_save_settings">
+          Uložit nastavení
+        </button>
+
+        <button type="button" class="cookie-banner__button cookie-banner__button--settings" id="cookie-accept-all"
+          data-i18n="cookie_accept_all">
+          Přijmout vše
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
 </div>
 
     <!-- Libraries -->

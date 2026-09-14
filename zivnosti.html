@@ -1,48 +1,184 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
 
-<head>
-  <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./favicon.png" />
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="./favicon.png" />
+    <!-- SEO -->
+    <title>Živnosti a podnikatelská oprávnění | GreenFrog Office</title>
 
-  
+    <meta
+      name="description"
+      content="Přehled živností v České republice – volné, řemeslné, vázané a koncesované živnosti. Pomůžeme vám vybrat vhodné podnikatelské oprávnění."
+    />
 
-  <!-- SEO -->
-  <title>Živnosti a podnikatelská oprávnění | GreenFrog Office</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-  <meta name="description"
-    content="Přehled živností v České republice – volné, řemeslné, vázané a koncesované živnosti. Pomůžeme vám vybrat vhodné podnikatelské oprávnění." />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Manrope:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
 
-  <link
-    href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Manrope:wght@400..700&display=swap"
-    rel="stylesheet" />
+    <!-- Main styles -->
 
-  <!-- Normalize -->
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
+    <!-- Živnosti styles -->
 
-  <!-- Main styles -->
+    <!-- Cookie banner -->
 
-  <!-- Živnosti styles -->
+    <script src="./js/cookie-consent.js"></script>
 
-  <script type="module" crossorigin src="./assets/vendor-DRC6Ryd-.js"></script>
-  <script type="module" crossorigin src="./assets/lang-switcher-gdh-_Zl6.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/lang-switcher-ViDnZj7s.css">
-  <link rel="stylesheet" crossorigin href="./assets/zivnosti-VgbIuUjQ.css">
-</head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-EMJ6NHFGLW"
+    ></script>
 
-<body>
+    <script>
+      gtag('js', new Date());
 
-  <!-- Header -->
-  <header class="header" id="top">
+      gtag('config', 'G-EMJ6NHFGLW');
+    </script>
+    <script type="module" crossorigin src="./assets/vendor-DRC6Ryd-.js"></script>
+    <script type="module" crossorigin src="./assets/lang-switcher-DusUrWTc.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/lang-switcher-CTfDdRZx.css">
+    <link rel="stylesheet" crossorigin href="./assets/zivnosti-VgbIuUjQ.css">
+  </head>
+
+  <body>    
+    
+      <!-- Cookie banner -->
+    <div id="cookie-banner" class="cookie-banner" hidden>
+
+  <div class="cookie-banner__content">
+
+    <div class="cookie-banner__text">
+      <h2 class="cookie-banner__title" data-i18n="cookie_title">
+        Používáme cookies
+      </h2>
+
+      <p class="cookie-banner__description" data-i18n="cookie_description">
+        Používáme cookies pro správné fungování webu a pro analýzu návštěvnosti.
+        O svém souhlasu můžete kdykoli rozhodnout.
+      </p>
+    </div>
+
+    <div class="cookie-banner__actions">
+
+      <button type="button" class="cookie-banner__button cookie-banner__button--accept" id="cookie-accept"
+        data-i18n="cookie_accept">
+        Přijmout
+      </button>
+
+      <button type="button" class="cookie-banner__button cookie-banner__button--reject" id="cookie-reject"
+        data-i18n="cookie_reject">
+        Odmítnout
+      </button>
+
+      <button type="button" class="cookie-banner__button cookie-banner__button--settings" id="cookie-settings"
+        data-i18n="cookie_settings">
+        Nastavení
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <!-- Cookie settings panel -->
+
+  <div id="cookie-settings-panel" class="cookie-settings-panel" hidden>
+
+    <div class="cookie-settings__content">
+
+      <h2 class="cookie-settings__title" data-i18n="cookie_settings_title">
+        Nastavení cookies
+      </h2>
+
+      <p class="cookie-settings__description" data-i18n="cookie_settings_description">
+        Vyberte, které typy cookies chcete povolit.
+      </p>
+
+
+      <div class="cookie-settings__option">
+
+        <div>
+
+          <h3 class="cookie-settings__option-title" data-i18n="cookie_necessary_title">
+            Nezbytné cookies
+          </h3>
+
+          <p class="cookie-settings__option-text" data-i18n="cookie_necessary_text">
+            Tyto cookies jsou nezbytné pro správné fungování webu.
+          </p>
+
+        </div>
+
+        <span class="cookie-settings__status" data-i18n="cookie_always_active">
+          Vždy aktivní
+        </span>
+
+      </div>
+
+
+      <div class="cookie-settings__option">
+
+        <div>
+
+          <h3 class="cookie-settings__option-title" data-i18n="cookie_analytics_title">
+            Analytické cookies
+          </h3>
+
+          <p class="cookie-settings__option-text" data-i18n="cookie_analytics_text">
+            Pomáhají nám porozumět, jak návštěvníci používají naše webové stránky.
+          </p>
+
+        </div>
+
+        <label class="cookie-toggle">
+
+          <input type="checkbox" id="cookie-analytics" />
+
+          <span class="cookie-toggle__slider"></span>
+
+        </label>
+
+      </div>
+
+
+      <div class="cookie-settings__actions">
+
+        <button type="button" class="cookie-banner__button cookie-banner__button--accept" id="cookie-save-settings"
+          data-i18n="cookie_save_settings">
+          Uložit nastavení
+        </button>
+
+        <button type="button" class="cookie-banner__button cookie-banner__button--settings" id="cookie-accept-all"
+          data-i18n="cookie_accept_all">
+          Přijmout vše
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+    
+      <!-- Header -->
+    <header class="header" id="top">
   <div class="container">
     <nav class="header-nav">
 
@@ -112,14 +248,14 @@
 
 
 
+    
+    <!-- Mobile menu -->
+    
 
-  <!-- Mobile menu -->
-  
 
-
-  <!-- Main content -->
-  <main>
-    <section class="licenses-page" id="top">
+    <!-- Main content -->
+    <main>
+      <section class="licenses-page" id="top">
 
   <div class="licenses-container">
 
@@ -688,10 +824,10 @@
   </div>
 
 </section>
-  </main>
+    </main>
 
-  <!-- Footer -->
-  
+    <!-- Footer -->
+    
 <footer class="footer" id="footer">
   <div class="container">
     <div class="footer-container">
@@ -812,21 +948,19 @@
     </div>
     </footer>
 
-  <!-- Overlay -->
-  <div class="js-menu-overlay"></div>
+    <!-- Overlay -->
+    <div class="js-menu-overlay"></div>
 
-  <!-- Libraries -->
-  <script src="https://unpkg.com/body-scroll-lock/lib/bodyScrollLock.min.js"></script>
+    <!-- Libraries -->
+    <script src="https://unpkg.com/body-scroll-lock/lib/bodyScrollLock.min.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 
-  <script src="https://unpkg.com/i18next@23.10.1/i18next.min.js"></script>
+    <script src="https://unpkg.com/i18next@23.10.1/i18next.min.js"></script>
 
-  <!-- App scripts -->
+    <!-- App scripts -->
 
-
-</body>
-
+  </body>
 </html>
