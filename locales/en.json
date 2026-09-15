@@ -3,16 +3,16 @@
   "nav_reviews": "Questions",
   "nav_contact": "Contacts",
 
-  "hero.before": "Business & Personal",
-  "hero.highlight": "Services",
-  "hero.after": "in Czechia ♡",
-  "hero.description": "Company registration, accounting and comprehensive support — everything you need for a successful start and comfortable running a business in the Czech Republic.",
-  "hero_button": "Leave an application",
+  "hero.before": "Company formation",
+  "hero.highlight": "",
+  "hero.after": "in the Czech Republic ♡",
+  "hero.description": "Company formation, accounting and comprehensive support – everything you need to successfully start and comfortably run your business in the Czech Republic.",
+  "hero_button": "Free consultation",
 
   "seo": {
-    "title": "Business & Personal Services",
-    "description": "Company registration, accounting and business support — everything you need for a successful start and comfortable running a business in the Czech Republic.",
-    "keywords": "business services Czech Republic, company registration Czech Republic, accounting services Czech Republic, certified translations Czech Republic, business support Czech Republic"
+    "title": "Company Formation in the Czech Republic | GreenFrog Office",
+    "description": "Company formation in the Czech Republic without unnecessary bureaucracy. We help with documents, business licenses, bank accounts and company registration.",
+    "keywords": "company formation Czech Republic, company registration Czech Republic, s.r.o. formation, business registration, accounting"
   },
 
   "section_intro": "Start your business in the Czech Republic simply, quickly and without unnecessary worries.",
