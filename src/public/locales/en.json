@@ -37,20 +37,63 @@
 
   "proposal_button": "Leave a request",
 
-  "about_title": "Services",
-  "about_subtitle": "We provide complete remote company registration in the Czech Republic by power of attorney.",
+  "about_title": "OUR SERVICES",
 
-  "service_formation_title": "Company Registration",
-  "service_formation_text": "We provide turnkey remote company registration in the Czech Republic. We prepare all the necessary documents to open a company; the registration process is fast and transparent.",
+  "about_subtitle": "Company formation, accounting services, business licences and a full range of administrative services for all business-related matters.",
 
-  "service_documents_title": "Administrative support",
-  "service_documents_text": "Diploma nostrification, translations, apostilles, management of the Czech data box (datová schránka), ordering of company stamps, etc.",
+  "service_formation_title": "Company formation step by step",
 
-  "service_licenses_title": "Changes in company",
-  "service_licenses_text": "We provide full support for changes to your company (name, legal address, founders, directors, etc.).",
+  "service_formation_item_1": "Preparation and signing of powers of attorney and other necessary documents, translation of criminal record certificates.",
 
-  "service_representation_title": "Company Liquidation",
-  "service_representation_text": "We offer professional assistance in the complete liquidation of a company. We ensure all legal, administrative and procedural steps so that the termination of the business takes place smoothly and in accordance with legal regulations.",
+  "service_formation_item_2": "Preparation and signing of the founding document.",
+
+  "service_formation_item_3": "Payment of the share capital by opening a special bank account or in cash.",
+
+  "service_formation_item_4": "Obtaining the business licences required for carrying out business activities.",
+
+  "service_formation_item_5": "Registration of the company in the Commercial Register.",
+
+  "service_formation_item_6": "Registration of the company with the Tax Office.",
+
+  "service_changes_title": "Changes to an existing company",
+
+  "service_changes_item_1": "Company name.",
+
+  "service_changes_item_2": "Company registered office.",
+
+  "service_changes_item_3": "Business activities (trade licences).",
+
+  "service_changes_item_4": "Replacement or removal of a managing director, board member, or change of shareholders (transfer of shares).",
+
+  "service_changes_item_5": "Increase or decrease of share capital.",
+
+  "service_changes_item_6": "Company reorganisation (merger, division, demerger or change of legal form).",
+
+  "service_administrative_title": "Administrative support",
+
+  "service_administrative_item_1": "Recognition of foreign education",
+
+  "service_administrative_item_2": "Certified translations",
+
+  "service_administrative_item_3": "Apostille / legalisation of documents",
+
+  "service_administrative_item_4": "Management of the Czech data mailbox (datová schránka)",
+
+  "service_administrative_item_5": "Company stamp etc.",
+
+  "service_accounting_title": "Comprehensive accounting services",
+
+  "service_accounting_item_1": "Accounting for s.r.o. companies",
+
+  "service_accounting_item_2": "Tax records",
+
+  "service_accounting_item_3": "VAT (DPH)",
+
+  "service_accounting_item_4": "Tax returns",
+
+  "service_accounting_item_5": "Payroll",
+
+  "service_accounting_item_6": "Communication with authorities",
 
   "licenses_back": "← Back to website",
   "licenses_top": "↑ Back to top",
