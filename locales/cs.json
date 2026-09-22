@@ -139,9 +139,14 @@
 
   "service_liquidation_experts_title": "Proč svěřit likvidaci odborníkům",
   "service_liquidation_experts_text": "Likvidace zahrnuje souběžně právní, účetní a daňovou agendu, a chyba v kterékoli z nich může proces prodloužit nebo firmu vystavit riziku sankcí. Zajistíme kompletní průběh – od jmenování likvidátora přes vedení likvidačního účetnictví až po samotný výmaz z rejstříku – tak, aby ukončení podnikání proběhlo čistě a bez zbytečných komplikací.",
+  "service_back": "← Zpět",
 
   "licenses_back": "← Zpět na web",
   "licenses_top": "↑ Nahoru",
+
+  "licenses_title": "Živnosti a podnikatelská oprávnění",
+  "licenses_intro_title": "Potřebujete živnostenské oprávnění pro své podnikání?",
+  "licenses_intro_text": "Pomůžeme vám vybrat vhodný typ živnosti, připravit potřebné dokumenty a vyřídit ohlášení nebo žádost o koncesi.",
 
   "license_free_title": "1. Volná živnost",
   "license_free_subtitle": "Pro běžné podnikatelské činnosti",
