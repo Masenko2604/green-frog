@@ -293,26 +293,20 @@
   
     /* Подзаголовок */
   
-     .dane-preview-subtitle {
-       display: block;
-       width: fit-content;
-       max-width: calc(100% - 20px);
-  
-       margin: 24px auto 0;
-       padding: 4px 10px;
-  
-       border-radius: 20px;
-  
-       background: rgba(255, 255, 255, 0.78);
-       color: #075c20;
-  
-       font-size: 20px;
-       line-height: 1.2;
-       letter-spacing: 0.8px;
-  
-       white-space: nowrap;
-       text-align: center;
-     }
+        .dane-preview-subtitle {
+          width: 100%;
+          max-width: 100%;
+          box-sizing: border-box;
+    
+          margin: 24px auto 0;
+          padding: 4px 5px;
+    
+          font-size: 18px;
+          letter-spacing: 0.5px;
+    
+          white-space: nowrap;
+          text-align: center;
+        }
   
   
     /* Темы */
