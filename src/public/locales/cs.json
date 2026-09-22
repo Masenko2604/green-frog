@@ -69,15 +69,79 @@
   "service_accounting_item_4": "Daňová přiznání",
   "service_accounting_item_5": "Mzdy",
   "service_accounting_item_6": "Komunikace s úřady",
+  "service_accounting_link": "Zjistit více →",
+
+  "service_licenses_title": "Živnostenské oprávnění",
+  "service_licenses_item_1": "Pomůžeme vám vybrat vhodný typ živnosti",
+  "service_licenses_item_2": "Připravit potřebné dokumenty",
+  "service_licenses_item_3": "Vyřídit ohlášení nebo žádost o koncesi",
+  "service_licenses_link": "Zjistit více →",
+
+  "service_accounting_page_title": "Komplexní účetnictví",
+  "service_accounting_page_intro": "Vedeme podvojné účetnictví přesně a přehledně, abyste měli kdykoli jasný obraz o hospodaření firmy. Postaráme se o kompletní zpracování agendy — od zaúčtování dokladů po přípravu podkladů pro vedení.",
+
+  "service_accounting_detail_1_title": "Účetnictví s.r.o.",
+  "service_accounting_detail_1_text": "Vedení podvojného účetnictví pro společnosti s ručením omezeným v souladu s platnou legislativou, včetně zpracování účetní závěrky.",
+
+  "service_accounting_detail_2_title": "Daňová evidence",
+  "service_accounting_detail_2_text": "Pro OSVČ a menší podnikatele nabízíme jednodušší formu evidence příjmů a výdajů, přizpůsobenou rozsahu vašeho podnikání.",
+
+  "service_accounting_detail_3_title": "DPH",
+  "service_accounting_detail_3_text": "Kontrola a zpracování podkladů pro plátce DPH, včetně měsíčních či čtvrtletních přiznání a kontrolních hlášení.",
+
+  "service_accounting_detail_4_title": "Daňová přiznání",
+  "service_accounting_detail_4_text": "Sestavení a podání daňových přiznání k dani z příjmů fyzických i právnických osob.",
+
+  "service_accounting_detail_5_title": "Mzdy",
+  "service_accounting_detail_5_text": "Kompletní mzdová agenda: výpočet mezd, odvody na sociální a zdravotní pojištění, přehledy pro úřady.",
+
+  "service_accounting_detail_6_title": "Komunikace s úřady",
+  "service_accounting_detail_6_text": "Jednáme jménem klienta s finančním úřadem, správou sociálního zabezpečení i zdravotními pojišťovnami, takže se nemusíte o nic starat sami.",
+
+  "service_liquidation_title": "Zrušení a likvidace s.r.o.",
+  "service_liquidation_item_1": "Zajistíme kompletní průběh likvidace společnosti",
+  "service_liquidation_item_2": "Pomůžeme s účetními a daňovými povinnostmi",
+  "service_liquidation_item_3": "Zajistíme výmaz společnosti z obchodního rejstříku",
+  "service_liquidation_link": "Zjistit více →",
+
+  "service_liquidation_page_title": "Zrušení a likvidace s.r.o.",
+  "service_liquidation_intro_title": "Ukončení podnikání společnosti s ručením omezeným je vícestupňový proces",
+  "service_liquidation_intro_text": "Zrušení s.r.o. neznamená jednorázový úkon, ale sled kroků, které musí proběhnout ve správném pořadí a být řádně zdokumentovány. Nesprávně provedená likvidace může vést k tomu, že společnost sice formálně přestane fungovat, ale právně stále existuje a generuje povinnosti (podávání přiznání, pokuty za nečinnost).",
+
+  "service_liquidation_when_title": "Kdy je nutná likvidace a kdy stačí jiný postup",
+  "service_liquidation_when_text": "Pokud společnost nemá žádný majetek ani závazky, je v některých případech možné zvolit jednodušší postup výmazu z rejstříku bez likvidace. Ve většině situací, kdy firma vlastní majetek, má pohledávky nebo závazky vůči třetím stranám, je ale řádná likvidace povinná – teprve po jejím ukončení lze podat návrh na výmaz z obchodního rejstříku.",
+
+  "service_liquidation_phases_title": "Hlavní fáze likvidace",
+
+  "service_liquidation_phase_1_title": "Rozhodnutí o zrušení společnosti",
+  "service_liquidation_phase_1_text": "valná hromada (nebo jediný společník) přijme rozhodnutí o vstupu do likvidace a jmenuje likvidátora.",
+
+  "service_liquidation_phase_2_title": "Vstup do likvidace a zveřejnění",
+  "service_liquidation_phase_2_text": "skutečnost se zapíše do obchodního rejstříku a zveřejní, aby se mohli přihlásit případní věřitelé.",
+
+  "service_liquidation_phase_3_title": "Vypořádání majetku a závazků",
+  "service_liquidation_phase_3_text": "likvidátor sestaví zahajovací likvidační rozvahu, zpeněží majetek, uspokojí věřitele a vyřeší pohledávky.",
+
+  "service_liquidation_phase_4_title": "Daňové a účetní ukončení",
+  "service_liquidation_phase_4_text": "podání daňového přiznání ke dni zpracování návrhu na výmaz, vyrovnání se s finančním úřadem, správou sociálního zabezpečení a zdravotní pojišťovnou.",
+
+  "service_liquidation_phase_5_title": "Podání návrhu na výmaz z rejstříku",
+  "service_liquidation_phase_5_text": "po skončení likvidace a rozdělení případného likvidačního zůstatku mezi společníky se podává návrh na výmaz společnosti z obchodního rejstříku.",
+
+  "service_liquidation_duration_title": "Jak dlouho likvidace trvá",
+  "service_liquidation_duration_text": "Zákon stanovuje minimální lhůtu (obvykle několik měsíců) od zveřejnění vstupu do likvidace, během níž se mohou přihlásit věřitelé. Celková doba se ale odvíjí od složitosti majetkových poměrů firmy – u jednoduchých společností bez dluhů a majetku bývá proces rychlejší, u firem s nevyřešenými závazky nebo pohledávkami se prodlužuje.",
+
+  "service_liquidation_required_title": "Co bude potřeba od vás",
+  "service_liquidation_required_1": "Rozhodnutí společníků o zrušení firmy",
+  "service_liquidation_required_2": "Přehled majetku a závazků společnosti",
+  "service_liquidation_required_3": "Účetní podklady za poslední období",
+  "service_liquidation_required_4": "Součinnost při komunikaci s věřiteli a úřady",
+
+  "service_liquidation_experts_title": "Proč svěřit likvidaci odborníkům",
+  "service_liquidation_experts_text": "Likvidace zahrnuje souběžně právní, účetní a daňovou agendu, a chyba v kterékoli z nich může proces prodloužit nebo firmu vystavit riziku sankcí. Zajistíme kompletní průběh – od jmenování likvidátora přes vedení likvidačního účetnictví až po samotný výmaz z rejstříku – tak, aby ukončení podnikání proběhlo čistě a bez zbytečných komplikací.",
 
   "licenses_back": "← Zpět na web",
   "licenses_top": "↑ Nahoru",
-
-  "licenses_title": "Živnosti a podnikatelská oprávnění",
-
-  "licenses_intro_title": "Potřebujete živnostenské oprávnění pro své podnikání?",
-
-  "licenses_intro_text": "Pomůžeme vám vybrat vhodný typ živnosti, připravit potřebné dokumenty a vyřídit ohlášení nebo žádost o koncesi.",
 
   "license_free_title": "1. Volná živnost",
   "license_free_subtitle": "Pro běžné podnikatelské činnosti",
