@@ -248,12 +248,7 @@
     font-size: 16px;
   }
 
-  .questions-contact-button {
-    width: 100%;
-  }
-}
-.questions-contact-button {
-  color: #ffffff;
+ 
 }
 .questions-footer {
   margin-top: 55px;
@@ -288,10 +283,7 @@
 .questions-back-home:hover {
   color: #f25129;
 }
-.questions-contact-button {
-  width: 50%;
-  max-width: 900px;
-}
+
 .questions-footer {
   margin-top: 55px;
   padding-top: 30px;

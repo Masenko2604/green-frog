@@ -253,13 +253,13 @@ a {
     padding: 0 32px;
   }
 
-  .button {
+  /* .button {
     font-size: 18px;
     line-height: inherit;
     padding: 16px 32px;
     height: 60px;
     color: rgb(242, 81, 41);
-  }
+  } */
 
   .title-primary {
     font-size: 60px;
