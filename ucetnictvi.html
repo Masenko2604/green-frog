@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="cs">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="robots" content="index, follow" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./favicon.png" />
+
+  <!-- SEO -->
+  <title>Komplexní účetnictví | GreenFrog Office</title>
+
+  <meta name="description"
+    content="Komplexní účetnictví v České republice. Účetnictví s.r.o., daňová evidence, DPH, daňová přiznání, mzdy a komunikace s úřady." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Manrope:wght@400..700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Normalize -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
+
+  <!-- Main styles -->
+
+  <!-- Accounting styles -->
+
+  <!-- Cookie banner -->
+
+  <script src="./cookie-consent.js"></script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EMJ6NHFGLW"></script>
+
+  <script>
+    gtag('js', new Date());
+
+    gtag('config', 'G-EMJ6NHFGLW');
+  </script>
+  <script type="module" crossorigin src="./assets/vendor-DRC6Ryd-.js"></script>
+  <script type="module" crossorigin src="./assets/lang-switcher-CC-Vq1f2.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/lang-switcher-Dg7hqTFH.css">
+  <link rel="stylesheet" crossorigin href="./assets/ucetnictvi-BIYa9Lbr.css">
+</head>
+
+<body>
+
+  <!-- Cookie banner -->
+  <div id="cookie-banner" class="cookie-banner" hidden>
+
+  <div class="cookie-banner__content">
+
+    <div class="cookie-banner__text">
+      <h2 class="cookie-banner__title" data-i18n="cookie_title">
+        Používáme cookies
+      </h2>
+
+      <p class="cookie-banner__description" data-i18n="cookie_description">
+        Používáme cookies pro správné fungování webu a pro analýzu návštěvnosti.
+        O svém souhlasu můžete kdykoli rozhodnout.
+      </p>
+    </div>
+
+    <div class="cookie-banner__actions">
+
+      <button type="button" class="cookie-banner__button cookie-banner__button--accept" id="cookie-accept"
+        data-i18n="cookie_accept">
+        Přijmout
+      </button>
+
+      <button type="button" class="cookie-banner__button cookie-banner__button--reject" id="cookie-reject"
+        data-i18n="cookie_reject">
+        Odmítnout
+      </button>
+
+      <button type="button" class="cookie-banner__button cookie-banner__button--settings" id="cookie-settings"
+        data-i18n="cookie_settings">
+        Nastavení
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <!-- Cookie settings panel -->
+
+  <div id="cookie-settings-panel" class="cookie-settings-panel" hidden>
+
+    <div class="cookie-settings__content">
+
+      <h2 class="cookie-settings__title" data-i18n="cookie_settings_title">
+        Nastavení cookies
+      </h2>
+
+      <p class="cookie-settings__description" data-i18n="cookie_settings_description">
+        Vyberte, které typy cookies chcete povolit.
+      </p>
+
+
+      <div class="cookie-settings__option">
+
+        <div>
+
+          <h3 class="cookie-settings__option-title" data-i18n="cookie_necessary_title">
+            Nezbytné cookies
+          </h3>
+
+          <p class="cookie-settings__option-text" data-i18n="cookie_necessary_text">
+            Tyto cookies jsou nezbytné pro správné fungování webu.
+          </p>
+
+        </div>
+
+        <span class="cookie-settings__status" data-i18n="cookie_always_active">
+          Vždy aktivní
+        </span>
+
+      </div>
+
+
+      <div class="cookie-settings__option">
+
+        <div>
+
+          <h3 class="cookie-settings__option-title" data-i18n="cookie_analytics_title">
+            Analytické cookies
+          </h3>
+
+          <p class="cookie-settings__option-text" data-i18n="cookie_analytics_text">
+            Pomáhají nám porozumět, jak návštěvníci používají naše webové stránky.
+          </p>
+
+        </div>
+
+        <label class="cookie-toggle">
+
+          <input type="checkbox" id="cookie-analytics" />
+
+          <span class="cookie-toggle__slider"></span>
+
+        </label>
+
+      </div>
+
+
+      <div class="cookie-settings__actions">
+
+        <button type="button" class="cookie-banner__button cookie-banner__button--accept" id="cookie-save-settings"
+          data-i18n="cookie_save_settings">
+          Uložit nastavení
+        </button>
+
+        <button type="button" class="cookie-banner__button cookie-banner__button--settings" id="cookie-accept-all"
+          data-i18n="cookie_accept_all">
+          Přijmout vše
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+  <!-- Header -->
+  <header class="header" id="top">
+  <div class="container">
+    <nav class="header-nav">
+
+      <div class="nav-logo">
+        <a href="./index.html">
+          <span class="logo-green-span">GreenFrog</span><span class="logo-span">Office</span>
+        </a>
+      </div>
+
+      <div class="page-nav">
+        <ul class="header-nav-list">
+          <li class="nav-item">
+            <a href="./index.html#about" class="nav-link" data-i18n="nav_services">
+              Služby
+            </a>
+          </li>
+
+          <li class="nav-item">
+        <a href="./questions.html" class="nav-link" data-i18n="nav_reviews">
+          Otázky
+        </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="./index.html#application-form" class="nav-link" data-i18n="nav_contact">
+              Kontakt
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    <div class="lang-switcher">
+    
+      <button type="button" class="lang-btn" aria-label="Choose language">
+      <img src="./img/header/globus.png" alt="" class="globe-icon">
+      </button>
+    
+      <div class="lang-menu">
+
+        <button type="button" data-lang="cs" class="lang-btn">
+          <span>Čeština</span>
+        </button>
+    
+        <button type="button" data-lang="en" class="lang-btn">
+          <span>English</span>
+        </button>
+
+        <button type="button" data-lang="uk" class="lang-btn">
+          <span>Українська</span>
+        </button>
+    
+        <button type="button" data-lang="ru" class="lang-btn">
+          <span>Русский</span>
+        </button>
+    
+       
+        
+    
+      </div>
+    
+    </div>
+
+    </nav>
+  </div>
+</header>
+
+
+
+
+
+  <!-- Mobile menu -->
+  
+
+
+  <!-- Main content -->
+  <main>
+    <section class="accounting-page" id="accounting">
+
+  <div class="accounting-container">
+
+    <!-- INTRO -->
+    <div class="accounting-intro">
+
+      <h1 class="accounting-title" data-i18n="service_accounting_page_title">
+        Komplexní účetnictví
+      </h1>
+
+      <p class="accounting-intro-text" data-i18n="service_accounting_page_intro">
+        Vedeme podvojné účetnictví přesně a přehledně, abyste měli kdykoli jasný obraz o hospodaření firmy. Postaráme se
+        o kompletní zpracování agendy — od zaúčtování dokladů po přípravu podkladů pro vedení.
+      </p>
+
+    </div>
+
+
+    <!-- ACCOUNTING SERVICES -->
+    <div class="accounting-services">
+
+      <!-- 1. Účetnictví s.r.o. -->
+      <article class="accounting-item">
+
+        <h2 data-i18n="service_accounting_detail_1_title">
+          Účetnictví s.r.o.
+        </h2>
+
+        <p data-i18n="service_accounting_detail_1_text">
+          Vedení podvojného účetnictví pro společnosti s ručením omezeným v souladu s platnou legislativou, včetně
+          zpracování účetní závěrky.
+        </p>
+
+      </article>
+
+
+      <!-- 2. Daňová evidence -->
+      <article class="accounting-item">
+
+        <h2 data-i18n="service_accounting_detail_2_title">
+          Daňová evidence
+        </h2>
+
+        <p data-i18n="service_accounting_detail_2_text">
+          Pro OSVČ a menší podnikatele nabízíme jednodušší formu evidence příjmů a výdajů, přizpůsobenou rozsahu vašeho
+          podnikání.
+        </p>
+
+      </article>
+
+
+      <!-- 3. DPH -->
+      <article class="accounting-item">
+
+        <h2 data-i18n="service_accounting_detail_3_title">
+          DPH
+        </h2>
+
+        <p data-i18n="service_accounting_detail_3_text">
+          Kontrola a zpracování podkladů pro plátce DPH, včetně měsíčních či čtvrtletních přiznání a kontrolních
+          hlášení.
+        </p>
+
+      </article>
+
+
+      <!-- 4. Daňová přiznání -->
+      <article class="accounting-item">
+
+        <h2 data-i18n="service_accounting_detail_4_title">
+          Daňová přiznání
+        </h2>
+
+        <p data-i18n="service_accounting_detail_4_text">
+          Sestavení a podání daňových přiznání k dani z příjmů fyzických i právnických osob.
+        </p>
+
+      </article>
+
+
+      <!-- 5. Mzdy -->
+      <article class="accounting-item">
+
+        <h2 data-i18n="service_accounting_detail_5_title">
+          Mzdy
+        </h2>
+
+        <p data-i18n="service_accounting_detail_5_text">
+          Kompletní mzdová agenda: výpočet mezd, odvody na sociální a zdravotní pojištění, přehledy pro úřady.
+        </p>
+
+      </article>
+
+
+      <!-- 6. Komunikace s úřady -->
+      <article class="accounting-item">
+
+        <h2 data-i18n="service_accounting_detail_6_title">
+          Komunikace s úřady
+        </h2>
+
+        <p data-i18n="service_accounting_detail_6_text">
+          Jednáme jménem klienta s finančním úřadem, správou sociálního zabezpečení i zdravotními pojišťovnami, takže se
+          nemusíte o nic starat sami.
+        </p>
+
+      </article>
+
+    </div>
+
+
+    <!-- BACK / CONTACT -->
+    <div class="accounting-navigation">
+
+      <a href="/index.html" class="accounting-back">
+        ← Zpět
+      </a>
+
+      <a href="/index.html#application-form" class="accounting-contact" data-i18n="hero_button">
+        Nezávazná poptávka
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+  </main>
+
+  <!-- Footer -->
+  
+<footer class="footer" id="footer">
+  <div class="container">
+    <div class="footer-container">
+      <div class="logo-contacts-container">
+        <!-- Логотип -->
+        <div class="footer-logo">
+          <a class="footer-logo-link" href="/green-frog">
+            GreenFrog<span class="logo-span">Office</span>
+          </a>
+        </div>
+
+        <!-- Контакти -->
+        <ul class="footer-contacts">
+          <li>
+            <p class="footer-contacts-label" data-i18n="footer_phone_label">
+              Telefonní číslo:
+            </p>
+            <a class="footer-phone" href="tel:+420777713093">+420 777-713-093</a>
+          </li>
+          <li>
+            <p class="footer-contacts-label" data-i18n="footer_email_label">
+              E-mail:
+            </p>
+            <a class="footer-phone" href="mailto:greenfrog.office@email.cz">
+              greenfrog.office@email.cz
+            </a>
+          </li>
+          <li>
+            <p class="footer-contacts-label" data-i18n="footer_address_label">
+              Adresa:
+            </p>
+            <address>
+              <a class="footer-phone" href="https://maps.google.com/?q=Prague.+Czechia" target="_blank" rel="noopener noreferrer">
+                Kamenná 5124, Chomutov 430 04, Czechia
+              </a>
+            </address>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Навігація -->
+      
+          <nav class="footer-nav" aria-label="Footer navigation">
+            <ul class="footer-menu">
+              <li class="footer-menu-item">
+              <a class="footer-address" href="#about" data-i18n="footer_nav_services">
+                Služby
+              </a>
+              </li>
+              <li class="footer-menu-item">
+                <a class="footer-address" href="./questions.html" data-i18n="footer_nav_reviews">
+                  Otázky
+                </a>
+
+
+              </li>
+              <li class="footer-menu-item">
+              <a class="footer-address" href="#application-form" data-i18n="footer_nav_contact">
+                Kontakt
+              </a>
+              </li>
+            </ul>
+          </nav>      
+
+  
+    <div class="modal_social">
+      <ul class="footer-social-list">
+    
+        <li class="footer-social-item">
+          <a class="social-link" href="https://t.me/SvetaMasenko" target="_blank">
+            <img src="./img/telegram.svg" width="26" height="26" alt="Telegram">
+          </a>
+        </li>
+    
+        <li class="footer-social-item">
+          <a class="social-link" href="https://wa.me/420777713093" target="_blank">
+            <img src="./img/whatsapp.svg" width="26" height="26" alt="WhatsApp">
+          </a>
+        </li>
+    
+        <li class="footer-social-item">
+          <a href="https://viber.me/420777713093" target="_blank" rel="noopener noreferrer">
+            <img src="./img/viber.svg" width="26" height="26" alt="Viber">
+          </a>
+        </li>
+    
+      </ul>
+    </div>
+    </div>
+
+
+    <!-- ===== DIVIDER ===== -->
+    <hr class="footer-divider" />
+    
+    
+    <!-- ===== BOTTOM PART ===== -->
+    <div class="footer-bottom">
+      <p class="footer-copyright">
+        CANOPUS s.r.o. IČO: 24666068
+      </p>
+      <p class="footer-copyright">
+        ©2026 GreenFrogOffice. All rights reserved.
+      </p>
+    
+      <ul class="footer-legal">
+        <li>
+          <ul class="footer-legal">
+            <li>
+              <a class="footer-legal-link" href="/privacy-policy">
+                Privacy Policy
+              </a>
+            </li>
+          </ul>
+        </li>
+       
+      </ul>
+    </div>
+    </div>
+    </footer>
+
+  <!-- Overlay -->
+  <div class="js-menu-overlay"></div>
+
+  <!-- Libraries -->
+  <script src="https://unpkg.com/body-scroll-lock/lib/bodyScrollLock.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/ScrollTrigger.min.js"></script>
+
+  <script src="https://unpkg.com/i18next@23.10.1/i18next.min.js"></script>
+
+  <!-- App scripts -->
+
+
+</body>
+
+</html>

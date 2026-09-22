@@ -95,14 +95,83 @@
 
   "service_accounting_item_6": "Communication with authorities",
 
+  "service_accounting_link": "Learn more →",
+
+  "service_licenses_title": "Business licence",
+
+  "service_licenses_item_1": "We will help you choose the right type of trade licence",
+
+  "service_licenses_item_2": "Prepare the required documents",
+
+  "service_licenses_item_3": "Handle the notification or concession application",
+
+  "service_licenses_link": "Learn more →",
+
+  "service_accounting_page_title": "Comprehensive Accounting",
+  "service_accounting_page_intro": "We provide accurate and transparent double-entry bookkeeping, so you always have a clear picture of your company's financial situation. We take care of the entire accounting process — from processing source documents to preparing materials for management.",
+
+  "service_accounting_detail_1_title": "Accounting for s.r.o.",
+  "service_accounting_detail_1_text": "Double-entry bookkeeping for limited liability companies in accordance with current legislation, including preparation of annual financial statements.",
+
+  "service_accounting_detail_2_title": "Tax Records",
+  "service_accounting_detail_2_text": "For OSVČ and small businesses, we offer a simpler form of income and expense records adapted to the scope of your business.",
+
+  "service_accounting_detail_3_title": "VAT",
+  "service_accounting_detail_3_text": "Checking and processing documents for VAT payers, including monthly or quarterly VAT returns and control reports.",
+
+  "service_accounting_detail_4_title": "Tax Returns",
+  "service_accounting_detail_4_text": "Preparation and submission of income tax returns for individuals and legal entities.",
+
+  "service_accounting_detail_5_title": "Payroll",
+  "service_accounting_detail_5_text": "Complete payroll administration: salary calculations, social and health insurance contributions, and reports for the relevant authorities.",
+
+  "service_accounting_detail_6_title": "Communication with Authorities",
+  "service_accounting_detail_6_text": "We communicate on behalf of our clients with the tax office, social security administration and health insurance companies, so you do not have to deal with these matters yourself.",
+
+  "service_liquidation_title": "Company dissolution and liquidation",
+  "service_liquidation_item_1": "We handle the entire company liquidation process",
+  "service_liquidation_item_2": "We help with accounting and tax obligations",
+  "service_liquidation_item_3": "We arrange the removal of the company from the Commercial Register",
+  "service_liquidation_link": "Learn more →",
+
+  "service_liquidation_page_title": "Company dissolution and liquidation of an s.r.o.",
+  "service_liquidation_intro_title": "Closing a limited liability company is a multi-stage process",
+  "service_liquidation_intro_text": "Dissolving an s.r.o. is not a one-time action, but a sequence of steps that must be completed in the correct order and properly documented. An incorrectly conducted liquidation may result in the company ceasing its actual operations while still legally existing and continuing to incur obligations (filing tax returns, penalties for inactivity).",
+
+  "service_liquidation_when_title": "When is liquidation required and when is another procedure sufficient?",
+  "service_liquidation_when_text": "If the company has no assets or liabilities, in some cases it may be possible to use a simpler procedure to remove the company from the register without liquidation. However, in most situations where the company owns assets, has receivables or obligations towards third parties, proper liquidation is required — only after it has been completed can an application for removal from the Commercial Register be submitted.",
+
+  "service_liquidation_phases_title": "Main stages of liquidation",
+
+  "service_liquidation_phase_1_title": "Decision to dissolve the company",
+  "service_liquidation_phase_1_text": "The general meeting (or sole shareholder) adopts a decision to enter liquidation and appoints a liquidator.",
+
+  "service_liquidation_phase_2_title": "Entry into liquidation and publication",
+  "service_liquidation_phase_2_text": "The entry into liquidation is recorded in the Commercial Register and published so that potential creditors can submit their claims.",
+
+  "service_liquidation_phase_3_title": "Settlement of assets and liabilities",
+  "service_liquidation_phase_3_text": "The liquidator prepares the opening liquidation balance sheet, realises the company's assets, satisfies creditors' claims and settles receivables.",
+
+  "service_liquidation_phase_4_title": "Completion of tax and accounting matters",
+  "service_liquidation_phase_4_text": "Submission of the tax return as of the date of preparation of the application for removal, final settlement with the tax office, social security administration and health insurance company.",
+
+  "service_liquidation_phase_5_title": "Application for removal from the register",
+  "service_liquidation_phase_5_text": "After the liquidation has been completed and any liquidation balance has been distributed among the shareholders, an application is submitted to remove the company from the Commercial Register.",
+
+  "service_liquidation_duration_title": "How long does liquidation take?",
+  "service_liquidation_duration_text": "The law sets a minimum period (usually several months) from the publication of the entry into liquidation, during which creditors can submit their claims. The total duration depends on the complexity of the company's financial situation — the process is usually faster for simple companies without debts or assets, while companies with unresolved liabilities or receivables require more time.",
+
+  "service_liquidation_required_title": "What we will need from you",
+  "service_liquidation_required_1": "Shareholders' decision to dissolve the company",
+  "service_liquidation_required_2": "Overview of the company's assets and liabilities",
+  "service_liquidation_required_3": "Accounting documents for the most recent period",
+  "service_liquidation_required_4": "Cooperation in communication with creditors and authorities",
+
+  "service_liquidation_experts_title": "Why entrust the liquidation to professionals",
+  "service_liquidation_experts_text": "Liquidation involves legal, accounting and tax matters simultaneously, and an error in any of these areas can prolong the process or expose the company to the risk of penalties. We handle the entire process — from appointing the liquidator and maintaining liquidation accounting to the final removal from the register — so that the closure of the business is completed properly and without unnecessary complications.",
+
   "licenses_back": "← Back to website",
   "licenses_top": "↑ Back to top",
-
-  "licenses_title": "Business licenses and permits",
-
-  "licenses_intro_title": "Do you need a business license for your activity?",
-
-  "licenses_intro_text": "We will help you choose the appropriate type of license, prepare the necessary documents and submit the required notification or concession application.",
 
   "license_free_title": "1. Free trade license (Volná živnost)",
   "license_free_subtitle": "For common business activities",
