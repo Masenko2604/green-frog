@@ -272,50 +272,73 @@
   }
 
 
-  /* Бегущий заголовок */
-
-  .dane-preview-marquee-track {
-    font-size: 28px;
-    line-height: 1.1;
-  }
-
-  .dane-preview-dot {
-    margin: 0 25px;
-    font-size: 16px;
-  }
-
-
-  /* Подзаголовок */
-
-  .dane-preview-subtitle {
-    margin-top: 22px;
-
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 1.5px;
-
-    white-space: nowrap;
-    text-align: center;
-  }
-
-
-  /* Темы */
-
-  .dane-preview-topics {
-    display: flex;
-    flex-direction: column;
-
-    width: 100%;
-    max-width: 440px;
-
-    padding: 0 25px;
-    box-sizing: border-box;
-
-    margin: 45px auto 0;
-
-    gap: 18px;
-  }
-
+    /* Бегущий заголовок */
+  
+    .dane-preview-marquee {
+      background: rgba(255, 255, 255, 0.72);
+      padding: 6px 0;
+    }
+  
+    .dane-preview-marquee-track {
+      font-size: 28px;
+      line-height: 1.1;
+      color: #075c20;
+    }
+  
+    .dane-preview-dot {
+      margin: 0 25px;
+      font-size: 16px;
+    }
+  
+  
+    /* Подзаголовок */
+  
+    .dane-preview-subtitle {
+      display: block;
+      width: fit-content;
+      max-width: calc(100% - 30px);
+  
+      margin: 24px auto 0;
+      padding: 5px 14px;
+  
+      border-radius: 20px;
+  
+      background: rgba(255, 255, 255, 0.78);
+      color: #075c20;
+  
+      font-size: 26px;
+      line-height: 1.2;
+      letter-spacing: 1.5px;
+  
+      white-space: nowrap;
+      text-align: center;
+    }
+  
+  
+    /* Темы */
+  
+    .dane-preview-topics {
+      display: flex;
+      flex-direction: column;
+  
+      width: 100%;
+      max-width: 440px;
+  
+      padding: 0 25px;
+      box-sizing: border-box;
+  
+      margin: 45px auto 0;
+  
+      gap: 18px;
+    }
+  
+    .dane-preview-topic strong {
+      padding: 3px 7px;
+      border-radius: 6px;
+  
+      background: rgba(255, 255, 255, 0.82);
+      color: #075c20;
+    }
   .dane-preview-topic {
     display: flex;
     align-items: baseline;
