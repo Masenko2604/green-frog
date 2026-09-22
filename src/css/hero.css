@@ -122,11 +122,19 @@
   }
 
   .hero-button {
+    position: absolute;
+    left: 50%;
+    bottom: 78px;
+    transform: translateX(-50%);
+
     display: flex;
     justify-content: center;
-    margin-top: 230px;
+
     max-width: 295px;
-    width: 100%;
+    width: calc(100% - 40px);
+
+    margin: 0;
+
     background-color: var(--green);
     color: rgb(243, 245, 242);
   }
