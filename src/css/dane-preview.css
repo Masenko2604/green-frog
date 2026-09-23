@@ -3,41 +3,51 @@
 ========================================= */
 
 .dane-preview {
+  --green-dark: #075c20;
+  --orange: #f6a21a;
+
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   width: 100%;
-  aspect-ratio: 1400 / 480;
+  min-height: 480px;
+  padding: 18px 12% 40px 16%;
+  box-sizing: border-box;
 
-  background-image: -webkit-image-set(
-    url(/img/dane/dan_mob@1x.avif) 1x,
-    url(/img/dane/dan_mob@2x.avif) 2x
-  );
-
+  background-image: -webkit-image-set(url(/img/dane/dan_desk@1x.avif) 1x,
+      url(/img/dane/dan_desk@2x.avif) 2x);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
-  overflow: hidden;
+  overflow: clip;
+  /* вместо hidden: не обрезает контент */
 }
 
-/* =========================================
-   бегущий заголовок
-========================================= */
+/* ---------- бегущий заголовок ---------- */
 
 .dane-preview-marquee {
   width: 100%;
   overflow: hidden;
+  border-radius: 999px;
+  padding: 8px 0;
 
-  color: #075c20;
+  color: var(--green-dark);
+  background: rgba(255, 255, 255, 0.7);
+
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent);
 }
 
 .dane-preview-marquee-track {
   display: flex;
   align-items: center;
   width: max-content;
-
   white-space: nowrap;
 
-  font-size: 42px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 1.1;
 
@@ -49,8 +59,8 @@
 }
 
 .dane-preview-dot {
-  margin: 0 45px;
-  color: #f6a21a;
+  margin: 0 40px;
+  color: var(--orange);
   font-size: 18px;
 }
 
@@ -64,289 +74,262 @@
   }
 }
 
-/* =========================================
-   ПОДЗАГОЛОВОК
-========================================= */
+/* ---------- подзаголовок с линиями ---------- */
 
 .dane-preview-subtitle {
-  margin-top: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  width: 100%;
+  margin: 26px 0 0;
 
   font-family: 'Caveat', cursive;
-  font-style: normal;
   font-weight: 500;
-
-  font-size: 32px;
+  font-size: 30px;
   line-height: 1.2;
-  letter-spacing: 2.5px;
+  letter-spacing: 2px;
+  text-align: center;
 
   color: #006b2d;
 }
 
-/* =========================================
-   ТЕМЫ
-========================================= */
+.dane-preview-subtitle::before,
+.dane-preview-subtitle::after {
+  content: '';
+  flex: 1;
+  max-width: 120px;
+  height: 2px;
+  background: var(--orange);
+}
+
+/* ---------- темы ---------- */
 
 .dane-preview-topics {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 16px;
 
-  column-gap: 70px;
-  row-gap: 16px;
-
-  width: 800px;
-  max-width: 100%;
-
-  margin: 28px auto 0;
+  width: 100%;
+  margin: 32px 0 0;
 }
 
 .dane-preview-topic {
   display: flex;
-  align-items: baseline;
-  gap: 8px;
-
-  font-size: 16px;
-  line-height: 1.35;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 6px;
 }
 
-.dane-preview-topic span {
-  color: #222;
+.dane-preview-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 64px;
+  height: 64px;
+  margin-bottom: 4px;
+
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.75);
+  color: #2f7d32;
+}
+
+.dane-preview-icon svg {
+  width: 30px;
+  height: 30px;
+  fill: currentColor;
 }
 
 .dane-preview-topic strong {
+  font-size: 17px;
   font-weight: 700;
-  color: #075c20;
-  white-space: nowrap;
+  line-height: 1.2;
+  color: var(--green-dark);
+  white-space: normal;
 }
 
-/* =========================================
-   КНОПКА
-========================================= */
+.dane-preview-topic span {
+  font-size: 13px;
+  line-height: 1.35;
+  color: #222;
+}
+
+/* ---------- кнопка ---------- */
 
 .dane-preview-more {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
+  gap: 14px;
 
   margin-top: 32px;
-  padding: 9px 24px;
+  padding-bottom: 4px;
 
-  border: 2px solid #6cb23d;
-  border-radius: 50px;
-
-  color: #ffffff;
-  background-color: #6cb23d;
-
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--green-dark);
   text-decoration: none;
+  border-bottom: 2px solid var(--green-dark);
 
-  transition:
-    color 0.25s ease,
-    background-color 0.25s ease,
-    border-color 0.25s ease;
+  transition: color 0.25s ease, border-color 0.25s ease;
+}
+
+.dane-preview-more::after {
+  content: '→';
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 44px;
+  height: 44px;
+  margin-bottom: -4px;
+
+  border-radius: 50%;
+  background: var(--orange);
+  color: #fff;
+  font-size: 22px;
+
+  transition: background-color 0.25s ease;
 }
 
 .dane-preview-more:hover,
 .dane-preview-more:focus {
-  color: #ffffff;
-  background-color: #f25129;
+  color: #f25129;
   border-color: #f25129;
 }
 
+.dane-preview-more:hover::after,
+.dane-preview-more:focus::after {
+  background: #f25129;
+}
+
 /* =========================================
-   TABLET
+   TABLET 768–1279
 ========================================= */
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .dane-preview {
-    aspect-ratio: 1020 / 340;
+    min-height: 420px;
+    padding: 14px 6% 32px 18%;
 
-    background-image: -webkit-image-set(
-      url(/img/dane/dan_tab@1x.avif) 1x,
-      url(/img/dane/dan_tab@2x.avif) 2x
-    );
+    background-image: -webkit-image-set(url(/img/dane/dan_tab@1x.avif) 1x,
+        url(/img/dane/dan_tab@2x.avif) 2x);
   }
 
   .dane-preview-marquee-track {
-    font-size: 34px;
+    font-size: 26px;
   }
 
   .dane-preview-subtitle {
-    font-size: 28px;
+    font-size: 26px;
+    margin-top: 20px;
   }
 
   .dane-preview-topics {
-    width: 720px;
-    column-gap: 45px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px 14px;
+    margin-top: 24px;
   }
 
-  .dane-preview-topic {
-    font-size: 15px;
-  }
-}
-
-/* =========================================
-   DESKTOP
-========================================= */
-
-@media screen and (min-width: 1280px) {
-  .dane-preview {
-    aspect-ratio: 1400 / 480;
-
-    background-image: -webkit-image-set(
-      url(/img/dane/dan_desk@1x.avif) 1x,
-      url(/img/dane/dan_desk@2x.avif) 2x
-    );
-  }
-}
-
-/* =========================================
-   MOBILE
-========================================= */
-
-@media screen and (max-width: 767px) {
-  .dane-preview {
-    aspect-ratio: 540 / 820;
-
-    background-image: -webkit-image-set(
-      url(/img/dane/dan_mob@1x.avif) 1x,
-      url(/img/dane/dan_mob@2x.avif) 2x
-    );
+  .dane-preview-icon {
+    width: 56px;
+    height: 56px;
   }
 
-  .dane-preview-marquee-track {
-    font-size: 28px;
+  .dane-preview-icon svg {
+    width: 26px;
+    height: 26px;
   }
 
-  .dane-preview-dot {
-    margin: 0 25px;
-  }
-
-  .dane-preview-subtitle {
-    margin-top: 22px;
-
-    font-size: 28px;
-    letter-spacing: 1.5px;
-  }
-
-  .dane-preview-topics {
-    grid-template-columns: 1fr;
-
-    width: 100%;
-
-    padding: 0 25px;
-
-    margin-top: 28px;
-
-    row-gap: 14px;
-  }
-
-  .dane-preview-topic {
+  .dane-preview-topic strong {
     font-size: 16px;
   }
 
   .dane-preview-more {
-    margin-top: 28px;
-    padding: 8px 22px;
-
-    font-size: 17px;
+    margin-top: 26px;
+    font-size: 20px;
   }
 }
 
 /* =========================================
-   MOBILE — до 767px
+   MOBILE до 767
 ========================================= */
 
 @media screen and (max-width: 767px) {
   .dane-preview {
-    aspect-ratio: 540 / 820;
+    min-height: 0;
+    padding: 12px 16px 32px;
 
-    background-image: -webkit-image-set(
-      url(/img/dane/dan_mob@1x.avif) 1x,
-      url(/img/dane/dan_mob@2x.avif) 2x
-    );
-
-    background-size: cover;
-    background-position: center;
-  }
-
-  /* Бегущий заголовок */
-
-  .dane-preview-marquee {
-    background: rgba(255, 255, 255, 0.72);
-    padding: 6px 0;
+    background-image: -webkit-image-set(url(/img/dane/dan_mob@1x.avif) 1x,
+        url(/img/dane/dan_mob@2x.avif) 2x);
+    background-position: center bottom;
   }
 
   .dane-preview-marquee-track {
-    font-size: 28px;
-    line-height: 1.1;
-    color: #075c20;
+    font-size: 22px;
   }
 
   .dane-preview-dot {
-    margin: 0 25px;
-    font-size: 16px;
+    margin: 0 22px;
+    font-size: 14px;
   }
 
-  /* Подзаголовок */
-
   .dane-preview-subtitle {
-    width: 100%;
-    max-width: 100%;
-    box-sizing: border-box;
-
-    margin: 24px auto 0;
-    padding: 4px 5px;
-
+    margin-top: 18px;
+    padding: 4px 10px;
     font-size: 18px;
     letter-spacing: 0.5px;
-
     white-space: nowrap;
-    text-align: center;
     border-radius: 20px;
     background: rgba(255, 255, 255, 0.78);
   }
 
-  /* Темы */
+  .dane-preview-subtitle::before,
+  .dane-preview-subtitle::after {
+    display: none;
+  }
 
   .dane-preview-topics {
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px 12px;
 
-    width: 100%;
     max-width: 440px;
-
-    padding: 0 25px;
+    margin-top: 24px;
+    padding: 18px 12px;
     box-sizing: border-box;
 
-    margin: 45px auto 0;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.72);
+  }
 
-    gap: 18px;
+  .dane-preview-icon {
+    width: 52px;
+    height: 52px;
+  }
+
+  .dane-preview-icon svg {
+    width: 24px;
+    height: 24px;
   }
 
   .dane-preview-topic strong {
-    padding: 3px 7px;
-    border-radius: 6px;
-
-    background: rgba(255, 255, 255, 0.82);
-    color: #075c20;
-  }
-  .dane-preview-topic {
-    display: flex;
-    align-items: baseline;
-    gap: 8px;
-
-    font-size: 16px;
-    line-height: 1.35;
+    font-size: 15px;
   }
 
-  /* Кнопка */
+  .dane-preview-topic span {
+    font-size: 12.5px;
+  }
 
   .dane-preview-more {
-    margin-top: 78px;
+    margin-top: 24px;
+    font-size: 18px;
+  }
 
-    padding: 8px 22px;
-
-    font-size: 17px;
+  .dane-preview-more::after {
+    width: 38px;
+    height: 38px;
+    font-size: 18px;
   }
 }
