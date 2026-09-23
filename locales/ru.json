@@ -407,6 +407,36 @@
   "license_concession_24": "Бальзамирование и консервация",
   "license_concession_25": "Эксплуатация крематория",
 
+  "dane_preview_title": "Налоги и обязанности s.r.o. в Чешской Республике",
+
+  "dane_preview_subtitle": "ПОНЯТНО • ДОСТУПНО • АКТУАЛЬНО",
+
+  "dane_preview_tax_title": "Подоходный налог",
+
+  "dane_preview_tax": "Налог на прибыль юридических лиц",
+
+  "dane_preview_vat": "Ставки 21 % / 12 % и практические примеры",
+
+  "dane_preview_wages_title": "Заработная плата",
+
+  "dane_preview_wages": "Социальное и медицинское страхование",
+
+  "dane_preview_dividends_title": "Дивиденды",
+
+  "dane_preview_vat_title": "НДС",
+
+  "dane_preview_dividends": "Налогообложение выплаты дивидендов",
+
+  "dane_preview_capital_title": "Уставный капитал",
+
+  "dane_preview_capital": "Вклады и управляющий вкладом",
+
+  "dane_preview_other_title": "Другие обязанности",
+
+  "dane_preview_other": "Налог у источника, акцизы и другие",
+
+  "dane_preview_more": "Узнать больше →",
+
   "form_description": "Вы можете написать нам по адресу <a class=\"text-link\" href=\"mailto:greenfrog.office@email.cz\">greenfrog.office@email.cz</a> или заполнить форму ниже. Укажите имя, электронную почту и сообщение, и мы свяжемся с вами в ближайшее время.",
 
   "form_name_label": "Имя",

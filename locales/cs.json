@@ -379,6 +379,8 @@
 
   "dane_preview_subtitle": "PŘEHLEDNĚ • SROZUMITELNĚ • AKTUÁLNĚ",
 
+  "dane_preview_tax_title": "Daň z příjmů",
+
   "dane_preview_tax": "Daň z příjmů právnických osob",
 
   "dane_preview_vat": "Sazby 21 % / 12 % a praktické příklady",
@@ -388,6 +390,8 @@
   "dane_preview_wages": "Sociální a zdravotní pojištění",
 
   "dane_preview_dividends_title": "Dividendy",
+
+  "dane_preview_vat_title": "DPH",
 
   "dane_preview_dividends": "Zdanění výplaty dividend",
 
