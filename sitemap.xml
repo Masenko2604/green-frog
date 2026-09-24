@@ -6,11 +6,23 @@
   </url>
 
   <url>
-    <loc>https://greenfrogoffice.cz/questions.html</loc>
+    <loc>https://greenfrogoffice.cz/ucetnictvi.html</loc>
+  </url>
+
+  <url>
+    <loc>https://greenfrogoffice.cz/dane.html</loc>
+  </url>
+
+  <url>
+    <loc>https://greenfrogoffice.cz/likvidace.html</loc>
   </url>
 
   <url>
     <loc>https://greenfrogoffice.cz/zivnosti.html</loc>
+  </url>
+
+  <url>
+    <loc>https://greenfrogoffice.cz/questions.html</loc>
   </url>
 
 </urlset>

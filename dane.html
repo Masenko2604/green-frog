@@ -3,22 +3,19 @@
 
 <head>
   <meta charset="UTF-8" />
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
   <meta name="robots" content="index, follow" />
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="./favicon.png" />
 
   <!-- SEO -->
-  <title>Komplexní účetnictví | GreenFrog Office</title>
+  <title>Daně a povinnosti s.r.o. v České republice | GreenFrog Office</title>
 
   <meta name="description"
-    content="Komplexní účetnictví v České republice. Účetnictví s.r.o., daňová evidence, DPH, daňová přiznání,
-     mzdy a komunikace s úřady." />
+    content="Přehled daní a povinností s.r.o. v ČR: daň z příjmů 21 %, DPH, mzdy a odvody, dividendy, srážková daň a další povinnosti s příklady výpočtů." />
 
-  <link rel="canonical" href="https://greenfrogoffice.cz/ucetnictvi.html" />
+  <link rel="canonical" href="https://greenfrogoffice.cz/dane.html" />
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -34,7 +31,7 @@
 
   <!-- Main styles -->
 
-  <!-- Accounting styles -->
+    <!-- Dane page styles -->
 
   <!-- Cookie banner -->
 
@@ -51,7 +48,7 @@
   <script type="module" crossorigin src="./assets/vendor-DRC6Ryd-.js"></script>
   <script type="module" crossorigin src="./assets/lang-switcher-CzkjleA0.js"></script>
   <link rel="stylesheet" crossorigin href="./assets/lang-switcher-Be5SVhmv.css">
-  <link rel="stylesheet" crossorigin href="./assets/ucetnictvi-BIYa9Lbr.css">
+  <link rel="stylesheet" crossorigin href="./assets/dane-CJIwOPu4.css">
 </head>
 
 <body>
@@ -253,111 +250,165 @@
 
   <!-- Main content -->
   <main>
-    <section class="accounting-page" id="accounting">
+    <section class="dane-page" id="dane">
 
-  <div class="accounting-container">
+  <div class="dane-container">
+
+    <!-- BACK -->
+    <div class="dane-top">
+      <a href="/index.html" class="dane-back" data-i18n="service_back">
+        ← Zpět
+      </a>
+    </div>
 
     <!-- INTRO -->
-    <div class="accounting-intro">
+    <div class="dane-intro">
 
-      <h1 class="accounting-title" data-i18n="service_accounting_page_title">
-        Komplexní účetnictví
+      <h1 class="dane-title" data-i18n="dane_page_title">
+        Daně a povinnosti s.r.o. v České republice
       </h1>
 
-      <p class="accounting-intro-text" data-i18n="service_accounting_page_intro">
-        Vedeme podvojné účetnictví přesně a přehledně, abyste měli kdykoli jasný obraz o hospodaření firmy. Postaráme se
-        o kompletní zpracování agendy — od zaúčtování dokladů po přípravu podkladů pro vedení.
+      <p class="dane-intro-text" data-i18n="dane_page_intro">
+        Přehledně o tom, jaké daně a odvody platí společnost s ručením omezeným v Česku: od daně z příjmů a DPH až po
+        mzdy, dividendy a srážkovou daň.
       </p>
 
     </div>
 
 
-    <!-- ACCOUNTING SERVICES -->
-    <div class="accounting-services">
+    <!-- TOPICS -->
+    <div class="dane-services">
 
-      <!-- 1. Účetnictví s.r.o. -->
-      <article class="accounting-item">
+      <!-- 1 -->
+      <article class="dane-item" id="dan-z-prijmu">
 
-        <h2 data-i18n="service_accounting_detail_1_title">
-          Účetnictví s.r.o.
+        <h2 class="dane-item-title">
+          <span class="dane-num">1.</span>
+          <span data-i18n="dane_page_tax_title">Daň z příjmů právnických osob</span>
         </h2>
 
-        <p data-i18n="service_accounting_detail_1_text">
-          Vedení podvojného účetnictví pro společnosti s ručením omezeným v souladu s platnou legislativou, včetně
-          zpracování účetní závěrky.
+        <p data-i18n="dane_page_tax_text">
+          Základní daň pro s.r.o. Sazba je 21 % z daňového základu. Základ vypočítáte jako příjmy minus daňově uznatelné
+          výdaje.
+        </p>
+
+        <p class="dane-example" data-i18n="dane_page_tax_example">
+          Příklad: výnosy 5 000 000 Kč, uznatelné výdaje 3 500 000 Kč, zisk 1 500 000 Kč. Daň je 315 000 Kč, po zdanění
+          zůstává 1 185 000 Kč.
+        </p>
+
+        <p data-i18n="dane_page_tax_note">
+          Účetní zisk a daňový základ se nemusí shodovat, ovlivňují je například odpisy, daňově neuznatelné výdaje,
+          daňové ztráty nebo odpočty na výzkum a vývoj. Sazba 21 % se počítá ze zisku, nikoli z obratu.
         </p>
 
       </article>
 
 
-      <!-- 2. Daňová evidence -->
-      <article class="accounting-item">
+      <!-- 2 -->
+      <article class="dane-item" id="dph">
 
-        <h2 data-i18n="service_accounting_detail_2_title">
-          Daňová evidence
+        <h2 class="dane-item-title">
+          <span class="dane-num">2.</span>
+          <span data-i18n="dane_page_vat_title">DPH</span>
         </h2>
 
-        <p data-i18n="service_accounting_detail_2_text">
-          Pro OSVČ a menší podnikatele nabízíme jednodušší formu evidence příjmů a výdajů, přizpůsobenou rozsahu vašeho
-          podnikání.
+        <p data-i18n="dane_page_vat_text">
+          Plátce DPH účtuje daň zákazníkům a zároveň si může odečíst DPH na vstupu z podnikatelských výdajů. Základní
+          sazba je 21 %, snížená sazba 12 % se týká vybraného zboží a služeb.
+        </p>
+
+        <p class="dane-example" data-i18n="dane_page_vat_example">
+          Příklad: služba za 100 000 Kč bez DPH, DPH 21 % je 21 000 Kč, zákazník zaplatí 121 000 Kč.
+        </p>
+
+        <p data-i18n="dane_page_vat_note">
+          DPH není příjmem firmy, firma ji vybírá pro stát po odečtení DPH na vstupu. Obrat, zisk pro daň z příjmů a
+          částka DPH jsou tři různé věci.
         </p>
 
       </article>
 
 
-      <!-- 3. DPH -->
-      <article class="accounting-item">
+      <!-- 3 -->
+      <article class="dane-item" id="mzdy">
 
-        <h2 data-i18n="service_accounting_detail_3_title">
-          DPH
+        <h2 class="dane-item-title">
+          <span class="dane-num">3.</span>
+          <span data-i18n="dane_page_wages_title">Mzdy a odvody</span>
         </h2>
 
-        <p data-i18n="service_accounting_detail_3_text">
-          Kontrola a zpracování podkladů pro plátce DPH, včetně měsíčních či čtvrtletních přiznání a kontrolních
-          hlášení.
+        <p data-i18n="dane_page_wages_text">
+          Zaměstnavatel platí za zaměstnance sociální pojištění ve výši 24,8 % z hrubé mzdy a zdravotní pojištění. To
+          činí celkem 13,5 %, z toho 9 % hradí zaměstnavatel a 4,5 % se strhává zaměstnanci.
+        </p>
+
+        <p class="dane-example" data-i18n="dane_page_wages_example">
+          Příklad: hrubá mzda 50 000 Kč, sociální pojištění zaměstnavatele 12 400 Kč, zdravotní pojištění 4 500 Kč.
+          Zaměstnanec tak firmu stojí přibližně 66 900 Kč.
+        </p>
+
+        <p data-i18n="dane_page_wages_tax">
+          Daň z příjmů fyzických osob má základní sazbu 15 %, z části příjmu nad stanovenou hranicí 23 %. Firma jako
+          zaměstnavatel daň vypočítá, sráží a odvádí státu. Zajišťuje také výpočet hrubé a čisté mzdy a odvody
+          pojištění.
         </p>
 
       </article>
 
 
-      <!-- 4. Daňová přiznání -->
-      <article class="accounting-item">
+      <!-- 4 -->
+      <article class="dane-item" id="dividendy">
 
-        <h2 data-i18n="service_accounting_detail_4_title">
-          Daňová přiznání
+        <h2 class="dane-item-title">
+          <span class="dane-num">4.</span>
+          <span data-i18n="dane_page_dividends_title">Daň z dividend</span>
         </h2>
 
-        <p data-i18n="service_accounting_detail_4_text">
-          Sestavení a podání daňových přiznání k dani z příjmů fyzických i právnických osob.
+        <p data-i18n="dane_page_dividends_text">
+          Při výplatě zisku společníkovi, který je fyzickou osobou, se obvykle uplatní srážková daň 15 %.
+        </p>
+
+        <p class="dane-example" data-i18n="dane_page_dividends_example">
+          Příklad: zisk před zdaněním 1 000 000 Kč, daň 21 % je 210 000 Kč, zbývá 790 000 Kč. Srážková daň 15 % z
+          dividendy je 118 500 Kč, společník obdrží 671 500 Kč.
+        </p>
+
+        <p data-i18n="dane_page_dividends_note">
+          V tomto zjednodušeném příkladu je celkové zatížení přibližně 32,85 % původního zisku. Výsledek se může lišit
+          podle struktury vlastníka, smluv o zamezení dvojího zdanění nebo osvobození mezi společnostmi.
         </p>
 
       </article>
 
 
-      <!-- 5. Mzdy -->
-      <article class="accounting-item">
+      <!-- 5 -->
+      <article class="dane-item" id="dalsi-povinnosti">
 
-        <h2 data-i18n="service_accounting_detail_5_title">
-          Mzdy
+        <h2 class="dane-item-title">
+          <span class="dane-num">5.</span>
+          <span data-i18n="dane_page_other_title">Srážková daň a další povinnosti</span>
         </h2>
 
-        <p data-i18n="service_accounting_detail_5_text">
-          Kompletní mzdová agenda: výpočet mezd, odvody na sociální a zdravotní pojištění, přehledy pro úřady.
+        <p data-i18n="dane_page_other_withholding">
+          Srážková daň: firma může jako plátce srazit daň u zdroje z určitých plateb, například dividend, úroků nebo
+          plateb nerezidentům. Standardní sazba je 15 %, u některých plateb nerezidentům 35 %. Smlouva o zamezení
+          dvojího zdanění může sazbu snížit. Rozhoduje, komu a za co firma platí.
         </p>
 
-      </article>
+        <p data-i18n="dane_page_other_property">
+          Daň z nemovitých věcí: vlastní-li s.r.o. nemovitost v Česku, platí tuto daň. Výše závisí na druhu nemovitosti,
+          ploše, účelu využití a obci.
+        </p>
 
+        <p data-i18n="dane_page_other_excise">
+          Spotřební daň (akcizy) se týká například alkoholu, tabákových výrobků nebo některých paliv. Běžné firmy se jí
+          většinou netýká.
+        </p>
 
-      <!-- 6. Komunikace s úřady -->
-      <article class="accounting-item">
-
-        <h2 data-i18n="service_accounting_detail_6_title">
-          Komunikace s úřady
-        </h2>
-
-        <p data-i18n="service_accounting_detail_6_text">
-          Jednáme jménem klienta s finančním úřadem, správou sociálního zabezpečení i zdravotními pojišťovnami, takže se
-          nemusíte o nic starat sami.
+        <p data-i18n="dane_page_other_special">
+          Podle předmětu činnosti mohou přibýt i další povinnosti: energetické daně, poplatky za znečištění, cla při
+          dovozu nebo obecní poplatky.
         </p>
 
       </article>
@@ -365,17 +416,25 @@
     </div>
 
 
-    <!-- BACK / CONTACT -->
-    <div class="accounting-navigation">
+    <!-- DISCLAIMER -->
+    <p class="dane-disclaimer" data-i18n="dane_page_disclaimer">
+      Informace mají orientační charakter a nenahrazují individuální konzultaci s daňovým poradcem nebo účetním.
+    </p>
 
-      <a href="/index.html" class="accounting-back" data-i18n="service_back">
-        ← Zpět
-      </a>
 
-      <a href="/index.html#application-form" class="accounting-contact" data-i18n="hero_button">
+    <!-- CONTACT -->
+    <div class="dane-navigation">
+
+      <a href="/index.html#application-form" class="dane-contact" data-i18n="hero_button">
         Nezávazná poptávka
       </a>
 
+    </div>
+
+    <div class="dane-bottom">
+      <a href="#top" class="dane-top-link" data-i18n="privacy_top">
+        ↑ Nahoru
+      </a>
     </div>
 
   </div>
