@@ -405,6 +405,37 @@
 
   "dane_preview_more": "Zjistit více",
 
+  "dane_page_title": "Daně a povinnosti s.r.o. v České republice",
+  "dane_page_intro": "Přehledně o tom, jaké daně a odvody platí společnost s ručením omezeným v Česku: od daně z příjmů a DPH až po mzdy, dividendy a srážkovou daň.",
+
+  "dane_page_tax_title": "Daň z příjmů právnických osob",
+  "dane_page_tax_text": "Základní daň pro s.r.o. Sazba je 21 % z daňového základu. Základ vypočítáte jako příjmy minus daňově uznatelné výdaje.",
+  "dane_page_tax_example": "Příklad: výnosy 5 000 000 Kč, uznatelné výdaje 3 500 000 Kč, zisk 1 500 000 Kč. Daň je 315 000 Kč, po zdanění zůstává 1 185 000 Kč.",
+  "dane_page_tax_note": "Účetní zisk a daňový základ se nemusí shodovat, ovlivňují je například odpisy, daňově neuznatelné výdaje, daňové ztráty nebo odpočty na výzkum a vývoj. Sazba 21 % se počítá ze zisku, nikoli z obratu.",
+
+  "dane_page_vat_title": "DPH",
+  "dane_page_vat_text": "Plátce DPH účtuje daň zákazníkům a zároveň si může odečíst DPH na vstupu z podnikatelských výdajů. Základní sazba je 21 %, snížená sazba 12 % se týká vybraného zboží a služeb.",
+  "dane_page_vat_example": "Příklad: služba za 100 000 Kč bez DPH, DPH 21 % je 21 000 Kč, zákazník zaplatí 121 000 Kč.",
+  "dane_page_vat_note": "DPH není příjmem firmy, firma ji vybírá pro stát po odečtení DPH na vstupu. Obrat, zisk pro daň z příjmů a částka DPH jsou tři různé věci.",
+
+  "dane_page_wages_title": "Mzdy a odvody",
+  "dane_page_wages_text": "Zaměstnavatel platí za zaměstnance sociální pojištění ve výši 24,8 % z hrubé mzdy a zdravotní pojištění. To činí celkem 13,5 %, z toho 9 % hradí zaměstnavatel a 4,5 % se strhává zaměstnanci.",
+  "dane_page_wages_example": "Příklad: hrubá mzda 50 000 Kč, sociální pojištění zaměstnavatele 12 400 Kč, zdravotní pojištění 4 500 Kč. Zaměstnanec tak firmu stojí přibližně 66 900 Kč.",
+  "dane_page_wages_tax": "Daň z příjmů fyzických osob má základní sazbu 15 %, z části příjmu nad stanovenou hranicí 23 %. Firma jako zaměstnavatel daň vypočítá, sráží a odvádí státu. Zajišťuje také výpočet hrubé a čisté mzdy a odvody pojištění.",
+
+  "dane_page_dividends_title": "Daň z dividend",
+  "dane_page_dividends_text": "Při výplatě zisku společníkovi, který je fyzickou osobou, se obvykle uplatní srážková daň 15 %.",
+  "dane_page_dividends_example": "Příklad: zisk před zdaněním 1 000 000 Kč, daň 21 % je 210 000 Kč, zbývá 790 000 Kč. Srážková daň 15 % z dividendy je 118 500 Kč, společník obdrží 671 500 Kč.",
+  "dane_page_dividends_note": "V tomto zjednodušeném příkladu je celkové zatížení přibližně 32,85 % původního zisku. Výsledek se může lišit podle struktury vlastníka, smluv o zamezení dvojího zdanění nebo osvobození mezi společnostmi.",
+
+  "dane_page_other_title": "Srážková daň a další povinnosti",
+  "dane_page_other_withholding": "Srážková daň: firma může jako plátce srazit daň u zdroje z určitých plateb, například dividend, úroků nebo plateb nerezidentům. Standardní sazba je 15 %, u některých plateb nerezidentům 35 %. Smlouva o zamezení dvojího zdanění může sazbu snížit. Rozhoduje, komu a za co firma platí.",
+  "dane_page_other_property": "Daň z nemovitých věcí: vlastní-li s.r.o. nemovitost v Česku, platí tuto daň. Výše závisí na druhu nemovitosti, ploše, účelu využití a obci.",
+  "dane_page_other_excise": "Spotřební daň (akcizy) se týká například alkoholu, tabákových výrobků nebo některých paliv. Běžné firmy se jí většinou netýká.",
+  "dane_page_other_special": "Podle předmětu činnosti mohou přibýt i další povinnosti: energetické daně, poplatky za znečištění, cla při dovozu nebo obecní poplatky.",
+
+  "dane_page_disclaimer": "Informace mají orientační charakter a nenahrazují individuální konzultaci s daňovým poradcem nebo účetním.",
+
   "form_title": "Nezávazná poptávka",
   "form_description": "Můžete nám napsat na adresu <a class=\"text-link\" href=\"mailto:greenfrog.office@email.cz\">greenfrog.office@email.cz</a> nebo vyplnit formulář níže. Uveďte své jméno, e-mail a zprávu a my se vám co nejdříve ozveme.",
   "form_success": "Děkujeme! Vaše zpráva byla odeslána.",

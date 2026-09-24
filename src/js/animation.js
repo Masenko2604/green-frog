@@ -1,9 +1,15 @@
 document.querySelectorAll('.animated').forEach((section, i) => {
-  const fromX = section.classList.contains('hero-checkmark-container')
-    ? 225
-    : i % 2 === 0
-      ? -225
-      : 225;
+  let fromX;
+
+  if (section.classList.contains('from-right')) {
+    fromX = 225; // стартует справа, выезжает налево
+  } else if (section.classList.contains('from-left')) {
+    fromX = -225; // стартует слева, выезжает направо
+  } else if (section.classList.contains('hero-checkmark-container')) {
+    fromX = 225;
+  } else {
+    fromX = i % 2 === 0 ? -225 : 225;
+  }
 
   gsap.fromTo(
     section,
