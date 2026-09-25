@@ -1,3 +1,5 @@
+/* ============ MOBILE (по умолчанию) ============ */
+
 .about-wrapper {
   width: 100%;
   display: flex;
@@ -37,6 +39,7 @@
   line-height: 1.45;
   letter-spacing: -0.02em;
 }
+
 .service-details li {
   margin-bottom: 6px;
 }
@@ -56,6 +59,7 @@
   max-width: 880px;
   margin: 0 auto 40px;
 }
+
 .service-link {
   display: block;
   margin-top: 24px;
@@ -75,22 +79,22 @@
 }
 
 
-/* TABLET */
+/* ============ TABLET (768px+) ============ */
+
 @media screen and (min-width: 768px) {
 
   .about-wrapper {
-      max-width: 1000px;
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 28px;
-    }
-  
-    .about-item {
-      min-height: 0;
-      height: auto;
-      align-self: stretch;
-      padding: 28px 30px;
-    }
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px;
+  }
+
+  .about-item {
+    align-self: stretch;
+    padding: 28px 30px;
+    /* min-height и height не меняются относительно мобильной версии — не дублируем */
+  }
 
   .section-subtitle {
     font-size: 24px;
@@ -101,8 +105,8 @@
 }
 
 
+/* ============ DESKTOP (1280px+) ============ */
 
-/* DESKTOP */
 @media screen and (min-width: 1280px) {
 
   .about-wrapper {
@@ -113,15 +117,13 @@
   .about-item {
     padding: 30px 32px;
     height: 100%;
-    box-sizing: border-box;
+    /* box-sizing: border-box уже задан в базовом стиле — не дублируем */
   }
 
-  .topic-title {
-    font-size: 24px;
-  }
+  /* .topic-title не меняется на десктопе (font-size: 24px совпадает с базовым) */
 
   .service-details {
-    font-size: 18px;
     line-height: 1.5;
+    /* font-size: 18px совпадает с базовым — не дублируем */
   }
 }

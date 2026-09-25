@@ -17,10 +17,7 @@
   background-size: cover;
   background-position: center 115%;
   background-repeat: no-repeat;
-  
-}
 
-.hero-section {
   background-image:
     -webkit-image-set(url(/img/hero/block_mob@1x.jpg) 1x,
       url(/img/hero/block_mob@2x.jpg) 2x);
@@ -72,7 +69,6 @@
 
 .hero-english {
   color: var(--lighter-green);
-  
 }
 
 .hero-svg {
@@ -84,13 +80,13 @@
   fill: var(--white);
 }
 
- .hero-checkmark {
-   position: absolute;
-   right: 32px;
-   bottom: 24px;
-   margin: 0;
-   width: auto;
- } 
+.hero-checkmark {
+  position: absolute;
+  right: 32px;
+  bottom: 24px;
+  margin: 0;
+  width: auto;
+}
 
 .hero-checkmark-container {
   background-color: rgb(242, 81, 41);
@@ -150,10 +146,8 @@
     max-width: 704px;
 
     background-image:
-      -webkit-image-set(
-        url(/img/hero/block_tab@1x.jpg) 1x,
-        url(/img/hero/block_tab@2x.jpg) 2x
-      );
+      -webkit-image-set(url(/img/hero/block_tab@1x.jpg) 1x,
+        url(/img/hero/block_tab@2x.jpg) 2x);
 
     background-size: cover;
     background-position: center;
@@ -187,6 +181,7 @@
   }
 }
 
+/* Desktop */
 @media (min-width: 1280px) {
   .hero-section {
     position: relative;
@@ -213,28 +208,23 @@
     position: relative;
   }
 
-    .hero-text {
-      font-family: 'Manrope', sans-serif;
-      font-size: 60px;
-      font-weight: 700;
-      line-height: 1.16;
-      max-width: 564px;
-    }
-.hero-checkmark {
-  position: absolute;
-  right: 32px;
-  bottom: 24px;
+  .hero-text {
+    font-family: 'Manrope', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.16;
+    max-width: 564px;
+  }
 
-  width: auto;
-  margin: 0;
-  display: flex;
-}
+  .hero-checkmark {
+    /* position/right/bottom/width/margin наследуются из базового блока — тут только новое: */
+    display: flex;
+  }
 
-.hero-checkmark-container {
-  width: 48px;
-  height: 48px;
-  position: static;
+  .hero-checkmark-container {
+    width: 48px;
+    height: 48px;
+    position: static;
+  }
 }
-}
-
 
