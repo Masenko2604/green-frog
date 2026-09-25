@@ -44,12 +44,28 @@
   <script src="./cookie-consent.js"></script>
 
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EMJ6NHFGLW"></script>
-
   <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'G-EMJ6NHFGLW');
+
+    function loadGTM() {
+      if (window.gtmLoaded) return;
+      window.gtmLoaded = true;
+      var script = document.createElement('script');
+      script.src = 'https://www.googletagmanager.com/gtag/js?id=G-EMJ6NHFGLW';
+      script.async = true;
+      document.head.appendChild(script);
+    }
+
+    // Запускаем при первом взаимодействии пользователя
+    ['scroll', 'mousemove', 'touchstart', 'keydown'].forEach(function (evt) {
+      window.addEventListener(evt, loadGTM, { once: true, passive: true });
+    });
+
+    // Подстраховка: если пользователь ничего не делает, всё равно загрузить через 4 секунды
+    setTimeout(loadGTM, 4000);
   </script>
 </head>
 
