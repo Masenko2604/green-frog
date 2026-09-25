@@ -279,18 +279,26 @@
 .reviews-svg {
   width: 20px;
   height: 20px;
+  fill: var(--white);
 }
 
 .reviews-use {
   transform: rotate(180deg);
 }
 
-.hero-checkmark .hero-svg {
+.scroll-top .hero-svg {
   width: 20px;
   height: 20px;
   fill: var(--white);
   transform: rotate(180deg);
 }
+
+/* .hero-checkmark .hero-svg {
+  width: 20px;
+  height: 20px;
+  fill: var(--white);
+  transform: rotate(180deg);
+} */
 
 
 /* ========================================
