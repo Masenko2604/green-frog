@@ -285,8 +285,11 @@
   transform: rotate(180deg);
 }
 
-.hero-checkmark .hero-use {
-  stroke: var(--white);
+.hero-checkmark .hero-svg {
+  width: 20px;
+  height: 20px;
+  fill: var(--white);
+  transform: rotate(180deg);
 }
 
 
