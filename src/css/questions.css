@@ -1,5 +1,7 @@
+/* ============ BASE / DESKTOP (1280px+) ============ */
+
 .questions-page {
-  padding: 120px 0 80px;
+  padding: 120px 64px 80px;
 }
 
 .questions-container {
@@ -27,6 +29,7 @@
 .faq-list {
   width: 100%;
 }
+
 .faq-category {
   margin: 0 0 35px;
 
@@ -121,7 +124,6 @@
 .questions-contact {
   margin-top: 90px;
   text-align: center;
-  
 }
 
 .questions-contact h2 {
@@ -139,19 +141,6 @@
   color: oklch(100% 0.00011 271.152);
 }
 
-.questions-back {
-  display: block;
-  width: fit-content;
-  margin: 30px auto 0;
-
-  font-size: 17px;
-  color: #222;
-  text-decoration: none;
-}
-
-.questions-back:hover {
-  text-decoration: underline;
-}
 .questions-back {
   display: inline-flex;
   align-items: center;
@@ -175,17 +164,50 @@
 .questions-back:hover,
 .questions-back:focus {
   color: #ffffff;
-  background-color:rgb(108, 178, 61);
+  background-color: rgb(108, 178, 61);
+}
+
+.questions-back-home {
+  display: block;
+  width: 100%;
+  margin-bottom: 70px;
+  color: rgb(101, 181, 54);
+  text-align: right;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.questions-back-home:hover {
+  color: #f25129;
+}
+
+.questions-footer {
+  margin-top: 55px;
+  padding-top: 30px;
+  border-top: 1px solid #e7ebe5;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.questions-top-link {
+  color: rgb(101, 181, 54);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.questions-top-link:hover {
+  color: #f25129;
 }
 
 
-/* ================================
-   TABLET
-================================ */
+/* ============ TABLET (до 1279px) ============ */
 
 @media screen and (max-width: 1279px) {
   .questions-page {
-    padding: 100px 0 70px;
+    padding: 100px 32px 70px;
   }
 
   .questions-title {
@@ -198,9 +220,7 @@
 }
 
 
-/* ================================
-   MOBILE
-================================ */
+/* ============ MOBILE (до 767px) ============ */
 
 @media screen and (max-width: 767px) {
   .questions-page {
@@ -247,63 +267,4 @@
   .questions-contact p {
     font-size: 16px;
   }
-
- 
-}
-.questions-footer {
-  margin-top: 55px;
-  padding-top: 30px;
-  border-top: 1px solid #e7ebe5;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.questions-top-link {
-  color: #65b536;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.questions-top-link:hover {
-  color: #f25129;
-}
-
-.questions-back-home {
-  display: block;
-  width: 100%;
-  margin-bottom: 70px;
-  color: rgb(101, 181, 54);
-  text-align: right;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.questions-back-home:hover {
-  color: #f25129;
-}
-
-.questions-footer {
-  margin-top: 55px;
-  padding-top: 30px;
-  border-top: 1px solid #e7ebe5;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.questions-top-link {
-  display: block;
-    width: 100%;
-    margin-bottom: 70px;
-    color: rgb(101, 181, 54);
-    text-align: right;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 600;
-}
-
-.questions-top-link:hover {
-  color: #f25129;
 }
