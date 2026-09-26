@@ -274,6 +274,43 @@
 
 
 /* =========================================
+   PAGE NAVIGATION LINKS
+   ========================================= */
+
+.licenses-back {
+  display: block;
+  width: fit-content;
+  margin: 0 0 80px auto;
+
+  color: #ff5733;
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.licenses-back:hover {
+  text-decoration: underline;
+}
+
+.licenses-top {
+  display: block;
+  width: fit-content;
+  margin: 70px 0 0 auto;
+
+  color: var(--green);
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.licenses-top:hover {
+  text-decoration: underline;
+}
+
+
+/* =========================================
    TABLET
    ========================================= */
 
@@ -432,40 +469,14 @@
     min-width: 0;
     box-sizing: border-box;
   }
-}
 
-/* =========================================
-   PAGE NAVIGATION LINKS
-   ========================================= */
+  .licenses-back {
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
 
-.licenses-back {
-  display: block;
-  width: fit-content;
-  margin: 0 0 80px auto;
-
-  color: #ff5733;
-  font-family: 'Manrope', sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  text-decoration: none;
-}
-
-.licenses-back:hover {
-  text-decoration: underline;
-}
-
-.licenses-top {
-  display: block;
-  width: fit-content;
-  margin: 70px 0 0 auto;
-
-  color: rgb(76, 175, 80);
-  font-family: 'Manrope', sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  text-decoration: none;
-}
-
-.licenses-top:hover {
-  text-decoration: underline;
+  .licenses-top {
+    margin-top: 35px;
+    font-size: 16px;
+  }
 }
